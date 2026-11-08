@@ -191,6 +191,8 @@ int32_t GetTypeLen(std::string type) {
     typeSize = 2;
   } else if (type == "int" || type == "uint32_t") {
     typeSize = 4;
+  } else if (type == "int64_t" || type == "uint64_t") {
+    typeSize = 8;
   } else if (type == "int4b_t") {
     LOG(FATAL) << "int4 is not supported by the pto target: the pto-isa "
                   "instruction set currently lacks the int4 instructions "
@@ -2538,6 +2540,15 @@ void CodeGenTileLangAscendPto::TransposeCodegen(const CallNode *op,
   int32_t N = src_info.col;
   int32_t elem_bytes = GetTypeLen(src_info.type);
   std::string type = src_info.type;
+
+  // PTO TTRANS does not support B64 elements. Keep the regular tile
+  // descriptors, but use the scalar UB fallback supplied by common.h.
+  if (elem_bytes == 8) {
+    this->PrintIndent();
+    this->stream << kAscendPtoScope << "TransposeB64(" << dst_name << ", "
+                 << src_name << ");\n";
+    return;
+  }
 
   int32_t dst_tile_w = (M * elem_bytes + kUbAlignmentBytes - 1) /
                        kUbAlignmentBytes * kUbAlignmentBytes / elem_bytes;

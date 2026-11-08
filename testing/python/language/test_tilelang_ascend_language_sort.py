@@ -388,11 +388,7 @@ def test_sort_large_actual_num(dtype, target):
 
 # -----------------------------------------------------------------------------
 # 5. src in-place modification verification
-#    Note: pto pads only the 32-byte-aligned part of the tail with -inf
-#    (e.g. tail [131:160) -> 24/29 -inf, first 5 elements left as 0.0),
-#    unlike ascendc which pads the whole tail. Sorting values are correct
-#    on both backends; the padding assertion is ascendc-specific, so the
-#    pto combos are ci_skip.
+#    Both backends pad the complete tail with -inf.
 # -----------------------------------------------------------------------------
 
 
@@ -403,7 +399,7 @@ def test_sort_large_actual_num(dtype, target):
 )
 @pytest.mark.parametrize(
     "target",
-    ["ascendc", pytest.param("pto", marks=pytest.mark.ci_skip)],
+    ["ascendc", "pto"],
 )
 @pytest.mark.parametrize(
     "actual_num",
