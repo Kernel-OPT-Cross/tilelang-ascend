@@ -236,11 +236,12 @@ def test_transpose_fallback_bfloat16(dtype, target, shape):
 
 
 # -----------------------------------------------------------------------------
-# Scalar fallback path: int64 (ascendc only; pto TTRANS does not support B64)
+# Scalar fallback path: int64 (PTO uses a UB scalar fallback because TTRANS
+# does not support B64)
 # -----------------------------------------------------------------------------
 @pytest.mark.low_priority
 @pytest.mark.parametrize("dtype", ["int64"])
-@pytest.mark.parametrize("target", ["ascendc", pytest.param("pto", marks=pytest.mark.ci_skip)])
+@pytest.mark.parametrize("target", ["ascendc", "pto"])
 @pytest.mark.parametrize("shape", [(16, 16), (32, 32)])
 def test_transpose_fallback_int64(dtype, target, shape):
     M, N = shape

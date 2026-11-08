@@ -325,7 +325,9 @@ AICORE PTO_INLINE void copy_gm_to_ub_dynamic(
 
     // TFILLPAD_INPLACE: fill outside valid region with PadVal (only for tail
     // blocks with valid PadVal)
-    if constexpr (PadVal != pto::PadValue::Null) {
+    // PTO TFILLPAD has no B64 specialization. B64 callers in this backend use
+    // fully valid, 32-byte-aligned tiles, so no vector padding is required.
+    if constexpr (PadVal != pto::PadValue::Null && sizeof(T2) <= 4) {
       // A saved narrow physical tile may be flattened to [1, aligned_cols]
       // while TLOAD still carries multiple logical rows.  That case already
       // receives per-row MTE padding and cannot be represented by this static
@@ -1210,6 +1212,22 @@ AICORE PTO_INLINE void Sort(int32_t dst_addr, int32_t src_addr,
       TL_PIPE_V_BARRIER();
     }
   }
+
+  // TFILLPAD_INPLACE starts at the next 32-byte boundary. Complete the first
+  // partial block after all vector work so the caller observes the full
+  // [ActualCount, N) in-place padding contract.
+  if constexpr (PAD_COUNT > 0 && (ActualCount % (32 / sizeof(float))) != 0) {
+    constexpr int32_t elems_per_block = 32 / sizeof(float);
+    constexpr int32_t aligned_start =
+        (ActualCount + elems_per_block - 1) / elems_per_block * elems_per_block;
+    TileUbDataND<float, 1, N, 1, N, pto::PadValue::Min> sort_src_f;
+    TASSIGN(sort_src_f, sort_src_addr);
+    pto::PtoSetWaitFlag<PIPE_V, PIPE_S>();
+    for (int32_t i = ActualCount; i < aligned_start && i < N; ++i) {
+      sort_src_f.data()[i] = -CUDART_INF_F;
+    }
+    pto::PtoSetWaitFlag<PIPE_S, PIPE_MTE3>();
+  }
 }
 
 // Dynamic-shape version: actual_count is a runtime parameter.
@@ -1255,6 +1273,7 @@ AICORE PTO_INLINE void SortDynamic(int32_t dst_addr, int32_t src_addr,
     TASSIGN(sort_src_v, sort_src_addr);
     TileUbDataND<float, 1, N, 1, N, pto::PadValue::Min> sort_src_f;
     TASSIGN(sort_src_f, sort_src_addr);
+
     pto::TFILLPAD_INPLACE(sort_src_f, sort_src_v);
     TL_PIPE_V_BARRIER();
   }
@@ -1307,6 +1326,45 @@ AICORE PTO_INLINE void SortDynamic(int32_t dst_addr, int32_t src_addr,
       TL_PIPE_V_BARRIER();
     }
   }
+
+  // The sort pipeline may reuse the first partial 32-byte block after the
+  // initial padding step. Restore its observable in-place source semantics only
+  // after all vector work is complete, then hand the data to a following MTE3
+  // copy. The aligned suffix remains handled by TFILLPAD_INPLACE above.
+  if (pad_count > 0) {
+    constexpr int32_t elems_per_block = 32 / sizeof(float);
+    const int32_t aligned_start =
+        (actual_count + elems_per_block - 1) / elems_per_block * elems_per_block;
+    TileUbDataND<float, 1, N, 1, N, pto::PadValue::Min> sort_src_f;
+    TASSIGN(sort_src_f, sort_src_addr);
+    pto::PtoSetWaitFlag<PIPE_V, PIPE_S>();
+    for (int32_t i = actual_count; i < aligned_start && i < N; ++i) {
+      sort_src_f.data()[i] = -CUDART_INF_F;
+    }
+    pto::PtoSetWaitFlag<PIPE_S, PIPE_MTE3>();
+  }
+}
+
+// TTRANS has no B64 instruction form on A2/A3. Transpose B64 data directly in
+// UB as a correctness fallback; the hardware path remains active for B8/B16/B32.
+template <typename T, int32_t DstRows, int32_t DstCols, int32_t DstRowValid,
+          int32_t DstColValid, int32_t SrcRows, int32_t SrcCols,
+          int32_t SrcRowValid, int32_t SrcColValid>
+AICORE PTO_INLINE void TransposeB64(
+    TileUbDataND<T, DstRows, DstCols, DstRowValid, DstColValid> &dst,
+    TileUbDataND<T, SrcRows, SrcCols, SrcRowValid, SrcColValid> &src) {
+  static_assert(sizeof(T) == 8, "TransposeB64 requires an 8-byte element type");
+  static_assert(DstRows == SrcCols && DstCols == SrcRows,
+                "TransposeB64 requires transposed source/destination shapes");
+  // TLOAD runs on MTE2; wait before scalar UB reads. The final dependency makes
+  // the scalar writes visible to the following TSTORE on MTE3.
+  pto::PtoSetWaitFlag<PIPE_MTE2, PIPE_S>();
+  for (int32_t row = 0; row < SrcRowValid; ++row) {
+    for (int32_t col = 0; col < SrcColValid; ++col) {
+      dst.data()[col * DstCols + row] = src.data()[row * SrcCols + col];
+    }
+  }
+  pto::PtoSetWaitFlag<PIPE_S, PIPE_MTE3>();
 }
 
 template <typename T, int32_t SrcRows, int32_t SrcCols, int32_t DstRows,
