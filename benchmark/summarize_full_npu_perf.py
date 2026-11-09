@@ -14,7 +14,9 @@ from pathlib import Path
 
 def command(*args: str) -> str:
     try:
-        return subprocess.check_output(args, text=True, stderr=subprocess.STDOUT).strip()
+        return subprocess.check_output(
+            args, text=True, stderr=subprocess.STDOUT, timeout=10
+        ).strip()
     except Exception as exc:
         return f"unavailable: {exc}"
 
@@ -116,7 +118,7 @@ def main() -> int:
         "| 项目 | 参数 |",
         "| --- | --- |",
         f"| NPU | {npu_name} |",
-        f"| 驱动/CANN | `{command('npu-smi', 'info', '-t', 'board', '-i', '0')[:300]}` |",
+        f"| 驱动/NPU 状态 | `{command('npu-smi', 'info')[:300]}` |",
         f"| 操作系统 | {platform.platform()} |",
         f"| CPU/架构 | {platform.machine()}，{command('nproc')} vCPU |",
         f"| Python | {platform.python_version()} |",
