@@ -1,0 +1,8 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_legacy_flags.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_legacy_flags.py::test_legacy_flag_helpers_are_not_exported
+  call_duration_s: 0.00022255629301071167
+

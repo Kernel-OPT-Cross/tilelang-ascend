@@ -1,0 +1,25 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_copy_pad_value.log",
+  "counts": {
+    "correct": 2
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_pad_value.py::test_sliced_default_copy_pad_value_generates_null_for_pto",
+      "category": "correct",
+      "call_duration_s": 0.7862144540995359,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_pad_value.py::test_explicit_zero_copy_pad_value_generates_zero_for_pto",
+      "category": "correct",
+      "call_duration_s": 0.7422355432063341,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    }
+  ]
+}

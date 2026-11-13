@@ -1,0 +1,137 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.log",
+  "counts": {
+    "correct": 9
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 3.3917579147964716,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 1.08214,
+        "min_ms": 1.08214,
+        "max_ms": 1.08214,
+        "samples_ms": [
+          1.0821399688720703
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[ascendc-int16]",
+      "category": "correct",
+      "call_duration_s": 2.38564857468009,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.40418,
+        "min_ms": 0.40418,
+        "max_ms": 0.40418,
+        "samples_ms": [
+          0.40417999029159546
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[ascendc-int32]",
+      "category": "correct",
+      "call_duration_s": 2.3845197167247534,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39982,
+        "min_ms": 0.39982,
+        "max_ms": 0.39982,
+        "samples_ms": [
+          0.3998199999332428
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.735025929287076,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.355,
+        "min_ms": 0.355,
+        "max_ms": 0.355,
+        "samples_ms": [
+          0.35499998927116394
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[pto-int16]",
+      "category": "correct",
+      "call_duration_s": 0.7209264431148767,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36394,
+        "min_ms": 0.36394,
+        "max_ms": 0.36394,
+        "samples_ms": [
+          0.3639400005340576
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[pto-int32]",
+      "category": "correct",
+      "call_duration_s": 0.7296542637050152,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3337,
+        "min_ms": 0.3337,
+        "max_ms": 0.3337,
+        "samples_ms": [
+          0.3337000012397766
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_unsupported_dtype_raises[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.5660782530903816,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_unsupported_dtype_raises[uint16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 1.9437981583178043,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_create_vec_index_snake_case_alias",
+      "category": "correct",
+      "call_duration_s": 2.3827744722366333,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.40036,
+        "min_ms": 0.40036,
+        "max_ms": 0.40036,
+        "samples_ms": [
+          0.40035998821258545
+        ]
+      }
+    }
+  ]
+}

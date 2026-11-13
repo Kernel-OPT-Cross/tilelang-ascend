@@ -1,0 +1,265 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_sort.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[32-ascendc-float32]
+  call_duration_s: 3.494590625166893
+  npu_event_ms: calls=1, median=0.99828, min=0.99828, max=0.99828
+  samples_ms: [0.9982799887657166]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[32-ascendc-float16]
+  call_duration_s: 2.566018182784319
+  npu_event_ms: calls=1, median=0.38538, min=0.38538, max=0.38538
+  samples_ms: [0.38537999987602234]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[32-pto-float32]
+  call_duration_s: 0.783235827460885
+  npu_event_ms: calls=1, median=0.31588, min=0.31588, max=0.31588
+  samples_ms: [0.3158800005912781]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[32-pto-float16]
+  call_duration_s: 0.8258339911699295
+  npu_event_ms: calls=1, median=0.33216, min=0.33216, max=0.33216
+  samples_ms: [0.33215999603271484]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[64-ascendc-float32]
+  call_duration_s: 2.4695218577980995
+  npu_event_ms: calls=1, median=0.37446, min=0.37446, max=0.37446
+  samples_ms: [0.37446001172065735]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[64-ascendc-float16]
+  call_duration_s: 2.5179195515811443
+  npu_event_ms: calls=1, median=0.36356, min=0.36356, max=0.36356
+  samples_ms: [0.3635599911212921]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[64-pto-float32]
+  call_duration_s: 0.7943101096898317
+  npu_event_ms: calls=1, median=0.3213, min=0.3213, max=0.3213
+  samples_ms: [0.3212999999523163]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[64-pto-float16]
+  call_duration_s: 0.8302223924547434
+  npu_event_ms: calls=1, median=0.31592, min=0.31592, max=0.31592
+  samples_ms: [0.31591999530792236]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[128-ascendc-float32]
+  call_duration_s: 2.48353573307395
+  npu_event_ms: calls=1, median=0.37522, min=0.37522, max=0.37522
+  samples_ms: [0.37522000074386597]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[128-ascendc-float16]
+  call_duration_s: 2.5146349892020226
+  npu_event_ms: calls=1, median=0.36644, min=0.36644, max=0.36644
+  samples_ms: [0.3664399981498718]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[128-pto-float32]
+  call_duration_s: 0.7842980157583952
+  npu_event_ms: calls=1, median=0.3079, min=0.3079, max=0.3079
+  samples_ms: [0.30790001153945923]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[128-pto-float16]
+  call_duration_s: 0.8327618390321732
+  npu_event_ms: calls=1, median=0.30366, min=0.30366, max=0.30366
+  samples_ms: [0.30366000533103943]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[256-ascendc-float32]
+  call_duration_s: 2.5079188644886017
+  npu_event_ms: calls=1, median=0.36136, min=0.36136, max=0.36136
+  samples_ms: [0.36136001348495483]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[256-ascendc-float16]
+  call_duration_s: 2.5447731502354145
+  npu_event_ms: calls=1, median=0.35824, min=0.35824, max=0.35824
+  samples_ms: [0.358240008354187]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[256-pto-float32]
+  call_duration_s: 0.7925569657236338
+  npu_event_ms: calls=1, median=0.30666, min=0.30666, max=0.30666
+  samples_ms: [0.306659996509552]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[256-pto-float16]
+  call_duration_s: 0.8413253035396338
+  npu_event_ms: calls=1, median=0.30904, min=0.30904, max=0.30904
+  samples_ms: [0.30904000997543335]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[131-ascendc-float32]
+  call_duration_s: 2.546089932322502
+  npu_event_ms: calls=1, median=0.39842, min=0.39842, max=0.39842
+  samples_ms: [0.3984200060367584]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[131-ascendc-float16]
+  call_duration_s: 2.5642559956759214
+  npu_event_ms: calls=1, median=0.37878, min=0.37878, max=0.37878
+  samples_ms: [0.3787800073623657]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[131-pto-float32]
+  call_duration_s: 0.8101113382726908
+  npu_event_ms: calls=1, median=0.32198, min=0.32198, max=0.32198
+  samples_ms: [0.32197999954223633]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_basic[131-pto-float16]
+  call_duration_s: 0.8574152290821075
+  npu_event_ms: calls=1, median=0.31644, min=0.31644, max=0.31644
+  samples_ms: [0.31643998622894287]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[1-131-ascendc-float32]
+  call_duration_s: 0.01847890578210354
+  npu_event_ms: calls=1, median=0.16764, min=0.16764, max=0.16764
+  samples_ms: [0.16764000058174133]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[1-131-ascendc-float16]
+  call_duration_s: 0.01593138463795185
+  npu_event_ms: calls=1, median=0.15892, min=0.15892, max=0.15892
+  samples_ms: [0.15892000496387482]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[1-131-pto-float32]
+  call_duration_s: 0.01508399285376072
+  npu_event_ms: calls=1, median=0.15258, min=0.15258, max=0.15258
+  samples_ms: [0.15257999300956726]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[1-131-pto-float16]
+  call_duration_s: 0.015079710632562637
+  npu_event_ms: calls=1, median=0.14464, min=0.14464, max=0.14464
+  samples_ms: [0.1446399986743927]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[4-128-ascendc-float32]
+  call_duration_s: 2.5025886856019497
+  npu_event_ms: calls=1, median=0.3593, min=0.3593, max=0.3593
+  samples_ms: [0.35929998755455017]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[4-128-ascendc-float16]
+  call_duration_s: 2.5555746909230947
+  npu_event_ms: calls=1, median=0.37428, min=0.37428, max=0.37428
+  samples_ms: [0.37428000569343567]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[4-128-pto-float32]
+  call_duration_s: 0.8088356275111437
+  npu_event_ms: calls=1, median=0.29962, min=0.29962, max=0.29962
+  samples_ms: [0.29962000250816345]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[4-128-pto-float16]
+  call_duration_s: 0.8524732813239098
+  npu_event_ms: calls=1, median=0.3042, min=0.3042, max=0.3042
+  samples_ms: [0.3041999936103821]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[2-64-ascendc-float32]
+  call_duration_s: 2.4957524221390486
+  npu_event_ms: calls=1, median=0.37712, min=0.37712, max=0.37712
+  samples_ms: [0.3771199882030487]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[2-64-ascendc-float16]
+  call_duration_s: 2.534985950216651
+  npu_event_ms: calls=1, median=0.37486, min=0.37486, max=0.37486
+  samples_ms: [0.3748599886894226]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[2-64-pto-float32]
+  call_duration_s: 0.788499265909195
+  npu_event_ms: calls=1, median=0.31512, min=0.31512, max=0.31512
+  samples_ms: [0.31512001156806946]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_2d[2-64-pto-float16]
+  call_duration_s: 0.8403670024126768
+  npu_event_ms: calls=1, median=0.31338, min=0.31338, max=0.31338
+  samples_ms: [0.31338000297546387]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_min_actual_num[ascendc-float32]
+  call_duration_s: 2.4744008481502533
+  npu_event_ms: calls=1, median=0.36576, min=0.36576, max=0.36576
+  samples_ms: [0.3657599985599518]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_min_actual_num[ascendc-float16]
+  call_duration_s: 2.513391699641943
+  npu_event_ms: calls=1, median=0.3712, min=0.3712, max=0.3712
+  samples_ms: [0.37119999527931213]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_min_actual_num[pto-float32]
+  call_duration_s: 0.7891279216855764
+  npu_event_ms: calls=1, median=0.32204, min=0.32204, max=0.32204
+  samples_ms: [0.32203999161720276]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_min_actual_num[pto-float16]
+  call_duration_s: 0.8328371345996857
+  npu_event_ms: calls=1, median=0.3204, min=0.3204, max=0.3204
+  samples_ms: [0.3203999996185303]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_large_actual_num[ascendc-float32]
+  call_duration_s: 2.5121197290718555
+  npu_event_ms: calls=1, median=0.37926, min=0.37926, max=0.37926
+  samples_ms: [0.37926000356674194]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_large_actual_num[pto-float32]
+  call_duration_s: 0.9825762584805489
+  npu_event_ms: calls=1, median=0.3009, min=0.3009, max=0.3009
+  samples_ms: [0.30090001225471497]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_src_inplace[131-ascendc-float32]
+  call_duration_s: 2.539173398166895
+  npu_event_ms: calls=1, median=0.37966, min=0.37966, max=0.37966
+  samples_ms: [0.3796600103378296]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_src_inplace[131-ascendc-float16]
+  call_duration_s: 2.5439077876508236
+  npu_event_ms: calls=1, median=0.35912, min=0.35912, max=0.35912
+  samples_ms: [0.3591200113296509]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_src_inplace[131-pto-float32]
+  call_duration_s: 0.8238633442670107
+  npu_event_ms: calls=1, median=0.29934, min=0.29934, max=0.29934
+  samples_ms: [0.29934000968933105]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_src_inplace[131-pto-float16]
+  call_duration_s: 0.8702447339892387
+  npu_event_ms: calls=1, median=0.32952, min=0.32952, max=0.32952
+  samples_ms: [0.32951998710632324]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_src_inplace[100-ascendc-float32]
+  call_duration_s: 2.5117129180580378
+  npu_event_ms: calls=1, median=0.39444, min=0.39444, max=0.39444
+  samples_ms: [0.3944399952888489]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_src_inplace[100-ascendc-float16]
+  call_duration_s: 2.562077686190605
+  npu_event_ms: calls=1, median=0.38868, min=0.38868, max=0.38868
+  samples_ms: [0.38868001103401184]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_src_inplace[100-pto-float32]
+  call_duration_s: 0.8105216585099697
+  npu_event_ms: calls=1, median=0.31992, min=0.31992, max=0.31992
+  samples_ms: [0.31992000341415405]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_src_inplace[100-pto-float16]
+  call_duration_s: 0.8575847316533327
+  npu_event_ms: calls=1, median=0.31434, min=0.31434, max=0.31434
+  samples_ms: [0.3143399953842163]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_fp16_index_precision[2049-ascendc-float16]
+  call_duration_s: 2.564874943345785
+  npu_event_ms: calls=1, median=0.38084, min=0.38084, max=0.38084
+  samples_ms: [0.380840003490448]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_fp16_index_precision[2049-pto-float16]
+  call_duration_s: 0.9325952529907227
+  npu_event_ms: calls=1, median=0.3165, min=0.3165, max=0.3165
+  samples_ms: [0.3165000081062317]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_fp16_index_precision[4096-ascendc-float16]
+  call_duration_s: 2.544484792277217
+  npu_event_ms: calls=1, median=0.37226, min=0.37226, max=0.37226
+  samples_ms: [0.3722600042819977]
+
+[correct] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_fp16_index_precision[4096-pto-float16]
+  call_duration_s: 1.0512719172984362
+  npu_event_ms: calls=1, median=0.3327, min=0.3327, max=0.3327
+  samples_ms: [0.3327000141143799]
+
+[invalid_input_negative_case_compile_early] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_actual_num_zero_crashes[float32]
+  call_duration_s: 0.23260933719575405
+  failure_phase: call
+  failure_summary: E       InternalError: Check failed: spec.primary_bytes > 0 (0 vs. 0) : Expected a non-empty workspace view for Sort<float>  3rdparty/tvm/python/tvm/_ffi/base.py:465: InternalError
+
+[invalid_input_negative_case_compile_early] testing/python/language/test_tilelang_ascend_language_sort.py::test_sort_actual_num_zero_crashes[float16]
+  call_duration_s: 0.017186354845762253
+  failure_phase: call
+  failure_summary: E       InternalError: Check failed: spec.primary_bytes > 0 (0 vs. 0) : Expected a non-empty workspace view for Sort<half>  3rdparty/tvm/python/tvm/_ffi/base.py:465: InternalError
+

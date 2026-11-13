@@ -1,0 +1,89 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_ub_stride.log",
+  "counts": {
+    "correct": 5
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_compact_to_aligned[8-16-int32]",
+      "category": "correct",
+      "call_duration_s": 3.4762669820338488,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.92752,
+        "min_ms": 0.92752,
+        "max_ms": 0.92752,
+        "samples_ms": [
+          0.9275199770927429
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_compact_to_aligned[16-32-int32]",
+      "category": "correct",
+      "call_duration_s": 2.3780669383704662,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.56776,
+        "min_ms": 0.56776,
+        "max_ms": 0.56776,
+        "samples_ms": [
+          0.5677599906921387
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_compact_to_aligned[16-32-float16]",
+      "category": "correct",
+      "call_duration_s": 2.410400213673711,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.57824,
+        "min_ms": 0.57824,
+        "max_ms": 0.57824,
+        "samples_ms": [
+          0.5782399773597717
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_compact_to_aligned[16-16-int32]",
+      "category": "correct",
+      "call_duration_s": 2.4622564278542995,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39078,
+        "min_ms": 0.39078,
+        "max_ms": 0.39078,
+        "samples_ms": [
+          0.3907800018787384
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_if_else_serial_fallback",
+      "category": "correct",
+      "call_duration_s": 2.3889830950647593,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36564,
+        "min_ms": 0.36564,
+        "max_ms": 0.36564,
+        "samples_ms": [
+          0.3656400144100189
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_topk.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[128-ascendc-float]
+  call_duration_s: 3.530808625742793
+  npu_event_ms: calls=1, median=0.919, min=0.919, max=0.919
+  samples_ms: [0.9190000295639038]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[128-ascendc-float16]
+  call_duration_s: 2.605617383494973
+  npu_event_ms: calls=1, median=0.38576, min=0.38576, max=0.38576
+  samples_ms: [0.38576000928878784]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[128-pto-float]
+  call_duration_s: 0.8133025337010622
+  npu_event_ms: calls=1, median=0.33844, min=0.33844, max=0.33844
+  samples_ms: [0.3384400010108948]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[128-pto-float16]
+  call_duration_s: 0.8383596930652857
+  npu_event_ms: calls=1, median=0.32726, min=0.32726, max=0.32726
+  samples_ms: [0.32725998759269714]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[51-ascendc-float]
+  call_duration_s: 2.528212098404765
+  npu_event_ms: calls=1, median=0.38688, min=0.38688, max=0.38688
+  samples_ms: [0.3868800103664398]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[51-ascendc-float16]
+  call_duration_s: 2.581931745633483
+  npu_event_ms: calls=1, median=0.38456, min=0.38456, max=0.38456
+  samples_ms: [0.3845599889755249]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[51-pto-float]
+  call_duration_s: 0.7980390153825283
+  npu_event_ms: calls=1, median=0.32514, min=0.32514, max=0.32514
+  samples_ms: [0.32513999938964844]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[51-pto-float16]
+  call_duration_s: 0.8454132173210382
+  npu_event_ms: calls=1, median=0.3309, min=0.3309, max=0.3309
+  samples_ms: [0.33090001344680786]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[100-ascendc-float]
+  call_duration_s: 2.5251607447862625
+  npu_event_ms: calls=1, median=0.38778, min=0.38778, max=0.38778
+  samples_ms: [0.38778001070022583]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[100-ascendc-float16]
+  call_duration_s: 2.605733308941126
+  npu_event_ms: calls=1, median=0.3766, min=0.3766, max=0.3766
+  samples_ms: [0.3765999972820282]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[100-pto-float]
+  call_duration_s: 0.8016407694667578
+  npu_event_ms: calls=1, median=0.31148, min=0.31148, max=0.31148
+  samples_ms: [0.31147998571395874]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[100-pto-float16]
+  call_duration_s: 0.847192220389843
+  npu_event_ms: calls=1, median=0.31502, min=0.31502, max=0.31502
+  samples_ms: [0.31501999497413635]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[1-ascendc-float]
+  call_duration_s: 2.510740540921688
+  npu_event_ms: calls=1, median=0.37006, min=0.37006, max=0.37006
+  samples_ms: [0.370059996843338]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[1-ascendc-float16]
+  call_duration_s: 2.5742068458348513
+  npu_event_ms: calls=1, median=0.377, min=0.377, max=0.377
+  samples_ms: [0.37700000405311584]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[1-pto-float]
+  call_duration_s: 0.7994092348963022
+  npu_event_ms: calls=1, median=0.3367, min=0.3367, max=0.3367
+  samples_ms: [0.3366999924182892]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[1-pto-float16]
+  call_duration_s: 0.8409515898674726
+  npu_event_ms: calls=1, median=0.30924, min=0.30924, max=0.30924
+  samples_ms: [0.3092400133609772]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[64-ascendc-float]
+  call_duration_s: 2.51236885599792
+  npu_event_ms: calls=1, median=0.36248, min=0.36248, max=0.36248
+  samples_ms: [0.3624800145626068]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[64-ascendc-float16]
+  call_duration_s: 2.5815595611929893
+  npu_event_ms: calls=1, median=0.36428, min=0.36428, max=0.36428
+  samples_ms: [0.36427998542785645]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[64-pto-float]
+  call_duration_s: 0.7959113270044327
+  npu_event_ms: calls=1, median=0.32352, min=0.32352, max=0.32352
+  samples_ms: [0.3235200047492981]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[64-pto-float16]
+  call_duration_s: 0.8491079770028591
+  npu_event_ms: calls=1, median=0.32042, min=0.32042, max=0.32042
+  samples_ms: [0.3204199969768524]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_2d[ascendc-float]
+  call_duration_s: 2.5063123032450676
+  npu_event_ms: calls=1, median=0.36172, min=0.36172, max=0.36172
+  samples_ms: [0.3617199957370758]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_2d[ascendc-float16]
+  call_duration_s: 2.5654213801026344
+  npu_event_ms: calls=1, median=0.36322, min=0.36322, max=0.36322
+  samples_ms: [0.3632200062274933]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_2d[pto-float]
+  call_duration_s: 0.7958817314356565
+  npu_event_ms: calls=1, median=0.32288, min=0.32288, max=0.32288
+  samples_ms: [0.32287999987602234]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_2d[pto-float16]
+  call_duration_s: 0.8352977782487869
+  npu_event_ms: calls=1, median=0.33406, min=0.33406, max=0.33406
+  samples_ms: [0.33406001329421997]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_src_inplace[ascendc-float]
+  call_duration_s: 2.527223477140069
+  npu_event_ms: calls=1, median=0.38694, min=0.38694, max=0.38694
+  samples_ms: [0.38694000244140625]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_src_inplace[ascendc-float16]
+  call_duration_s: 2.579539682716131
+  npu_event_ms: calls=1, median=0.38474, min=0.38474, max=0.38474
+  samples_ms: [0.3847399950027466]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_src_inplace[pto-float]
+  call_duration_s: 0.814860001206398
+  npu_event_ms: calls=1, median=0.3194, min=0.3194, max=0.3194
+  samples_ms: [0.31940001249313354]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_src_inplace[pto-float16]
+  call_duration_s: 0.8589133899658918
+  npu_event_ms: calls=1, median=0.32904, min=0.32904, max=0.32904
+  samples_ms: [0.329039990901947]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_large_actual_num[ascendc-float32]
+  call_duration_s: 2.582293091341853
+  npu_event_ms: calls=1, median=0.38664, min=0.38664, max=0.38664
+  samples_ms: [0.3866400122642517]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_large_actual_num[pto-float32]
+  call_duration_s: 0.9981327168643475
+  npu_event_ms: calls=1, median=0.33164, min=0.33164, max=0.33164
+  samples_ms: [0.33164000511169434]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_fp16_index_precision[2049-ascendc-float16]
+  call_duration_s: 2.598878376185894
+  npu_event_ms: calls=1, median=0.43424, min=0.43424, max=0.43424
+  samples_ms: [0.4342400133609772]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_fp16_index_precision[2049-pto-float16]
+  call_duration_s: 0.9388290289789438
+  npu_event_ms: calls=1, median=0.33728, min=0.33728, max=0.33728
+  samples_ms: [0.3372800052165985]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_fp16_index_precision[4096-ascendc-float16]
+  call_duration_s: 2.5967940036207438
+  npu_event_ms: calls=1, median=0.39364, min=0.39364, max=0.39364
+  samples_ms: [0.39364001154899597]
+
+[correct] testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_fp16_index_precision[4096-pto-float16]
+  call_duration_s: 1.0330895967781544
+  npu_event_ms: calls=1, median=0.31856, min=0.31856, max=0.31856
+  samples_ms: [0.31856000423431396]
+

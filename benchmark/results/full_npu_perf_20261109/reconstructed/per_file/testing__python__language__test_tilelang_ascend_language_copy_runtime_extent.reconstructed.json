@@ -1,0 +1,81 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_copy_runtime_extent.log",
+  "counts": {
+    "correct": 4
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_runtime_extent.py::test_runtime_inner_extent[float]",
+      "category": "correct",
+      "call_duration_s": 3.5334736555814743,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 3,
+        "median_ms": 0.3147,
+        "min_ms": 0.21792,
+        "max_ms": 1.0101,
+        "samples_ms": [
+          1.01010000705719,
+          0.31470000743865967,
+          0.21792000532150269
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_runtime_extent.py::test_runtime_inner_extent[float16]",
+      "category": "correct",
+      "call_duration_s": 2.409873316064477,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 3,
+        "median_ms": 0.25916,
+        "min_ms": 0.19218,
+        "max_ms": 0.47152,
+        "samples_ms": [
+          0.47152000665664673,
+          0.25916001200675964,
+          0.19217999279499054
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_runtime_extent.py::test_atomic_add_runtime_inner_extent[float]",
+      "category": "correct",
+      "call_duration_s": 2.388005569577217,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 3,
+        "median_ms": 0.22548,
+        "min_ms": 0.19192,
+        "max_ms": 0.45122,
+        "samples_ms": [
+          0.45122000575065613,
+          0.22548000514507294,
+          0.19191999733448029
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_runtime_extent.py::test_atomic_add_runtime_inner_extent[float16]",
+      "category": "correct",
+      "call_duration_s": 2.395054902881384,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 3,
+        "median_ms": 0.21152,
+        "min_ms": 0.20146,
+        "max_ms": 0.42596,
+        "samples_ms": [
+          0.4259600043296814,
+          0.2115200012922287,
+          0.20146000385284424
+        ]
+      }
+    }
+  ]
+}

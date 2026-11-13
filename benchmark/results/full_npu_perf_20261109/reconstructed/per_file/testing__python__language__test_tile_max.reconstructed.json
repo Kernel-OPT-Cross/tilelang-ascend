@@ -1,0 +1,2185 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tile_max.log",
+  "counts": {
+    "correct": 142
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles[float16]",
+      "category": "correct",
+      "call_duration_s": 2.4306150153279305,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles[float32]",
+      "category": "correct",
+      "call_duration_s": 2.3879167158156633,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles[int16]",
+      "category": "correct",
+      "call_duration_s": 2.3769054897129536,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles[int32]",
+      "category": "correct",
+      "call_duration_s": 2.3738438356667757,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles_both_targets[ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3756002634763718,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles_both_targets[pto]",
+      "category": "correct",
+      "call_duration_s": 0.7624460030347109,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_scalar_variant_compiles",
+      "category": "correct",
+      "call_duration_s": 2.368763906881213,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_various_shapes_compile[shape0]",
+      "category": "correct",
+      "call_duration_s": 2.371716445311904,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_various_shapes_compile[shape1]",
+      "category": "correct",
+      "call_duration_s": 2.3904764484614134,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxCompile::test_various_shapes_compile[shape2]",
+      "category": "correct",
+      "call_duration_s": 2.4096248783171177,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 3.3881649505347013,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.8688,
+        "min_ms": 0.8688,
+        "max_ms": 0.8688,
+        "samples_ms": [
+          0.8687999844551086
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7657479718327522,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32854,
+        "min_ms": 0.32854,
+        "max_ms": 0.32854,
+        "samples_ms": [
+          0.32853999733924866
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3717952128499746,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37144,
+        "min_ms": 0.37144,
+        "max_ms": 0.37144,
+        "samples_ms": [
+          0.37143999338150024
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7614148631691933,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.44344,
+        "min_ms": 0.44344,
+        "max_ms": 0.44344,
+        "samples_ms": [
+          0.4434399902820587
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[int16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.428140986710787,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38946,
+        "min_ms": 0.38946,
+        "max_ms": 0.38946,
+        "samples_ms": [
+          0.3894599974155426
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[int16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7856705449521542,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34344,
+        "min_ms": 0.34344,
+        "max_ms": 0.34344,
+        "samples_ms": [
+          0.3434399962425232
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[int32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.402519902214408,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39116,
+        "min_ms": 0.39116,
+        "max_ms": 0.39116,
+        "samples_ms": [
+          0.3911600112915039
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[int32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.760752260684967,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34076,
+        "min_ms": 0.34076,
+        "max_ms": 0.34076,
+        "samples_ms": [
+          0.3407599925994873
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-ascendc-256-256-64-64]",
+      "category": "correct",
+      "call_duration_s": 2.3832531925290823,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38482,
+        "min_ms": 0.38482,
+        "max_ms": 0.38482,
+        "samples_ms": [
+          0.38482001423835754
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-ascendc-512-1024-64-128]",
+      "category": "correct",
+      "call_duration_s": 2.367628177627921,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37506,
+        "min_ms": 0.37506,
+        "max_ms": 0.37506,
+        "samples_ms": [
+          0.37505999207496643
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-ascendc-1024-512-128-64]",
+      "category": "correct",
+      "call_duration_s": 2.3710216283798218,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38818,
+        "min_ms": 0.38818,
+        "max_ms": 0.38818,
+        "samples_ms": [
+          0.3881799876689911
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-ascendc-2048-2048-128-128]",
+      "category": "correct",
+      "call_duration_s": 2.373138526454568,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.5209,
+        "min_ms": 0.5209,
+        "max_ms": 0.5209,
+        "samples_ms": [
+          0.5209000110626221
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-pto-256-256-64-64]",
+      "category": "correct",
+      "call_duration_s": 0.7712900750339031,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3361,
+        "min_ms": 0.3361,
+        "max_ms": 0.3361,
+        "samples_ms": [
+          0.3361000120639801
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-pto-512-1024-64-128]",
+      "category": "correct",
+      "call_duration_s": 0.7623134832829237,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31616,
+        "min_ms": 0.31616,
+        "max_ms": 0.31616,
+        "samples_ms": [
+          0.3161599934101105
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-pto-1024-512-128-64]",
+      "category": "correct",
+      "call_duration_s": 0.7727700993418694,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.334,
+        "min_ms": 0.334,
+        "max_ms": 0.334,
+        "samples_ms": [
+          0.33399999141693115
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-pto-2048-2048-128-128]",
+      "category": "correct",
+      "call_duration_s": 0.7655232883989811,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35346,
+        "min_ms": 0.35346,
+        "max_ms": 0.35346,
+        "samples_ms": [
+          0.35346001386642456
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-ascendc-256-256-64-64]",
+      "category": "correct",
+      "call_duration_s": 2.3870221003890038,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.40174,
+        "min_ms": 0.40174,
+        "max_ms": 0.40174,
+        "samples_ms": [
+          0.40174001455307007
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-ascendc-512-1024-64-128]",
+      "category": "correct",
+      "call_duration_s": 2.3784116320312023,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3824,
+        "min_ms": 0.3824,
+        "max_ms": 0.3824,
+        "samples_ms": [
+          0.3824000060558319
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-ascendc-1024-512-128-64]",
+      "category": "correct",
+      "call_duration_s": 2.369006024673581,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36206,
+        "min_ms": 0.36206,
+        "max_ms": 0.36206,
+        "samples_ms": [
+          0.362060010433197
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-ascendc-2048-2048-128-128]",
+      "category": "correct",
+      "call_duration_s": 2.3757971338927746,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38166,
+        "min_ms": 0.38166,
+        "max_ms": 0.38166,
+        "samples_ms": [
+          0.38166001439094543
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-pto-256-256-64-64]",
+      "category": "correct",
+      "call_duration_s": 0.7579613383859396,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36626,
+        "min_ms": 0.36626,
+        "max_ms": 0.36626,
+        "samples_ms": [
+          0.36625999212265015
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-pto-512-1024-64-128]",
+      "category": "correct",
+      "call_duration_s": 0.7589043155312538,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31184,
+        "min_ms": 0.31184,
+        "max_ms": 0.31184,
+        "samples_ms": [
+          0.3118399977684021
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-pto-1024-512-128-64]",
+      "category": "correct",
+      "call_duration_s": 0.7619433477520943,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3496,
+        "min_ms": 0.3496,
+        "max_ms": 0.3496,
+        "samples_ms": [
+          0.3495999872684479
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-pto-2048-2048-128-128]",
+      "category": "correct",
+      "call_duration_s": 0.7610792126506567,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.41968,
+        "min_ms": 0.41968,
+        "max_ms": 0.41968,
+        "samples_ms": [
+          0.41967999935150146
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-ascendc-256-256-64-64]",
+      "category": "correct",
+      "call_duration_s": 2.383406300097704,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38214,
+        "min_ms": 0.38214,
+        "max_ms": 0.38214,
+        "samples_ms": [
+          0.38214001059532166
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-ascendc-512-1024-64-128]",
+      "category": "correct",
+      "call_duration_s": 2.375168679282069,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37302,
+        "min_ms": 0.37302,
+        "max_ms": 0.37302,
+        "samples_ms": [
+          0.3730199933052063
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-ascendc-1024-512-128-64]",
+      "category": "correct",
+      "call_duration_s": 2.3802233804017305,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3676,
+        "min_ms": 0.3676,
+        "max_ms": 0.3676,
+        "samples_ms": [
+          0.3675999939441681
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-ascendc-2048-2048-128-128]",
+      "category": "correct",
+      "call_duration_s": 2.3873304557055235,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35312,
+        "min_ms": 0.35312,
+        "max_ms": 0.35312,
+        "samples_ms": [
+          0.35311999917030334
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-pto-256-256-64-64]",
+      "category": "correct",
+      "call_duration_s": 0.7622825596481562,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3391,
+        "min_ms": 0.3391,
+        "max_ms": 0.3391,
+        "samples_ms": [
+          0.3391000032424927
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-pto-512-1024-64-128]",
+      "category": "correct",
+      "call_duration_s": 0.7640184219926596,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34148,
+        "min_ms": 0.34148,
+        "max_ms": 0.34148,
+        "samples_ms": [
+          0.34147998690605164
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-pto-1024-512-128-64]",
+      "category": "correct",
+      "call_duration_s": 0.7583661526441574,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33032,
+        "min_ms": 0.33032,
+        "max_ms": 0.33032,
+        "samples_ms": [
+          0.33032000064849854
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-pto-2048-2048-128-128]",
+      "category": "correct",
+      "call_duration_s": 0.7700583804398775,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36192,
+        "min_ms": 0.36192,
+        "max_ms": 0.36192,
+        "samples_ms": [
+          0.36191999912261963
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-ascendc-256-256-64-64]",
+      "category": "correct",
+      "call_duration_s": 2.3796068616211414,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37328,
+        "min_ms": 0.37328,
+        "max_ms": 0.37328,
+        "samples_ms": [
+          0.37327998876571655
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-ascendc-512-1024-64-128]",
+      "category": "correct",
+      "call_duration_s": 2.394603094086051,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38772,
+        "min_ms": 0.38772,
+        "max_ms": 0.38772,
+        "samples_ms": [
+          0.387719988822937
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-ascendc-1024-512-128-64]",
+      "category": "correct",
+      "call_duration_s": 2.3704981487244368,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 1.94672,
+        "min_ms": 1.94672,
+        "max_ms": 1.94672,
+        "samples_ms": [
+          1.946720004081726
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-ascendc-2048-2048-128-128]",
+      "category": "correct",
+      "call_duration_s": 2.530591007322073,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37172,
+        "min_ms": 0.37172,
+        "max_ms": 0.37172,
+        "samples_ms": [
+          0.37171998620033264
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-pto-256-256-64-64]",
+      "category": "correct",
+      "call_duration_s": 0.7621073499321938,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33032,
+        "min_ms": 0.33032,
+        "max_ms": 0.33032,
+        "samples_ms": [
+          0.33032000064849854
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-pto-512-1024-64-128]",
+      "category": "correct",
+      "call_duration_s": 0.75962770357728,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33454,
+        "min_ms": 0.33454,
+        "max_ms": 0.33454,
+        "samples_ms": [
+          0.3345400094985962
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-pto-1024-512-128-64]",
+      "category": "correct",
+      "call_duration_s": 0.7651710230857134,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33764,
+        "min_ms": 0.33764,
+        "max_ms": 0.33764,
+        "samples_ms": [
+          0.3376399874687195
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-pto-2048-2048-128-128]",
+      "category": "correct",
+      "call_duration_s": 0.7568435724824667,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34604,
+        "min_ms": 0.34604,
+        "max_ms": 0.34604,
+        "samples_ms": [
+          0.3460400104522705
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-ascendc-100-200]",
+      "category": "correct",
+      "call_duration_s": 2.384613836184144,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37702,
+        "min_ms": 0.37702,
+        "max_ms": 0.37702,
+        "samples_ms": [
+          0.377020001411438
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-ascendc-107-145]",
+      "category": "correct",
+      "call_duration_s": 2.37498945184052,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.44028,
+        "min_ms": 0.44028,
+        "max_ms": 0.44028,
+        "samples_ms": [
+          0.4402799904346466
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-ascendc-255-513]",
+      "category": "correct",
+      "call_duration_s": 2.4214233495295048,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38778,
+        "min_ms": 0.38778,
+        "max_ms": 0.38778,
+        "samples_ms": [
+          0.38778001070022583
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-pto-100-200]",
+      "category": "correct",
+      "call_duration_s": 0.7720511239022017,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3386,
+        "min_ms": 0.3386,
+        "max_ms": 0.3386,
+        "samples_ms": [
+          0.3386000096797943
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-pto-107-145]",
+      "category": "correct",
+      "call_duration_s": 0.7559329215437174,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34772,
+        "min_ms": 0.34772,
+        "max_ms": 0.34772,
+        "samples_ms": [
+          0.3477199971675873
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-pto-255-513]",
+      "category": "correct",
+      "call_duration_s": 0.7584286835044622,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3286,
+        "min_ms": 0.3286,
+        "max_ms": 0.3286,
+        "samples_ms": [
+          0.3285999894142151
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-ascendc-100-200]",
+      "category": "correct",
+      "call_duration_s": 2.371714148670435,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.40734,
+        "min_ms": 0.40734,
+        "max_ms": 0.40734,
+        "samples_ms": [
+          0.40733999013900757
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-ascendc-107-145]",
+      "category": "correct",
+      "call_duration_s": 2.3727567475289106,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39418,
+        "min_ms": 0.39418,
+        "max_ms": 0.39418,
+        "samples_ms": [
+          0.3941799998283386
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-ascendc-255-513]",
+      "category": "correct",
+      "call_duration_s": 2.3731410335749388,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36964,
+        "min_ms": 0.36964,
+        "max_ms": 0.36964,
+        "samples_ms": [
+          0.3696399927139282
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-pto-100-200]",
+      "category": "correct",
+      "call_duration_s": 0.7565818931907415,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33012,
+        "min_ms": 0.33012,
+        "max_ms": 0.33012,
+        "samples_ms": [
+          0.3301199972629547
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-pto-107-145]",
+      "category": "correct",
+      "call_duration_s": 0.7573538720607758,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3181,
+        "min_ms": 0.3181,
+        "max_ms": 0.3181,
+        "samples_ms": [
+          0.3181000053882599
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-pto-255-513]",
+      "category": "correct",
+      "call_duration_s": 0.7623810768127441,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.46794,
+        "min_ms": 0.46794,
+        "max_ms": 0.46794,
+        "samples_ms": [
+          0.46794000267982483
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-ascendc-100-200]",
+      "category": "correct",
+      "call_duration_s": 2.371970906853676,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37796,
+        "min_ms": 0.37796,
+        "max_ms": 0.37796,
+        "samples_ms": [
+          0.3779599964618683
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-ascendc-107-145]",
+      "category": "correct",
+      "call_duration_s": 2.3728738613426685,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3607,
+        "min_ms": 0.3607,
+        "max_ms": 0.3607,
+        "samples_ms": [
+          0.36070001125335693
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-ascendc-255-513]",
+      "category": "correct",
+      "call_duration_s": 2.375299932435155,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39916,
+        "min_ms": 0.39916,
+        "max_ms": 0.39916,
+        "samples_ms": [
+          0.3991599977016449
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-pto-100-200]",
+      "category": "correct",
+      "call_duration_s": 0.7594202887266874,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3207,
+        "min_ms": 0.3207,
+        "max_ms": 0.3207,
+        "samples_ms": [
+          0.3206999897956848
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-pto-107-145]",
+      "category": "correct",
+      "call_duration_s": 0.7551664840430021,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31046,
+        "min_ms": 0.31046,
+        "max_ms": 0.31046,
+        "samples_ms": [
+          0.31046000123023987
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-pto-255-513]",
+      "category": "correct",
+      "call_duration_s": 0.7584503572434187,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32034,
+        "min_ms": 0.32034,
+        "max_ms": 0.32034,
+        "samples_ms": [
+          0.32034000754356384
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-ascendc-100-200]",
+      "category": "correct",
+      "call_duration_s": 2.3687321208417416,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36766,
+        "min_ms": 0.36766,
+        "max_ms": 0.36766,
+        "samples_ms": [
+          0.3676599860191345
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-ascendc-107-145]",
+      "category": "correct",
+      "call_duration_s": 2.365962313488126,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36414,
+        "min_ms": 0.36414,
+        "max_ms": 0.36414,
+        "samples_ms": [
+          0.36414000391960144
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-ascendc-255-513]",
+      "category": "correct",
+      "call_duration_s": 2.3726137969642878,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37814,
+        "min_ms": 0.37814,
+        "max_ms": 0.37814,
+        "samples_ms": [
+          0.37814000248908997
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-pto-100-200]",
+      "category": "correct",
+      "call_duration_s": 0.761136531829834,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33992,
+        "min_ms": 0.33992,
+        "max_ms": 0.33992,
+        "samples_ms": [
+          0.3399200141429901
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-pto-107-145]",
+      "category": "correct",
+      "call_duration_s": 0.7673018146306276,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3239,
+        "min_ms": 0.3239,
+        "max_ms": 0.3239,
+        "samples_ms": [
+          0.3239000141620636
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-pto-255-513]",
+      "category": "correct",
+      "call_duration_s": 0.7620039936155081,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33088,
+        "min_ms": 0.33088,
+        "max_ms": 0.33088,
+        "samples_ms": [
+          0.33087998628616333
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[float16-ascendc-256]",
+      "category": "correct",
+      "call_duration_s": 2.363650169223547,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37618,
+        "min_ms": 0.37618,
+        "max_ms": 0.37618,
+        "samples_ms": [
+          0.3761799931526184
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[float16-pto-256]",
+      "category": "correct",
+      "call_duration_s": 0.7546941637992859,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3196,
+        "min_ms": 0.3196,
+        "max_ms": 0.3196,
+        "samples_ms": [
+          0.319599986076355
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[float32-ascendc-256]",
+      "category": "correct",
+      "call_duration_s": 2.3574869949370623,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37748,
+        "min_ms": 0.37748,
+        "max_ms": 0.37748,
+        "samples_ms": [
+          0.37748000025749207
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[float32-pto-256]",
+      "category": "correct",
+      "call_duration_s": 0.7494741175323725,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32456,
+        "min_ms": 0.32456,
+        "max_ms": 0.32456,
+        "samples_ms": [
+          0.3245599865913391
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[int16-ascendc-256]",
+      "category": "correct",
+      "call_duration_s": 2.3776856753975153,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36622,
+        "min_ms": 0.36622,
+        "max_ms": 0.36622,
+        "samples_ms": [
+          0.36621999740600586
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[int16-pto-256]",
+      "category": "correct",
+      "call_duration_s": 0.7512472029775381,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3287,
+        "min_ms": 0.3287,
+        "max_ms": 0.3287,
+        "samples_ms": [
+          0.3287000060081482
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[int32-ascendc-256]",
+      "category": "correct",
+      "call_duration_s": 2.365611594170332,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.4472,
+        "min_ms": 0.4472,
+        "max_ms": 0.4472,
+        "samples_ms": [
+          0.4472000002861023
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[int32-pto-256]",
+      "category": "correct",
+      "call_duration_s": 0.7565975338220596,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34106,
+        "min_ms": 0.34106,
+        "max_ms": 0.34106,
+        "samples_ms": [
+          0.34106001257896423
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[float16-ascendc-2.0]",
+      "category": "correct",
+      "call_duration_s": 2.3970045261085033,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3949,
+        "min_ms": 0.3949,
+        "max_ms": 0.3949,
+        "samples_ms": [
+          0.39489999413490295
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[float16-pto-2.0]",
+      "category": "correct",
+      "call_duration_s": 0.757122190669179,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34134,
+        "min_ms": 0.34134,
+        "max_ms": 0.34134,
+        "samples_ms": [
+          0.34134000539779663
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[float32-ascendc-2.0]",
+      "category": "correct",
+      "call_duration_s": 2.366396654397249,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3831,
+        "min_ms": 0.3831,
+        "max_ms": 0.3831,
+        "samples_ms": [
+          0.3831000030040741
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[float32-pto-2.0]",
+      "category": "correct",
+      "call_duration_s": 0.7534258998930454,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3558,
+        "min_ms": 0.3558,
+        "max_ms": 0.3558,
+        "samples_ms": [
+          0.35580000281333923
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[int16-ascendc-2.0]",
+      "category": "correct",
+      "call_duration_s": 2.4054119177162647,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3746,
+        "min_ms": 0.3746,
+        "max_ms": 0.3746,
+        "samples_ms": [
+          0.37459999322891235
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[int16-pto-2.0]",
+      "category": "correct",
+      "call_duration_s": 0.7572811096906662,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33684,
+        "min_ms": 0.33684,
+        "max_ms": 0.33684,
+        "samples_ms": [
+          0.3368400037288666
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[int32-ascendc-2.0]",
+      "category": "correct",
+      "call_duration_s": 2.367877781391144,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37446,
+        "min_ms": 0.37446,
+        "max_ms": 0.37446,
+        "samples_ms": [
+          0.37446001172065735
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[int32-pto-2.0]",
+      "category": "correct",
+      "call_duration_s": 0.75131312943995,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33186,
+        "min_ms": 0.33186,
+        "max_ms": 0.33186,
+        "samples_ms": [
+          0.3318600058555603
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3631248977035284,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35964,
+        "min_ms": 0.35964,
+        "max_ms": 0.35964,
+        "samples_ms": [
+          0.3596400022506714
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7820887174457312,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31694,
+        "min_ms": 0.31694,
+        "max_ms": 0.31694,
+        "samples_ms": [
+          0.3169400095939636
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.400476874783635,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3634,
+        "min_ms": 0.3634,
+        "max_ms": 0.3634,
+        "samples_ms": [
+          0.36340001225471497
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.8010310996323824,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.30728,
+        "min_ms": 0.30728,
+        "max_ms": 0.30728,
+        "samples_ms": [
+          0.3072800040245056
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[int16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3802013490349054,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36474,
+        "min_ms": 0.36474,
+        "max_ms": 0.36474,
+        "samples_ms": [
+          0.3647400140762329
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[int16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7827197108417749,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31546,
+        "min_ms": 0.31546,
+        "max_ms": 0.31546,
+        "samples_ms": [
+          0.3154599964618683
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[int32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.375778740271926,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3755,
+        "min_ms": 0.3755,
+        "max_ms": 0.3755,
+        "samples_ms": [
+          0.37549999356269836
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[int32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7825796362012625,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.30444,
+        "min_ms": 0.30444,
+        "max_ms": 0.30444,
+        "samples_ms": [
+          0.3044399917125702
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.376805329695344,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3826,
+        "min_ms": 0.3826,
+        "max_ms": 0.3826,
+        "samples_ms": [
+          0.38260000944137573
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7897924352437258,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.29934,
+        "min_ms": 0.29934,
+        "max_ms": 0.29934,
+        "samples_ms": [
+          0.29934000968933105
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.37671578861773,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36904,
+        "min_ms": 0.36904,
+        "max_ms": 0.36904,
+        "samples_ms": [
+          0.36904001235961914
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.8013035766780376,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33628,
+        "min_ms": 0.33628,
+        "max_ms": 0.33628,
+        "samples_ms": [
+          0.3362799882888794
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[int16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.4004620537161827,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3809,
+        "min_ms": 0.3809,
+        "max_ms": 0.3809,
+        "samples_ms": [
+          0.38089999556541443
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[int16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7944070603698492,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32066,
+        "min_ms": 0.32066,
+        "max_ms": 0.32066,
+        "samples_ms": [
+          0.3206599950790405
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[int32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3744675498455763,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38968,
+        "min_ms": 0.38968,
+        "max_ms": 0.38968,
+        "samples_ms": [
+          0.38967999815940857
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[int32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.791332732886076,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3358,
+        "min_ms": 0.3358,
+        "max_ms": 0.3358,
+        "samples_ms": [
+          0.3357999920845032
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.380476601421833,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35342,
+        "min_ms": 0.35342,
+        "max_ms": 0.35342,
+        "samples_ms": [
+          0.3534199893474579
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7605463247746229,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31994,
+        "min_ms": 0.31994,
+        "max_ms": 0.31994,
+        "samples_ms": [
+          0.3199400007724762
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3790375515818596,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38958,
+        "min_ms": 0.38958,
+        "max_ms": 0.38958,
+        "samples_ms": [
+          0.38958001136779785
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7621526978909969,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31946,
+        "min_ms": 0.31946,
+        "max_ms": 0.31946,
+        "samples_ms": [
+          0.3194600045681
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[int16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3891282323747873,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36448,
+        "min_ms": 0.36448,
+        "max_ms": 0.36448,
+        "samples_ms": [
+          0.36447998881340027
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[int16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7628090362995863,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3512,
+        "min_ms": 0.3512,
+        "max_ms": 0.3512,
+        "samples_ms": [
+          0.35120001435279846
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[int32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3754947185516357,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36356,
+        "min_ms": 0.36356,
+        "max_ms": 0.36356,
+        "samples_ms": [
+          0.3635599911212921
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[int32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7608852200210094,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35126,
+        "min_ms": 0.35126,
+        "max_ms": 0.35126,
+        "samples_ms": [
+          0.3512600064277649
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_large_values[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3835305981338024,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.4359,
+        "min_ms": 0.4359,
+        "max_ms": 0.4359,
+        "samples_ms": [
+          0.4359000027179718
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_large_values[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7569669783115387,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3937,
+        "min_ms": 0.3937,
+        "max_ms": 0.3937,
+        "samples_ms": [
+          0.3937000036239624
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_large_values[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3787962589412928,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.45324,
+        "min_ms": 0.45324,
+        "max_ms": 0.45324,
+        "samples_ms": [
+          0.4532400071620941
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_large_values[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.754832785576582,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39062,
+        "min_ms": 0.39062,
+        "max_ms": 0.39062,
+        "samples_ms": [
+          0.39061999320983887
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_zeros[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.36784809269011,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.42976,
+        "min_ms": 0.42976,
+        "max_ms": 0.42976,
+        "samples_ms": [
+          0.42976000905036926
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_zeros[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.757853215560317,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37226,
+        "min_ms": 0.37226,
+        "max_ms": 0.37226,
+        "samples_ms": [
+          0.3722600042819977
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_zeros[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.4429372306913137,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.55558,
+        "min_ms": 0.55558,
+        "max_ms": 0.55558,
+        "samples_ms": [
+          0.5555800199508667
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_zeros[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7624958790838718,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.40962,
+        "min_ms": 0.40962,
+        "max_ms": 0.40962,
+        "samples_ms": [
+          0.4096199870109558
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_negative_values[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.375432264059782,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.45146,
+        "min_ms": 0.45146,
+        "max_ms": 0.45146,
+        "samples_ms": [
+          0.45146000385284424
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_negative_values[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7611976079642773,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39532,
+        "min_ms": 0.39532,
+        "max_ms": 0.39532,
+        "samples_ms": [
+          0.39531999826431274
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_negative_values[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.404451411217451,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 1.54904,
+        "min_ms": 1.54904,
+        "max_ms": 1.54904,
+        "samples_ms": [
+          1.5490399599075317
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_negative_values[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7939630337059498,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.41122,
+        "min_ms": 0.41122,
+        "max_ms": 0.41122,
+        "samples_ms": [
+          0.4112200140953064
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_inf_input[ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.398757841438055,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.43672,
+        "min_ms": 0.43672,
+        "max_ms": 0.43672,
+        "samples_ms": [
+          0.43672001361846924
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_inf_input[pto]",
+      "category": "correct",
+      "call_duration_s": 0.7594191655516624,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38266,
+        "min_ms": 0.38266,
+        "max_ms": 0.38266,
+        "samples_ms": [
+          0.38266000151634216
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_nan_input[ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3753450624644756,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.43532,
+        "min_ms": 0.43532,
+        "max_ms": 0.43532,
+        "samples_ms": [
+          0.4353199899196625
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_nan_input[pto]",
+      "category": "correct",
+      "call_duration_s": 0.7586711663752794,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37818,
+        "min_ms": 0.37818,
+        "max_ms": 0.37818,
+        "samples_ms": [
+          0.37817999720573425
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_minimum_shape[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.384648961946368,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37284,
+        "min_ms": 0.37284,
+        "max_ms": 0.37284,
+        "samples_ms": [
+          0.3728399872779846
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_minimum_shape[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7608465701341629,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32796,
+        "min_ms": 0.32796,
+        "max_ms": 0.32796,
+        "samples_ms": [
+          0.3279600143432617
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_minimum_shape[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.40855080075562,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3904,
+        "min_ms": 0.3904,
+        "max_ms": 0.3904,
+        "samples_ms": [
+          0.3903999924659729
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_minimum_shape[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7549399808049202,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33322,
+        "min_ms": 0.33322,
+        "max_ms": 0.33322,
+        "samples_ms": [
+          0.3332200050354004
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_multidim_buffload_takes_first_index[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3686692621558905,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3491,
+        "min_ms": 0.3491,
+        "max_ms": 0.3491,
+        "samples_ms": [
+          0.3490999937057495
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_multidim_buffload_takes_first_index[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7861623466014862,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3189,
+        "min_ms": 0.3189,
+        "max_ms": 0.3189,
+        "samples_ms": [
+          0.3188999891281128
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_multidim_buffload_takes_first_index[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.364753870293498,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3647,
+        "min_ms": 0.3647,
+        "max_ms": 0.3647,
+        "samples_ms": [
+          0.36469998955726624
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_multidim_buffload_takes_first_index[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7824306041002274,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.29626,
+        "min_ms": 0.29626,
+        "max_ms": 0.29626,
+        "samples_ms": [
+          0.2962599992752075
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_size_mismatch_src0",
+      "category": "correct",
+      "call_duration_s": 0.23870251514017582,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_size_mismatch_region",
+      "category": "correct",
+      "call_duration_s": 0.015042092651128769,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_buffer_size_unvalidated[ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.388711078092456,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.41804,
+        "min_ms": 0.41804,
+        "max_ms": 0.41804,
+        "samples_ms": [
+          0.418040007352829
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_buffer_size_unvalidated[pto]",
+      "category": "correct",
+      "call_duration_s": 0.8002982567995787,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31702,
+        "min_ms": 0.31702,
+        "max_ms": 0.31702,
+        "samples_ms": [
+          0.3170199990272522
+        ]
+      }
+    }
+  ]
+}

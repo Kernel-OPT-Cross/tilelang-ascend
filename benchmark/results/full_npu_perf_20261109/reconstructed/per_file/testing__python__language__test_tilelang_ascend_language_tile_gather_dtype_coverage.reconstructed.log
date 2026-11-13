@@ -1,0 +1,16 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_gather_dtype_coverage.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_gather_dtype_coverage.py::test_gather_base_addr
+  call_duration_s: 3.490324355661869
+  npu_event_ms: calls=1, median=0.94272, min=0.94272, max=0.94272
+  samples_ms: [0.9427199959754944]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_gather_dtype_coverage.py::test_gather_dtype_mismatch_raises
+  call_duration_s: 1.8468090146780014
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_gather_dtype_coverage.py::test_gather_offset_dtype_raises
+  call_duration_s: 1.8316085617989302
+

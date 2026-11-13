@@ -1,0 +1,50 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_discrete.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_mat[reverse]
+  call_duration_s: 3.5139544289559126
+  npu_event_ms: calls=1, median=0.8056, min=0.8056, max=0.8056
+  samples_ms: [0.8055999875068665]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_mat[mod_k]
+  call_duration_s: 0.0026150811463594437
+  npu_event_ms: calls=1, median=0.2869, min=0.2869, max=0.2869
+  samples_ms: [0.28690001368522644]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_mat[affine]
+  call_duration_s: 0.0019631292670965195
+  npu_event_ms: calls=1, median=0.17356, min=0.17356, max=0.17356
+  samples_ms: [0.1735599935054779]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_row[reverse]
+  call_duration_s: 2.4144716393202543
+  npu_event_ms: calls=1, median=0.33852, min=0.33852, max=0.33852
+  samples_ms: [0.33851999044418335]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_row[mod_k]
+  call_duration_s: 0.0034071821719408035
+  npu_event_ms: calls=1, median=0.17038, min=0.17038, max=0.17038
+  samples_ms: [0.17037999629974365]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_row[affine]
+  call_duration_s: 0.0018685124814510345
+  npu_event_ms: calls=1, median=0.16278, min=0.16278, max=0.16278
+  samples_ms: [0.1627800017595291]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_col[reverse]
+  call_duration_s: 2.4496929068118334
+  npu_event_ms: calls=1, median=0.35892, min=0.35892, max=0.35892
+  samples_ms: [0.35892000794410706]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_col[mod_k]
+  call_duration_s: 0.002182319760322571
+  npu_event_ms: calls=1, median=0.17456, min=0.17456, max=0.17456
+  samples_ms: [0.17455999553203583]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_col[affine]
+  call_duration_s: 0.0018706265836954117
+  npu_event_ms: calls=1, median=0.16554, min=0.16554, max=0.16554
+  samples_ms: [0.16553999483585358]
+

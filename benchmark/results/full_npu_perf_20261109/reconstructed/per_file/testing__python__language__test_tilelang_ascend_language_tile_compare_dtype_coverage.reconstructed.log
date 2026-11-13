@@ -1,0 +1,54 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_compare_dtype_coverage.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_tensor_1d[ascendc-float32]
+  call_duration_s: 3.4097386449575424
+  npu_event_ms: calls=1, median=0.92314, min=0.92314, max=0.92314
+  samples_ms: [0.9231399893760681]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_tensor_1d[ascendc-float16]
+  call_duration_s: 2.410357868298888
+  npu_event_ms: calls=1, median=0.38258, min=0.38258, max=0.38258
+  samples_ms: [0.3825800120830536]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_tensor_1d[pto-float32]
+  call_duration_s: 0.8009112514555454
+  npu_event_ms: calls=1, median=0.34012, min=0.34012, max=0.34012
+  samples_ms: [0.34011998772621155]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_tensor_1d[pto-float16]
+  call_duration_s: 0.7947284914553165
+  npu_event_ms: calls=1, median=0.33264, min=0.33264, max=0.33264
+  samples_ms: [0.33263999223709106]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_scalar_1d[ascendc-float32]
+  call_duration_s: 2.3807405568659306
+  npu_event_ms: calls=1, median=0.37286, min=0.37286, max=0.37286
+  samples_ms: [0.37286001443862915]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_scalar_1d[ascendc-float16]
+  call_duration_s: 2.3804610203951597
+  npu_event_ms: calls=1, median=0.37032, min=0.37032, max=0.37032
+  samples_ms: [0.37031999230384827]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_scalar_1d[pto-float32]
+  call_duration_s: 0.7673627994954586
+  npu_event_ms: calls=1, median=0.31046, min=0.31046, max=0.31046
+  samples_ms: [0.31046000123023987]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_scalar_1d[pto-float16]
+  call_duration_s: 0.7705858573317528
+  npu_event_ms: calls=1, median=0.32526, min=0.32526, max=0.32526
+  samples_ms: [0.3252600133419037]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_dtype_mismatch_raises
+  call_duration_s: 1.8372194971889257
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_invalid_mode_raises
+  call_duration_s: 0.23302707262337208
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_compare_dtype_coverage.py::test_compare_alignment_raises
+  call_duration_s: 0.020734872668981552
+

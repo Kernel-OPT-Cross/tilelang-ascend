@@ -1,0 +1,89 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_alloc_codegen.log",
+  "counts": {
+    "correct": 10
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_l1_splice_codegen[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.27061549574136734,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_l1_splice_codegen[pto]",
+      "category": "correct",
+      "call_duration_s": 0.2146276757121086,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_ub_splice_codegen[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.21540812589228153,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_ub_splice_codegen[pto]",
+      "category": "correct",
+      "call_duration_s": 0.21490950882434845,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_composite_shape_first_codegen[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.016891954466700554,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_composite_shape_first_codegen[pto]",
+      "category": "correct",
+      "call_duration_s": 0.016385214403271675,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_multi_var_composite_shape_codegen[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.016063962131738663,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_multi_var_composite_shape_codegen[pto]",
+      "category": "correct",
+      "call_duration_s": 0.016280140727758408,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_nested_composite_shape_codegen[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.016366126015782356,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_nested_composite_shape_codegen[pto]",
+      "category": "correct",
+      "call_duration_s": 0.01641443744301796,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    }
+  ]
+}

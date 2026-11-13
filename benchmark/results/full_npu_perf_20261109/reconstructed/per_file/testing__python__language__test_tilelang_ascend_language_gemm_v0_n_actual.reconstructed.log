@@ -1,0 +1,45 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gemm_v0_n_actual.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_actual.py::test_qk_n_actual[64-128-128-None-float16]
+  call_duration_s: 3.7954667769372463
+  npu_event_ms: calls=1, median=0.87792, min=0.87792, max=0.87792
+  samples_ms: [0.8779199719429016]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_actual.py::test_qk_n_actual[64-128-128-None-bfloat16]
+  call_duration_s: 2.560626531019807
+  npu_event_ms: calls=1, median=0.35946, min=0.35946, max=0.35946
+  samples_ms: [0.3594599962234497]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_actual.py::test_qk_n_actual[64-128-128-64-float16]
+  call_duration_s: 2.557753089815378
+  npu_event_ms: calls=1, median=0.34704, min=0.34704, max=0.34704
+  samples_ms: [0.34703999757766724]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_actual.py::test_qk_n_actual[64-128-128-64-bfloat16]
+  call_duration_s: 2.519770724698901
+  npu_event_ms: calls=1, median=0.36504, min=0.36504, max=0.36504
+  samples_ms: [0.36504000425338745]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_actual.py::test_qk_n_actual[64-128-128-112-float16]
+  call_duration_s: 2.520051620900631
+  npu_event_ms: calls=1, median=0.36046, min=0.36046, max=0.36046
+  samples_ms: [0.3604600131511688]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_actual.py::test_qk_n_actual[64-128-128-112-bfloat16]
+  call_duration_s: 2.5273632146418095
+  npu_event_ms: calls=1, median=0.3662, min=0.3662, max=0.3662
+  samples_ms: [0.3662000000476837]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_actual.py::test_qk_n_actual[64-256-128-128-float16]
+  call_duration_s: 2.528893541544676
+  npu_event_ms: calls=1, median=0.36844, min=0.36844, max=0.36844
+  samples_ms: [0.36844000220298767]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_actual.py::test_qk_n_actual[64-256-128-128-bfloat16]
+  call_duration_s: 2.5704023502767086
+  npu_event_ms: calls=1, median=0.3652, min=0.3652, max=0.3652
+  samples_ms: [0.365200012922287]
+

@@ -1,0 +1,95 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__cvseparate__test_tilelang_ascend_language_vid_reduction.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_gm_ub_gm_identity[ascendc]
+  call_duration_s: 3.472916293889284
+  npu_event_ms: calls=1, median=0.94234, min=0.94234, max=0.94234
+  samples_ms: [0.9423400163650513]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_gm_ub_gm_identity[pto]
+  call_duration_s: 0.7785374820232391
+  npu_event_ms: calls=1, median=0.3236, min=0.3236, max=0.3236
+  samples_ms: [0.32359999418258667]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_parallel_elementwise_1d[ascendc]
+  call_duration_s: 2.428463652729988
+  npu_event_ms: calls=1, median=0.3492, min=0.3492, max=0.3492
+  samples_ms: [0.3492000102996826]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_parallel_elementwise_1d[pto]
+  call_duration_s: 0.7702041938900948
+  npu_event_ms: calls=1, median=0.30672, min=0.30672, max=0.30672
+  samples_ms: [0.30671998858451843]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_skip_set_dual_buffer[ascendc]
+  call_duration_s: 2.4726273249834776
+  npu_event_ms: calls=1, median=0.33414, min=0.33414, max=0.33414
+  samples_ms: [0.33414000272750854]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_skip_set_dual_buffer[pto]
+  call_duration_s: 0.8189924526959658
+  npu_event_ms: calls=1, median=0.31034, min=0.31034, max=0.31034
+  samples_ms: [0.3103399872779846]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_tile_ops[ascendc]
+  call_duration_s: 2.631081137806177
+  npu_event_ms: calls=1, median=0.36622, min=0.36622, max=0.36622
+  samples_ms: [0.36621999740600586]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_tile_cast_ops[ascendc]
+  call_duration_s: 2.4512533713132143
+  npu_event_ms: calls=1, median=0.34442, min=0.34442, max=0.34442
+  samples_ms: [0.3444199860095978]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_tile_parallel[ascendc]
+  call_duration_s: 2.4270454347133636
+  npu_event_ms: calls=1, median=0.35528, min=0.35528, max=0.35528
+  samples_ms: [0.3552800118923187]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_tile_parallel[pto]
+  call_duration_s: 0.7756588347256184
+  npu_event_ms: calls=1, median=0.30066, min=0.30066, max=0.30066
+  samples_ms: [0.30066001415252686]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_tile_range[ascendc]
+  call_duration_s: 2.4437497667968273
+  npu_event_ms: calls=1, median=0.35556, min=0.35556, max=0.35556
+  samples_ms: [0.3555600047111511]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_tile_range[pto]
+  call_duration_s: 0.7877414412796497
+  npu_event_ms: calls=1, median=0.30746, min=0.30746, max=0.30746
+  samples_ms: [0.3074600100517273]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_buffer_region[ascendc]
+  call_duration_s: 2.426506305113435
+  npu_event_ms: calls=1, median=0.356, min=0.356, max=0.356
+  samples_ms: [0.35600000619888306]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_vid_reduction_buffer_region[pto]
+  call_duration_s: 0.7866218332201242
+  npu_event_ms: calls=1, median=0.3218, min=0.3218, max=0.3218
+  samples_ms: [0.32179999351501465]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_no_vid_reduction_threads1_identity[ascendc]
+  call_duration_s: 2.42004930973053
+  npu_event_ms: calls=1, median=0.38958, min=0.38958, max=0.38958
+  samples_ms: [0.38958001136779785]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_no_vid_reduction_threads1_identity[pto]
+  call_duration_s: 0.7675062026828527
+  npu_event_ms: calls=1, median=0.49456, min=0.49456, max=0.49456
+  samples_ms: [0.49456000328063965]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_no_vid_reduction_threads1_elementwise[ascendc]
+  call_duration_s: 2.433398002758622
+  npu_event_ms: calls=1, median=0.351, min=0.351, max=0.351
+  samples_ms: [0.35100001096725464]
+
+[correct] testing/python/language/cvseparate/test_tilelang_ascend_language_vid_reduction.py::test_no_vid_reduction_threads1_elementwise[pto]
+  call_duration_s: 0.7531045340001583
+  npu_event_ms: calls=1, median=0.2977, min=0.2977, max=0.2977
+  samples_ms: [0.2976999878883362]
+

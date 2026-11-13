@@ -1,0 +1,797 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gm_to_l1.log",
+  "counts": {
+    "correct": 49
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_full_copy_annotated[bfloat16-float32]",
+      "category": "correct",
+      "call_duration_s": 3.820571629330516,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.89922,
+        "min_ms": 0.89922,
+        "max_ms": 0.89922,
+        "samples_ms": [
+          0.8992199897766113
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_full_copy_annotated[float16-float32]",
+      "category": "correct",
+      "call_duration_s": 2.5340917091816664,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36988,
+        "min_ms": 0.36988,
+        "max_ms": 0.36988,
+        "samples_ms": [
+          0.36987999081611633
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_full_copy_plain[float16-float]",
+      "category": "correct",
+      "call_duration_s": 2.5359157249331474,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39932,
+        "min_ms": 0.39932,
+        "max_ms": 0.39932,
+        "samples_ms": [
+          0.39932000637054443
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_full_copy_plain[bfloat16-float]",
+      "category": "correct",
+      "call_duration_s": 2.540695136412978,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3883,
+        "min_ms": 0.3883,
+        "max_ms": 0.3883,
+        "samples_ms": [
+          0.38830000162124634
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_k_tail_gemm[128-128-160-128-128-64]",
+      "category": "correct",
+      "call_duration_s": 2.5344132985919714,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39082,
+        "min_ms": 0.39082,
+        "max_ms": 0.39082,
+        "samples_ms": [
+          0.3908199965953827
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_k_tail_gemm[128-256-96-128-256-64]",
+      "category": "correct",
+      "call_duration_s": 2.5349040385335684,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38666,
+        "min_ms": 0.38666,
+        "max_ms": 0.38666,
+        "samples_ms": [
+          0.38666000962257385
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_k_tail_gemm[128-128-176-128-128-64]",
+      "category": "correct",
+      "call_duration_s": 2.5298972316086292,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3807,
+        "min_ms": 0.3807,
+        "max_ms": 0.3807,
+        "samples_ms": [
+          0.3806999921798706
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_aligned[16]",
+      "category": "correct",
+      "call_duration_s": 2.546481801196933,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3898,
+        "min_ms": 0.3898,
+        "max_ms": 0.3898,
+        "samples_ms": [
+          0.3898000121116638
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_aligned[32]",
+      "category": "correct",
+      "call_duration_s": 2.534141629934311,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35444,
+        "min_ms": 0.35444,
+        "max_ms": 0.35444,
+        "samples_ms": [
+          0.35444000363349915
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_aligned[48]",
+      "category": "correct",
+      "call_duration_s": 2.542629724368453,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39012,
+        "min_ms": 0.39012,
+        "max_ms": 0.39012,
+        "samples_ms": [
+          0.3901199996471405
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_aligned[64]",
+      "category": "correct",
+      "call_duration_s": 2.5702516082674265,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36342,
+        "min_ms": 0.36342,
+        "max_ms": 0.36342,
+        "samples_ms": [
+          0.3634200096130371
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_aligned[80]",
+      "category": "correct",
+      "call_duration_s": 2.528825929388404,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37304,
+        "min_ms": 0.37304,
+        "max_ms": 0.37304,
+        "samples_ms": [
+          0.37303999066352844
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_aligned[96]",
+      "category": "correct",
+      "call_duration_s": 2.5310447718948126,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36302,
+        "min_ms": 0.36302,
+        "max_ms": 0.36302,
+        "samples_ms": [
+          0.36302000284194946
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_aligned[112]",
+      "category": "correct",
+      "call_duration_s": 2.5311280637979507,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3857,
+        "min_ms": 0.3857,
+        "max_ms": 0.3857,
+        "samples_ms": [
+          0.385699987411499
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_unaligned[1]",
+      "category": "correct",
+      "call_duration_s": 2.5303279776126146,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36882,
+        "min_ms": 0.36882,
+        "max_ms": 0.36882,
+        "samples_ms": [
+          0.3688200116157532
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_unaligned[127]",
+      "category": "correct",
+      "call_duration_s": 2.54340435937047,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3913,
+        "min_ms": 0.3913,
+        "max_ms": 0.3913,
+        "samples_ms": [
+          0.3912999927997589
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_float16[32]",
+      "category": "correct",
+      "call_duration_s": 2.532786624506116,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37164,
+        "min_ms": 0.37164,
+        "max_ms": 0.37164,
+        "samples_ms": [
+          0.37163999676704407
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_float16[64]",
+      "category": "correct",
+      "call_duration_s": 2.5280763152986765,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37952,
+        "min_ms": 0.37952,
+        "max_ms": 0.37952,
+        "samples_ms": [
+          0.3795199990272522
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_float16[96]",
+      "category": "correct",
+      "call_duration_s": 2.539277780801058,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37898,
+        "min_ms": 0.37898,
+        "max_ms": 0.37898,
+        "samples_ms": [
+          0.37898001074790955
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_3way_tail[48-48-24-128]",
+      "category": "correct",
+      "call_duration_s": 2.55043369717896,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38734,
+        "min_ms": 0.38734,
+        "max_ms": 0.38734,
+        "samples_ms": [
+          0.3873400092124939
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_3way_tail[32-32-32-128]",
+      "category": "correct",
+      "call_duration_s": 2.538329290226102,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38262,
+        "min_ms": 0.38262,
+        "max_ms": 0.38262,
+        "samples_ms": [
+          0.3826200067996979
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_3way_tail[16-16-1-128]",
+      "category": "correct",
+      "call_duration_s": 2.559330342337489,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38454,
+        "min_ms": 0.38454,
+        "max_ms": 0.38454,
+        "samples_ms": [
+          0.38453999161720276
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_3way_tail[32-32-17-128]",
+      "category": "correct",
+      "call_duration_s": 2.5633210744708776,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36302,
+        "min_ms": 0.36302,
+        "max_ms": 0.36302,
+        "samples_ms": [
+          0.36302000284194946
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_zn[32]",
+      "category": "correct",
+      "call_duration_s": 2.5266084522008896,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3723,
+        "min_ms": 0.3723,
+        "max_ms": 0.3723,
+        "samples_ms": [
+          0.37229999899864197
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_zn[64]",
+      "category": "correct",
+      "call_duration_s": 2.531166473403573,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.377,
+        "min_ms": 0.377,
+        "max_ms": 0.377,
+        "samples_ms": [
+          0.37700000405311584
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_zn[96]",
+      "category": "correct",
+      "call_duration_s": 2.5216753594577312,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37046,
+        "min_ms": 0.37046,
+        "max_ms": 0.37046,
+        "samples_ms": [
+          0.37046000361442566
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_with_k_tail[64-128-160-64-64]",
+      "category": "correct",
+      "call_duration_s": 2.5457023568451405,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3732,
+        "min_ms": 0.3732,
+        "max_ms": 0.3732,
+        "samples_ms": [
+          0.373199999332428
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_with_k_tail[64-128-96-64-32]",
+      "category": "correct",
+      "call_duration_s": 2.5413508098572493,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3738,
+        "min_ms": 0.3738,
+        "max_ms": 0.3738,
+        "samples_ms": [
+          0.37380000948905945
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[11-1]",
+      "category": "correct",
+      "call_duration_s": 2.5365591645240784,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.44464,
+        "min_ms": 0.44464,
+        "max_ms": 0.44464,
+        "samples_ms": [
+          0.44464001059532166
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[11-2]",
+      "category": "correct",
+      "call_duration_s": 2.546630984172225,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.45346,
+        "min_ms": 0.45346,
+        "max_ms": 0.45346,
+        "samples_ms": [
+          0.4534600079059601
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[11-3]",
+      "category": "correct",
+      "call_duration_s": 2.5397858768701553,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.44594,
+        "min_ms": 0.44594,
+        "max_ms": 0.44594,
+        "samples_ms": [
+          0.4459399878978729
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[32-1]",
+      "category": "correct",
+      "call_duration_s": 0.026909220963716507,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.23782,
+        "min_ms": 0.23782,
+        "max_ms": 0.23782,
+        "samples_ms": [
+          0.23781999945640564
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[32-2]",
+      "category": "correct",
+      "call_duration_s": 0.023758871480822563,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.19798,
+        "min_ms": 0.19798,
+        "max_ms": 0.19798,
+        "samples_ms": [
+          0.19798000156879425
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[32-3]",
+      "category": "correct",
+      "call_duration_s": 0.024637717753648758,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.18608,
+        "min_ms": 0.18608,
+        "max_ms": 0.18608,
+        "samples_ms": [
+          0.1860799938440323
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[57-1]",
+      "category": "correct",
+      "call_duration_s": 0.023115789517760277,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.19542,
+        "min_ms": 0.19542,
+        "max_ms": 0.19542,
+        "samples_ms": [
+          0.19541999697685242
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[57-2]",
+      "category": "correct",
+      "call_duration_s": 0.023528847843408585,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.2006,
+        "min_ms": 0.2006,
+        "max_ms": 0.2006,
+        "samples_ms": [
+          0.20059999823570251
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[57-3]",
+      "category": "correct",
+      "call_duration_s": 0.023999320343136787,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.19308,
+        "min_ms": 0.19308,
+        "max_ms": 0.19308,
+        "samples_ms": [
+          0.19307999312877655
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[96-1]",
+      "category": "correct",
+      "call_duration_s": 0.02298973686993122,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.19874,
+        "min_ms": 0.19874,
+        "max_ms": 0.19874,
+        "samples_ms": [
+          0.19874000549316406
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[96-2]",
+      "category": "correct",
+      "call_duration_s": 0.023533156141638756,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.19928,
+        "min_ms": 0.19928,
+        "max_ms": 0.19928,
+        "samples_ms": [
+          0.1992799937725067
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_batch[96-3]",
+      "category": "correct",
+      "call_duration_s": 0.02406458370387554,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.1909,
+        "min_ms": 0.1909,
+        "max_ms": 0.1909,
+        "samples_ms": [
+          0.19089999794960022
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_k_tail_gemm_dynamic_k[128-128-160-128-128-64]",
+      "category": "correct",
+      "call_duration_s": 2.5339089427143335,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.41324,
+        "min_ms": 0.41324,
+        "max_ms": 0.41324,
+        "samples_ms": [
+          0.413239985704422
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_k_tail_gemm_dynamic_k[128-256-96-128-256-64]",
+      "category": "correct",
+      "call_duration_s": 2.5505742579698563,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.43872,
+        "min_ms": 0.43872,
+        "max_ms": 0.43872,
+        "samples_ms": [
+          0.4387199878692627
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_k_tail_gemm_dynamic_k[128-128-176-128-128-64]",
+      "category": "correct",
+      "call_duration_s": 0.022746771574020386,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.20158,
+        "min_ms": 0.20158,
+        "max_ms": 0.20158,
+        "samples_ms": [
+          0.2015800029039383
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_split[16]",
+      "category": "correct",
+      "call_duration_s": 2.5533495042473078,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.44234,
+        "min_ms": 0.44234,
+        "max_ms": 0.44234,
+        "samples_ms": [
+          0.4423399865627289
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_split[32]",
+      "category": "correct",
+      "call_duration_s": 0.02643696777522564,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.2003,
+        "min_ms": 0.2003,
+        "max_ms": 0.2003,
+        "samples_ms": [
+          0.20029999315738678
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_split[64]",
+      "category": "correct",
+      "call_duration_s": 0.023945271968841553,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.2007,
+        "min_ms": 0.2007,
+        "max_ms": 0.2007,
+        "samples_ms": [
+          0.20069999992847443
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_split[96]",
+      "category": "correct",
+      "call_duration_s": 0.022959483787417412,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.18976,
+        "min_ms": 0.18976,
+        "max_ms": 0.18976,
+        "samples_ms": [
+          0.1897599995136261
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_split[127]",
+      "category": "correct",
+      "call_duration_s": 0.02284935675561428,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.19312,
+        "min_ms": 0.19312,
+        "max_ms": 0.19312,
+        "samples_ms": [
+          0.19312000274658203
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_gm_to_l1.py::test_splice_2way_nz_dynamic_split_multi",
+      "category": "correct",
+      "call_duration_s": 0.034851955249905586,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 5,
+        "median_ms": 0.19726,
+        "min_ms": 0.18848,
+        "max_ms": 0.2418,
+        "samples_ms": [
+          0.241799995303154,
+          0.19726000726222992,
+          0.18848000466823578,
+          0.19742000102996826,
+          0.19169999659061432
+        ]
+      }
+    }
+  ]
+}

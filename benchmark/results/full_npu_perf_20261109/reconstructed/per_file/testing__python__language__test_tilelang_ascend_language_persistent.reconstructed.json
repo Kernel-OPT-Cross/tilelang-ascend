@@ -1,0 +1,129 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_persistent.log",
+  "counts": {
+    "correct": 15
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_static_domains[4-1-predicate]",
+      "category": "correct",
+      "call_duration_s": 0.05094660818576813,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_static_domains[10-1-none]",
+      "category": "correct",
+      "call_duration_s": 0.011809015646576881,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_static_domains[11-2-break]",
+      "category": "correct",
+      "call_duration_s": 0.013082632794976234,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_static_domains[20-2-break]",
+      "category": "correct",
+      "call_duration_s": 0.013406828045845032,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_dynamic_domain",
+      "category": "correct",
+      "call_duration_s": 0.016354933381080627,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain0-20-0-8-domain extents must be positive]",
+      "category": "correct",
+      "call_duration_s": 0.19745106995105743,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain1-0-0-8-wave_size must be positive]",
+      "category": "correct",
+      "call_duration_s": 0.0006229635328054428,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain2-20--1-8-index must satisfy]",
+      "category": "correct",
+      "call_duration_s": 0.000502878800034523,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain3-20-20-8-index must satisfy]",
+      "category": "correct",
+      "call_duration_s": 0.00041154026985168457,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain4-20-0-0-group_size must be positive]",
+      "category": "correct",
+      "call_duration_s": 0.00045548565685749054,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain5-20-0-2-last domain extent must be divisible]",
+      "category": "correct",
+      "call_duration_s": 0.0004931818693876266,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_partial_single_wave_guard_reaches_codegen[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.033912163227796555,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_partial_single_wave_guard_reaches_codegen[pto]",
+      "category": "correct",
+      "call_duration_s": 0.014608649536967278,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_multi_wave_break_guard_reaches_codegen[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.01729169301688671,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_persistent.py::test_multi_wave_break_guard_reaches_codegen[pto]",
+      "category": "correct",
+      "call_duration_s": 0.01691524311900139,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    }
+  ]
+}

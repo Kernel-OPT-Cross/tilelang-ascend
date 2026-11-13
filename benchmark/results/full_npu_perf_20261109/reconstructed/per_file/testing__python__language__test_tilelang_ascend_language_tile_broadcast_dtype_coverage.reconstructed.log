@@ -1,0 +1,125 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_broadcast_dtype_coverage.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[ascendc-float32]
+  call_duration_s: 3.5018903985619545
+  npu_event_ms: calls=1, median=0.91766, min=0.91766, max=0.91766
+  samples_ms: [0.9176599979400635]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[ascendc-float16]
+  call_duration_s: 2.4423346407711506
+  npu_event_ms: calls=1, median=0.49198, min=0.49198, max=0.49198
+  samples_ms: [0.4919799864292145]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[ascendc-int8]
+  call_duration_s: 2.4462010487914085
+  npu_event_ms: calls=1, median=0.36886, min=0.36886, max=0.36886
+  samples_ms: [0.36886000633239746]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[ascendc-uint8]
+  call_duration_s: 2.4344263169914484
+  npu_event_ms: calls=1, median=0.3843, min=0.3843, max=0.3843
+  samples_ms: [0.38429999351501465]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[ascendc-int16]
+  call_duration_s: 2.437202924862504
+  npu_event_ms: calls=1, median=0.38834, min=0.38834, max=0.38834
+  samples_ms: [0.3883399963378906]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[ascendc-uint16]
+  call_duration_s: 2.4174688663333654
+  npu_event_ms: calls=1, median=0.37466, min=0.37466, max=0.37466
+  samples_ms: [0.3746599853038788]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[ascendc-bfloat16]
+  call_duration_s: 2.4212017226964235
+  npu_event_ms: calls=1, median=0.38818, min=0.38818, max=0.38818
+  samples_ms: [0.3881799876689911]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[ascendc-int32]
+  call_duration_s: 2.4229773934930563
+  npu_event_ms: calls=1, median=0.38724, min=0.38724, max=0.38724
+  samples_ms: [0.3872399926185608]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[ascendc-uint32]
+  call_duration_s: 2.4318469427525997
+  npu_event_ms: calls=1, median=0.37502, min=0.37502, max=0.37502
+  samples_ms: [0.37501999735832214]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[pto-float32]
+  call_duration_s: 0.7576850987970829
+  npu_event_ms: calls=1, median=0.31782, min=0.31782, max=0.31782
+  samples_ms: [0.3178200125694275]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[pto-float16]
+  call_duration_s: 0.7569711152464151
+  npu_event_ms: calls=1, median=0.32344, min=0.32344, max=0.32344
+  samples_ms: [0.32343998551368713]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[pto-int8]
+  call_duration_s: 0.7542875297367573
+  npu_event_ms: calls=1, median=0.31656, min=0.31656, max=0.31656
+  samples_ms: [0.3165600001811981]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[pto-uint8]
+  call_duration_s: 0.7548891957849264
+  npu_event_ms: calls=1, median=0.32144, min=0.32144, max=0.32144
+  samples_ms: [0.3214400112628937]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[pto-int16]
+  call_duration_s: 0.7575724702328444
+  npu_event_ms: calls=1, median=0.3268, min=0.3268, max=0.3268
+  samples_ms: [0.32679998874664307]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[pto-uint16]
+  call_duration_s: 0.755109203979373
+  npu_event_ms: calls=1, median=0.33824, min=0.33824, max=0.33824
+  samples_ms: [0.33823999762535095]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[pto-bfloat16]
+  call_duration_s: 0.7545223850756884
+  npu_event_ms: calls=1, median=0.31984, min=0.31984, max=0.31984
+  samples_ms: [0.3198400139808655]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[pto-int32]
+  call_duration_s: 0.7575813680887222
+  npu_event_ms: calls=1, median=0.32898, min=0.32898, max=0.32898
+  samples_ms: [0.3289799988269806]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_2d_axis0[pto-uint32]
+  call_duration_s: 0.7574426606297493
+  npu_event_ms: calls=1, median=0.32572, min=0.32572, max=0.32572
+  samples_ms: [0.32572001218795776]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_1d_to_2d_auto_infer[ascendc]
+  call_duration_s: 2.424617098644376
+  npu_event_ms: calls=1, median=0.38438, min=0.38438, max=0.38438
+  samples_ms: [0.3843800127506256]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_1d_to_2d_auto_infer[pto]
+  call_duration_s: 0.7835594341158867
+  npu_event_ms: calls=1, median=0.34358, min=0.34358, max=0.34358
+  samples_ms: [0.3435800075531006]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_1d_axis0_ascendc
+  call_duration_s: 2.390068208798766
+  npu_event_ms: calls=1, median=0.38168, min=0.38168, max=0.38168
+  samples_ms: [0.3816800117492676]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_dtype_mismatch_raises
+  call_duration_s: 1.8468060716986656
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_shape_mismatch_axis0_raises
+  call_duration_s: 0.22828988172113895
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_shape_mismatch_axis1_raises
+  call_duration_s: 0.015973929315805435
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_invalid_axis_raises
+  call_duration_s: 0.012189455330371857
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_broadcast_dtype_coverage.py::test_broadcast_1d_uninferable_raises
+  call_duration_s: 0.012415850535035133
+

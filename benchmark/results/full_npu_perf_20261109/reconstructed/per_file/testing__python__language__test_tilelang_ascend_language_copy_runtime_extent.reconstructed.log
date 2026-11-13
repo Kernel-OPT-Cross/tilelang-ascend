@@ -1,0 +1,25 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_copy_runtime_extent.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_copy_runtime_extent.py::test_runtime_inner_extent[float]
+  call_duration_s: 3.5334736555814743
+  npu_event_ms: calls=3, median=0.3147, min=0.21792, max=1.0101
+  samples_ms: [1.01010000705719,0.31470000743865967,0.21792000532150269]
+
+[correct] testing/python/language/test_tilelang_ascend_language_copy_runtime_extent.py::test_runtime_inner_extent[float16]
+  call_duration_s: 2.409873316064477
+  npu_event_ms: calls=3, median=0.25916, min=0.19218, max=0.47152
+  samples_ms: [0.47152000665664673,0.25916001200675964,0.19217999279499054]
+
+[correct] testing/python/language/test_tilelang_ascend_language_copy_runtime_extent.py::test_atomic_add_runtime_inner_extent[float]
+  call_duration_s: 2.388005569577217
+  npu_event_ms: calls=3, median=0.22548, min=0.19192, max=0.45122
+  samples_ms: [0.45122000575065613,0.22548000514507294,0.19191999733448029]
+
+[correct] testing/python/language/test_tilelang_ascend_language_copy_runtime_extent.py::test_atomic_add_runtime_inner_extent[float16]
+  call_duration_s: 2.395054902881384
+  npu_event_ms: calls=3, median=0.21152, min=0.20146, max=0.42596
+  samples_ms: [0.4259600043296814,0.2115200012922287,0.20146000385284424]
+

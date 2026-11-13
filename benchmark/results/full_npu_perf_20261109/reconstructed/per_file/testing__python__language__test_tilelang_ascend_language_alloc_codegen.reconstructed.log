@@ -1,0 +1,35 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_alloc_codegen.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_l1_splice_codegen[ascendc]
+  call_duration_s: 0.27061549574136734
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_l1_splice_codegen[pto]
+  call_duration_s: 0.2146276757121086
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_ub_splice_codegen[ascendc]
+  call_duration_s: 0.21540812589228153
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_ub_splice_codegen[pto]
+  call_duration_s: 0.21490950882434845
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_composite_shape_first_codegen[ascendc]
+  call_duration_s: 0.016891954466700554
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_composite_shape_first_codegen[pto]
+  call_duration_s: 0.016385214403271675
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_multi_var_composite_shape_codegen[ascendc]
+  call_duration_s: 0.016063962131738663
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_multi_var_composite_shape_codegen[pto]
+  call_duration_s: 0.016280140727758408
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_nested_composite_shape_codegen[ascendc]
+  call_duration_s: 0.016366126015782356
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_codegen.py::test_nested_composite_shape_codegen[pto]
+  call_duration_s: 0.01641443744301796
+

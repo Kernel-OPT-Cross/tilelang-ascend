@@ -1,0 +1,65 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_cast_on_copy.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_float_to_half
+  call_duration_s: 3.4738035425543785
+  npu_event_ms: calls=1, median=0.9043, min=0.9043, max=0.9043
+  samples_ms: [0.9042999744415283]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_float_to_int32
+  call_duration_s: 2.402880160138011
+  npu_event_ms: calls=1, median=0.39342, min=0.39342, max=0.39342
+  samples_ms: [0.39342001080513]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_float_to_int16
+  call_duration_s: 2.402718860656023
+  npu_event_ms: calls=1, median=0.38636, min=0.38636, max=0.38636
+  samples_ms: [0.3863599896430969]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_half_to_float
+  call_duration_s: 2.4119408186525106
+  npu_event_ms: calls=1, median=0.3783, min=0.3783, max=0.3783
+  samples_ms: [0.3783000111579895]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_half_to_int32
+  call_duration_s: 2.390216961503029
+  npu_event_ms: calls=1, median=0.37476, min=0.37476, max=0.37476
+  samples_ms: [0.3747600018978119]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_half_to_int16
+  call_duration_s: 2.400599392130971
+  npu_event_ms: calls=1, median=0.38176, min=0.38176, max=0.38176
+  samples_ms: [0.38176000118255615]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_half_to_int8
+  call_duration_s: 2.3962888084352016
+  npu_event_ms: calls=1, median=0.37058, min=0.37058, max=0.37058
+  samples_ms: [0.3705799877643585]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_int32_to_float
+  call_duration_s: 2.3914051726460457
+  npu_event_ms: calls=1, median=0.34022, min=0.34022, max=0.34022
+  samples_ms: [0.34022000432014465]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_int32_to_half
+  call_duration_s: 2.3925508316606283
+  npu_event_ms: calls=1, median=0.36148, min=0.36148, max=0.36148
+  samples_ms: [0.3614799976348877]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_int16_to_float
+  call_duration_s: 2.3803474232554436
+  npu_event_ms: calls=1, median=0.32862, min=0.32862, max=0.32862
+  samples_ms: [0.32861998677253723]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_int16_to_half
+  call_duration_s: 2.395335104316473
+  npu_event_ms: calls=1, median=0.3544, min=0.3544, max=0.3544
+  samples_ms: [0.35440000891685486]
+
+[correct] testing/python/language/test_tilelang_ascend_language_cast_on_copy.py::TestTileLangKernels::test_int8_to_half
+  call_duration_s: 2.407002344727516
+  npu_event_ms: calls=1, median=0.34184, min=0.34184, max=0.34184
+  samples_ms: [0.341839998960495]
+

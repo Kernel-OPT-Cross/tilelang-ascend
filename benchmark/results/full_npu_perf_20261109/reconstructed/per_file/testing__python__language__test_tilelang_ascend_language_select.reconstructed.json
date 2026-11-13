@@ -1,0 +1,457 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_select.log",
+  "counts": {
+    "correct": 28
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape0-ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 3.4997747726738453,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.57046,
+        "min_ms": 0.57046,
+        "max_ms": 0.57046,
+        "samples_ms": [
+          0.5704600214958191
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape0-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.4278916101902723,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31592,
+        "min_ms": 0.31592,
+        "max_ms": 0.31592,
+        "samples_ms": [
+          0.31591999530792236
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape0-pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.8300791326910257,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.45654,
+        "min_ms": 0.45654,
+        "max_ms": 0.45654,
+        "samples_ms": [
+          0.45653998851776123
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape0-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.8388816397637129,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33586,
+        "min_ms": 0.33586,
+        "max_ms": 0.33586,
+        "samples_ms": [
+          0.335860013961792
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape1-ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.4203983433544636,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39032,
+        "min_ms": 0.39032,
+        "max_ms": 0.39032,
+        "samples_ms": [
+          0.3903200030326843
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape1-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.407092833891511,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37272,
+        "min_ms": 0.37272,
+        "max_ms": 0.37272,
+        "samples_ms": [
+          0.37272000312805176
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape1-pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.8070318661630154,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31132,
+        "min_ms": 0.31132,
+        "max_ms": 0.31132,
+        "samples_ms": [
+          0.3113200068473816
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape1-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.8069935757666826,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32758,
+        "min_ms": 0.32758,
+        "max_ms": 0.32758,
+        "samples_ms": [
+          0.3275800049304962
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape2-ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.4132383819669485,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37304,
+        "min_ms": 0.37304,
+        "max_ms": 0.37304,
+        "samples_ms": [
+          0.37303999066352844
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape2-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.391253875568509,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37174,
+        "min_ms": 0.37174,
+        "max_ms": 0.37174,
+        "samples_ms": [
+          0.3717400133609772
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape2-pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.7844994347542524,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32744,
+        "min_ms": 0.32744,
+        "max_ms": 0.32744,
+        "samples_ms": [
+          0.3274399936199188
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_tensor_op[shape2-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.7843900490552187,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31058,
+        "min_ms": 0.31058,
+        "max_ms": 0.31058,
+        "samples_ms": [
+          0.31057998538017273
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape0-ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.4358520209789276,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37654,
+        "min_ms": 0.37654,
+        "max_ms": 0.37654,
+        "samples_ms": [
+          0.37654000520706177
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape0-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.423610744997859,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37416,
+        "min_ms": 0.37416,
+        "max_ms": 0.37416,
+        "samples_ms": [
+          0.3741599917411804
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape0-pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.8075650427490473,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.30662,
+        "min_ms": 0.30662,
+        "max_ms": 0.30662,
+        "samples_ms": [
+          0.3066200017929077
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape0-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.806483656167984,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.317,
+        "min_ms": 0.317,
+        "max_ms": 0.317,
+        "samples_ms": [
+          0.31700000166893005
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape1-ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.4037765711545944,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.369,
+        "min_ms": 0.369,
+        "max_ms": 0.369,
+        "samples_ms": [
+          0.36899998784065247
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape1-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.4083526376634836,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39014,
+        "min_ms": 0.39014,
+        "max_ms": 0.39014,
+        "samples_ms": [
+          0.39013999700546265
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape1-pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.8007945977151394,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3467,
+        "min_ms": 0.3467,
+        "max_ms": 0.3467,
+        "samples_ms": [
+          0.3467000126838684
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape1-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.8022260125726461,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31626,
+        "min_ms": 0.31626,
+        "max_ms": 0.31626,
+        "samples_ms": [
+          0.3162600100040436
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape2-ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.404872812330723,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36814,
+        "min_ms": 0.36814,
+        "max_ms": 0.36814,
+        "samples_ms": [
+          0.36814001202583313
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape2-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.4052758626639843,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36732,
+        "min_ms": 0.36732,
+        "max_ms": 0.36732,
+        "samples_ms": [
+          0.3673200011253357
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape2-pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.7852461040019989,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33224,
+        "min_ms": 0.33224,
+        "max_ms": 0.33224,
+        "samples_ms": [
+          0.3322399854660034
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_scalar_op[shape2-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.7865658402442932,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33796,
+        "min_ms": 0.33796,
+        "max_ms": 0.33796,
+        "samples_ms": [
+          0.33796000480651855
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_cmpmask_op[ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.394728612154722,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3807,
+        "min_ms": 0.3807,
+        "max_ms": 0.3807,
+        "samples_ms": [
+          0.3806999921798706
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_cmpmask_op[ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.4066005777567625,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39038,
+        "min_ms": 0.39038,
+        "max_ms": 0.39038,
+        "samples_ms": [
+          0.39037999510765076
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_cmpmask_op[pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.7776361890137196,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34442,
+        "min_ms": 0.34442,
+        "max_ms": 0.34442,
+        "samples_ms": [
+          0.3444199860095978
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_select.py::test_select_cmpmask_op[pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.769884267821908,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3317,
+        "min_ms": 0.3317,
+        "max_ms": 0.3317,
+        "samples_ms": [
+          0.33169999718666077
+        ]
+      }
+    }
+  ]
+}

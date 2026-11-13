@@ -1,0 +1,30 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_ub_stride.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_compact_to_aligned[8-16-int32]
+  call_duration_s: 3.4762669820338488
+  npu_event_ms: calls=1, median=0.92752, min=0.92752, max=0.92752
+  samples_ms: [0.9275199770927429]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_compact_to_aligned[16-32-int32]
+  call_duration_s: 2.3780669383704662
+  npu_event_ms: calls=1, median=0.56776, min=0.56776, max=0.56776
+  samples_ms: [0.5677599906921387]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_compact_to_aligned[16-32-float16]
+  call_duration_s: 2.410400213673711
+  npu_event_ms: calls=1, median=0.57824, min=0.57824, max=0.57824
+  samples_ms: [0.5782399773597717]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_compact_to_aligned[16-16-int32]
+  call_duration_s: 2.4622564278542995
+  npu_event_ms: calls=1, median=0.39078, min=0.39078, max=0.39078
+  samples_ms: [0.3907800018787384]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_ub_stride.py::test_parallel_if_else_serial_fallback
+  call_duration_s: 2.3889830950647593
+  npu_event_ms: calls=1, median=0.36564, min=0.36564, max=0.36564
+  samples_ms: [0.3656400144100189]
+

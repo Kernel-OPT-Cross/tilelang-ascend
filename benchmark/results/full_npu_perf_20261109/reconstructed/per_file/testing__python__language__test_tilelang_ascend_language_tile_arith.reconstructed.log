@@ -1,0 +1,641 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_arith.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float32-add]
+  call_duration_s: 3.3714298140257597
+  npu_event_ms: calls=1, median=0.89352, min=0.89352, max=0.89352
+  samples_ms: [0.8935199975967407]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float32-sub]
+  call_duration_s: 2.363202268257737
+  npu_event_ms: calls=1, median=0.36024, min=0.36024, max=0.36024
+  samples_ms: [0.36024001240730286]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float32-mul]
+  call_duration_s: 2.3750452175736427
+  npu_event_ms: calls=1, median=0.3761, min=0.3761, max=0.3761
+  samples_ms: [0.37610000371932983]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float16-add]
+  call_duration_s: 2.3645526003092527
+  npu_event_ms: calls=1, median=0.36808, min=0.36808, max=0.36808
+  samples_ms: [0.3680799901485443]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float16-sub]
+  call_duration_s: 2.3946589715778828
+  npu_event_ms: calls=1, median=0.38546, min=0.38546, max=0.38546
+  samples_ms: [0.3854599893093109]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float16-mul]
+  call_duration_s: 2.363531520590186
+  npu_event_ms: calls=1, median=0.36106, min=0.36106, max=0.36106
+  samples_ms: [0.3610599935054779]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int16-add]
+  call_duration_s: 2.3714786041527987
+  npu_event_ms: calls=1, median=0.36626, min=0.36626, max=0.36626
+  samples_ms: [0.36625999212265015]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int16-sub]
+  call_duration_s: 2.367647897452116
+  npu_event_ms: calls=1, median=0.35946, min=0.35946, max=0.35946
+  samples_ms: [0.3594599962234497]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int16-mul]
+  call_duration_s: 2.369588689878583
+  npu_event_ms: calls=1, median=0.3606, min=0.3606, max=0.3606
+  samples_ms: [0.36059999465942383]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int32-add]
+  call_duration_s: 2.3586279340088367
+  npu_event_ms: calls=1, median=0.36026, min=0.36026, max=0.36026
+  samples_ms: [0.360260009765625]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int32-sub]
+  call_duration_s: 2.387042911723256
+  npu_event_ms: calls=1, median=0.48962, min=0.48962, max=0.48962
+  samples_ms: [0.48962000012397766]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int32-mul]
+  call_duration_s: 2.36963595636189
+  npu_event_ms: calls=1, median=0.37476, min=0.37476, max=0.37476
+  samples_ms: [0.3747600018978119]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float32-add]
+  call_duration_s: 0.7559735793620348
+  npu_event_ms: calls=1, median=0.31388, min=0.31388, max=0.31388
+  samples_ms: [0.31387999653816223]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float32-sub]
+  call_duration_s: 0.7751467451453209
+  npu_event_ms: calls=1, median=0.3369, min=0.3369, max=0.3369
+  samples_ms: [0.336899995803833]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float32-mul]
+  call_duration_s: 0.7742119785398245
+  npu_event_ms: calls=1, median=0.3243, min=0.3243, max=0.3243
+  samples_ms: [0.32429999113082886]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float16-add]
+  call_duration_s: 0.7658307384699583
+  npu_event_ms: calls=1, median=0.3068, min=0.3068, max=0.3068
+  samples_ms: [0.3068000078201294]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float16-sub]
+  call_duration_s: 0.7617391496896744
+  npu_event_ms: calls=1, median=0.331, min=0.331, max=0.331
+  samples_ms: [0.3310000002384186]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float16-mul]
+  call_duration_s: 0.7537256795912981
+  npu_event_ms: calls=1, median=0.31144, min=0.31144, max=0.31144
+  samples_ms: [0.31143999099731445]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int16-add]
+  call_duration_s: 0.7518040500581264
+  npu_event_ms: calls=1, median=0.3169, min=0.3169, max=0.3169
+  samples_ms: [0.31690001487731934]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int16-sub]
+  call_duration_s: 0.7570317890495062
+  npu_event_ms: calls=1, median=0.31236, min=0.31236, max=0.31236
+  samples_ms: [0.3123599886894226]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int16-mul]
+  call_duration_s: 0.754933500662446
+  npu_event_ms: calls=1, median=0.31808, min=0.31808, max=0.31808
+  samples_ms: [0.31808000802993774]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int32-add]
+  call_duration_s: 0.7521853130310774
+  npu_event_ms: calls=1, median=0.32724, min=0.32724, max=0.32724
+  samples_ms: [0.327239990234375]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int32-sub]
+  call_duration_s: 0.7527987714856863
+  npu_event_ms: calls=1, median=0.3045, min=0.3045, max=0.3045
+  samples_ms: [0.304500013589859]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int32-mul]
+  call_duration_s: 0.7559306751936674
+  npu_event_ms: calls=1, median=0.33548, min=0.33548, max=0.33548
+  samples_ms: [0.3354800045490265]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor_div[ascendc-float32]
+  call_duration_s: 2.3724814616143703
+  npu_event_ms: calls=1, median=0.35142, min=0.35142, max=0.35142
+  samples_ms: [0.35141998529434204]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor_div[ascendc-float16]
+  call_duration_s: 2.3815027866512537
+  npu_event_ms: calls=1, median=0.3679, min=0.3679, max=0.3679
+  samples_ms: [0.367900013923645]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor_div[pto-float32]
+  call_duration_s: 0.7567915208637714
+  npu_event_ms: calls=1, median=0.32318, min=0.32318, max=0.32318
+  samples_ms: [0.3231799900531769]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor_div[pto-float16]
+  call_duration_s: 0.7548124920576811
+  npu_event_ms: calls=1, median=0.32622, min=0.32622, max=0.32622
+  samples_ms: [0.32622000575065613]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_div_int_compile_error[ascendc-int16]
+  call_duration_s: 1.9413733649998903
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_div_int_compile_error[ascendc-int32]
+  call_duration_s: 1.9424164239317179
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_div_int_compile_error[pto-int16]
+  call_duration_s: 0.5752183794975281
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_div_int_compile_error[pto-int32]
+  call_duration_s: 0.5690805707126856
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float32-add]
+  call_duration_s: 2.398390330374241
+  npu_event_ms: calls=1, median=0.38684, min=0.38684, max=0.38684
+  samples_ms: [0.38683998584747314]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float32-sub]
+  call_duration_s: 2.378039451315999
+  npu_event_ms: calls=1, median=0.38326, min=0.38326, max=0.38326
+  samples_ms: [0.38326001167297363]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float32-mul]
+  call_duration_s: 2.3829635977745056
+  npu_event_ms: calls=1, median=0.38976, min=0.38976, max=0.38976
+  samples_ms: [0.38975998759269714]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float16-add]
+  call_duration_s: 2.373998334631324
+  npu_event_ms: calls=1, median=0.36358, min=0.36358, max=0.36358
+  samples_ms: [0.36357998847961426]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float16-sub]
+  call_duration_s: 2.3643903490155935
+  npu_event_ms: calls=1, median=0.3571, min=0.3571, max=0.3571
+  samples_ms: [0.3571000099182129]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float16-mul]
+  call_duration_s: 2.3710837978869677
+  npu_event_ms: calls=1, median=0.39544, min=0.39544, max=0.39544
+  samples_ms: [0.395440012216568]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int16-add]
+  call_duration_s: 2.360500691458583
+  npu_event_ms: calls=1, median=0.36716, min=0.36716, max=0.36716
+  samples_ms: [0.36715999245643616]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int16-sub]
+  call_duration_s: 2.370674906298518
+  npu_event_ms: calls=1, median=0.37924, min=0.37924, max=0.37924
+  samples_ms: [0.3792400062084198]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int16-mul]
+  call_duration_s: 2.3659139536321163
+  npu_event_ms: calls=1, median=0.3655, min=0.3655, max=0.3655
+  samples_ms: [0.36550000309944153]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int32-add]
+  call_duration_s: 2.387493098154664
+  npu_event_ms: calls=1, median=0.39508, min=0.39508, max=0.39508
+  samples_ms: [0.39508000016212463]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int32-sub]
+  call_duration_s: 2.3631376922130585
+  npu_event_ms: calls=1, median=0.36316, min=0.36316, max=0.36316
+  samples_ms: [0.36316001415252686]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int32-mul]
+  call_duration_s: 2.3711011558771133
+  npu_event_ms: calls=1, median=0.3549, min=0.3549, max=0.3549
+  samples_ms: [0.3549000024795532]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float32-add]
+  call_duration_s: 0.7533816155046225
+  npu_event_ms: calls=1, median=0.33168, min=0.33168, max=0.33168
+  samples_ms: [0.3316799998283386]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float32-sub]
+  call_duration_s: 0.7525896206498146
+  npu_event_ms: calls=1, median=0.30992, min=0.30992, max=0.30992
+  samples_ms: [0.3099200129508972]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float32-mul]
+  call_duration_s: 0.7484707981348038
+  npu_event_ms: calls=1, median=0.31362, min=0.31362, max=0.31362
+  samples_ms: [0.313620001077652]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float16-add]
+  call_duration_s: 0.7507776841521263
+  npu_event_ms: calls=1, median=0.3102, min=0.3102, max=0.3102
+  samples_ms: [0.3102000057697296]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float16-sub]
+  call_duration_s: 0.7528266627341509
+  npu_event_ms: calls=1, median=0.33066, min=0.33066, max=0.33066
+  samples_ms: [0.33065998554229736]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float16-mul]
+  call_duration_s: 0.7501088157296181
+  npu_event_ms: calls=1, median=0.32236, min=0.32236, max=0.32236
+  samples_ms: [0.32236000895500183]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int16-add]
+  call_duration_s: 0.7484728340059519
+  npu_event_ms: calls=1, median=0.31696, min=0.31696, max=0.31696
+  samples_ms: [0.31696000695228577]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int16-sub]
+  call_duration_s: 0.7522324174642563
+  npu_event_ms: calls=1, median=0.32256, min=0.32256, max=0.32256
+  samples_ms: [0.32256001234054565]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int16-mul]
+  call_duration_s: 0.7552118990570307
+  npu_event_ms: calls=1, median=0.32904, min=0.32904, max=0.32904
+  samples_ms: [0.329039990901947]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int32-add]
+  call_duration_s: 0.7512948010116816
+  npu_event_ms: calls=1, median=0.32364, min=0.32364, max=0.32364
+  samples_ms: [0.32363998889923096]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int32-sub]
+  call_duration_s: 0.749918146058917
+  npu_event_ms: calls=1, median=0.31536, min=0.31536, max=0.31536
+  samples_ms: [0.31536000967025757]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int32-mul]
+  call_duration_s: 0.7738754414021969
+  npu_event_ms: calls=1, median=0.3432, min=0.3432, max=0.3432
+  samples_ms: [0.3431999981403351]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar_div[ascendc-float32]
+  call_duration_s: 2.3647455740720034
+  npu_event_ms: calls=1, median=0.3674, min=0.3674, max=0.3674
+  samples_ms: [0.36739999055862427]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar_div[ascendc-float16]
+  call_duration_s: 2.3698214143514633
+  npu_event_ms: calls=1, median=0.5753, min=0.5753, max=0.5753
+  samples_ms: [0.5752999782562256]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar_div[pto-float32]
+  call_duration_s: 0.7768349852412939
+  npu_event_ms: calls=1, median=0.3251, min=0.3251, max=0.3251
+  samples_ms: [0.32510000467300415]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar_div[pto-float16]
+  call_duration_s: 0.771165369078517
+  npu_event_ms: calls=1, median=0.34042, min=0.34042, max=0.34042
+  samples_ms: [0.3404200077056885]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float32-add]
+  call_duration_s: 2.3817448802292347
+  npu_event_ms: calls=1, median=0.36856, min=0.36856, max=0.36856
+  samples_ms: [0.36855998635292053]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float32-sub]
+  call_duration_s: 2.373320586979389
+  npu_event_ms: calls=1, median=0.38458, min=0.38458, max=0.38458
+  samples_ms: [0.38457998633384705]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float32-mul]
+  call_duration_s: 2.3772253561764956
+  npu_event_ms: calls=1, median=0.36088, min=0.36088, max=0.36088
+  samples_ms: [0.3608799874782562]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float32-div]
+  call_duration_s: 2.403779538348317
+  npu_event_ms: calls=1, median=0.41054, min=0.41054, max=0.41054
+  samples_ms: [0.41054001450538635]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float16-add]
+  call_duration_s: 2.3839136604219675
+  npu_event_ms: calls=1, median=0.3452, min=0.3452, max=0.3452
+  samples_ms: [0.3452000021934509]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float16-sub]
+  call_duration_s: 2.373971289023757
+  npu_event_ms: calls=1, median=0.3507, min=0.3507, max=0.3507
+  samples_ms: [0.3506999909877777]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float16-mul]
+  call_duration_s: 2.367793943732977
+  npu_event_ms: calls=1, median=0.35898, min=0.35898, max=0.35898
+  samples_ms: [0.3589800000190735]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float16-div]
+  call_duration_s: 2.4060943722724915
+  npu_event_ms: calls=1, median=0.4084, min=0.4084, max=0.4084
+  samples_ms: [0.4083999991416931]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float32-add]
+  call_duration_s: 0.8171240892261267
+  npu_event_ms: calls=1, median=0.33866, min=0.33866, max=0.33866
+  samples_ms: [0.33866000175476074]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float32-sub]
+  call_duration_s: 0.792176753282547
+  npu_event_ms: calls=1, median=0.33408, min=0.33408, max=0.33408
+  samples_ms: [0.3340800106525421]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float32-mul]
+  call_duration_s: 0.7832989972084761
+  npu_event_ms: calls=1, median=0.30892, min=0.30892, max=0.30892
+  samples_ms: [0.3089199960231781]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float32-div]
+  call_duration_s: 0.7809268720448017
+  npu_event_ms: calls=1, median=0.30758, min=0.30758, max=0.30758
+  samples_ms: [0.30757999420166016]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float16-add]
+  call_duration_s: 0.7851768881082535
+  npu_event_ms: calls=1, median=0.30498, min=0.30498, max=0.30498
+  samples_ms: [0.30498000979423523]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float16-sub]
+  call_duration_s: 0.7985018230974674
+  npu_event_ms: calls=1, median=0.37736, min=0.37736, max=0.37736
+  samples_ms: [0.3773599863052368]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float16-mul]
+  call_duration_s: 0.782028790563345
+  npu_event_ms: calls=1, median=0.31276, min=0.31276, max=0.31276
+  samples_ms: [0.31275999546051025]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float16-div]
+  call_duration_s: 0.7831178586930037
+  npu_event_ms: calls=1, median=0.31882, min=0.31882, max=0.31882
+  samples_ms: [0.3188199996948242]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[ascendc-int16-add]
+  call_duration_s: 2.371401021257043
+  npu_event_ms: calls=1, median=0.38778, min=0.38778, max=0.38778
+  samples_ms: [0.38778001070022583]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[ascendc-int16-mul]
+  call_duration_s: 2.3738187793642282
+  npu_event_ms: calls=1, median=0.3678, min=0.3678, max=0.3678
+  samples_ms: [0.3677999973297119]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[ascendc-int32-add]
+  call_duration_s: 2.376400798559189
+  npu_event_ms: calls=1, median=0.35638, min=0.35638, max=0.35638
+  samples_ms: [0.35637998580932617]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[ascendc-int32-mul]
+  call_duration_s: 2.3811644557863474
+  npu_event_ms: calls=1, median=0.40316, min=0.40316, max=0.40316
+  samples_ms: [0.4031600058078766]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[pto-int16-add]
+  call_duration_s: 0.7904810272157192
+  npu_event_ms: calls=1, median=0.33534, min=0.33534, max=0.33534
+  samples_ms: [0.3353399932384491]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[pto-int16-mul]
+  call_duration_s: 0.7849835306406021
+  npu_event_ms: calls=1, median=0.31744, min=0.31744, max=0.31744
+  samples_ms: [0.317440003156662]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[pto-int32-add]
+  call_duration_s: 0.7850221395492554
+  npu_event_ms: calls=1, median=0.32202, min=0.32202, max=0.32202
+  samples_ms: [0.3220199942588806]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[pto-int32-mul]
+  call_duration_s: 0.7861235216259956
+  npu_event_ms: calls=1, median=0.3208, min=0.3208, max=0.3208
+  samples_ms: [0.3208000063896179]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_sub_int[pto]
+  call_duration_s: 0.794027753174305
+  npu_event_ms: calls=1, median=0.33578, min=0.33578, max=0.33578
+  samples_ms: [0.33577999472618103]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_sub_int_ascendc_compile_fail
+  call_duration_s: 1.8410828411579132
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float32-add]
+  call_duration_s: 2.375043675303459
+  npu_event_ms: calls=1, median=0.38542, min=0.38542, max=0.38542
+  samples_ms: [0.3854199945926666]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float32-sub]
+  call_duration_s: 2.3929809238761663
+  npu_event_ms: calls=1, median=0.35422, min=0.35422, max=0.35422
+  samples_ms: [0.3542200028896332]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float32-mul]
+  call_duration_s: 2.386110670864582
+  npu_event_ms: calls=1, median=0.37102, min=0.37102, max=0.37102
+  samples_ms: [0.37101998925209045]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float32-div]
+  call_duration_s: 2.392379131168127
+  npu_event_ms: calls=1, median=0.3979, min=0.3979, max=0.3979
+  samples_ms: [0.3978999853134155]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float16-add]
+  call_duration_s: 2.3825781792402267
+  npu_event_ms: calls=1, median=0.36686, min=0.36686, max=0.36686
+  samples_ms: [0.3668600022792816]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float16-sub]
+  call_duration_s: 2.3962836116552353
+  npu_event_ms: calls=1, median=0.3648, min=0.3648, max=0.3648
+  samples_ms: [0.36480000615119934]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float16-mul]
+  call_duration_s: 2.3752980958670378
+  npu_event_ms: calls=1, median=0.35222, min=0.35222, max=0.35222
+  samples_ms: [0.35221999883651733]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float16-div]
+  call_duration_s: 2.3792461287230253
+  npu_event_ms: calls=1, median=0.37106, min=0.37106, max=0.37106
+  samples_ms: [0.37106001377105713]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float32-add]
+  call_duration_s: 0.7997765596956015
+  npu_event_ms: calls=1, median=0.31782, min=0.31782, max=0.31782
+  samples_ms: [0.3178200125694275]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float32-sub]
+  call_duration_s: 0.8030848652124405
+  npu_event_ms: calls=1, median=0.31978, min=0.31978, max=0.31978
+  samples_ms: [0.31977999210357666]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float32-mul]
+  call_duration_s: 0.8070776034146547
+  npu_event_ms: calls=1, median=0.32048, min=0.32048, max=0.32048
+  samples_ms: [0.32047998905181885]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float32-div]
+  call_duration_s: 0.7922203838825226
+  npu_event_ms: calls=1, median=0.34214, min=0.34214, max=0.34214
+  samples_ms: [0.34213998913764954]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float16-add]
+  call_duration_s: 0.7877803016453981
+  npu_event_ms: calls=1, median=0.31868, min=0.31868, max=0.31868
+  samples_ms: [0.3186799883842468]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float16-sub]
+  call_duration_s: 0.7893926557153463
+  npu_event_ms: calls=1, median=0.31104, min=0.31104, max=0.31104
+  samples_ms: [0.3110400140285492]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float16-mul]
+  call_duration_s: 0.7883108370006084
+  npu_event_ms: calls=1, median=0.32266, min=0.32266, max=0.32266
+  samples_ms: [0.32265999913215637]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float16-div]
+  call_duration_s: 0.7883050385862589
+  npu_event_ms: calls=1, median=0.33328, min=0.33328, max=0.33328
+  samples_ms: [0.3332799971103668]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src0-add]
+  call_duration_s: 2.3788579776883125
+  npu_event_ms: calls=1, median=0.3861, min=0.3861, max=0.3861
+  samples_ms: [0.38609999418258667]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src0-sub]
+  call_duration_s: 2.373536678031087
+  npu_event_ms: calls=1, median=0.36082, min=0.36082, max=0.36082
+  samples_ms: [0.3608199954032898]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src0-mul]
+  call_duration_s: 2.3817517179995775
+  npu_event_ms: calls=1, median=0.37184, min=0.37184, max=0.37184
+  samples_ms: [0.3718400001525879]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src0-div]
+  call_duration_s: 2.3821802027523518
+  npu_event_ms: calls=1, median=0.37388, min=0.37388, max=0.37388
+  samples_ms: [0.373879998922348]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src1-add]
+  call_duration_s: 2.3691070675849915
+  npu_event_ms: calls=1, median=0.35504, min=0.35504, max=0.35504
+  samples_ms: [0.3550400137901306]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src1-sub]
+  call_duration_s: 2.3717850893735886
+  npu_event_ms: calls=1, median=0.35058, min=0.35058, max=0.35058
+  samples_ms: [0.35058000683784485]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src1-mul]
+  call_duration_s: 2.414858592674136
+  npu_event_ms: calls=1, median=0.44032, min=0.44032, max=0.44032
+  samples_ms: [0.4403199851512909]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src1-div]
+  call_duration_s: 2.397958243265748
+  npu_event_ms: calls=1, median=0.37558, min=0.37558, max=0.37558
+  samples_ms: [0.3755800127983093]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-src0=src1-add]
+  call_duration_s: 2.382156876847148
+  npu_event_ms: calls=1, median=0.3508, min=0.3508, max=0.3508
+  samples_ms: [0.3508000075817108]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-src0=src1-sub]
+  call_duration_s: 2.377342253923416
+  npu_event_ms: calls=1, median=0.36956, min=0.36956, max=0.36956
+  samples_ms: [0.36956000328063965]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-src0=src1-mul]
+  call_duration_s: 2.3877136409282684
+  npu_event_ms: calls=1, median=0.36902, min=0.36902, max=0.36902
+  samples_ms: [0.3690199851989746]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-src0=src1-div]
+  call_duration_s: 2.370165226981044
+  npu_event_ms: calls=1, median=0.38054, min=0.38054, max=0.38054
+  samples_ms: [0.38054001331329346]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src0-add]
+  call_duration_s: 0.7592201884835958
+  npu_event_ms: calls=1, median=0.31802, min=0.31802, max=0.31802
+  samples_ms: [0.3180199861526489]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src0-sub]
+  call_duration_s: 0.7532261442393064
+  npu_event_ms: calls=1, median=0.32172, min=0.32172, max=0.32172
+  samples_ms: [0.3217200040817261]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src0-mul]
+  call_duration_s: 0.7550753597170115
+  npu_event_ms: calls=1, median=0.31682, min=0.31682, max=0.31682
+  samples_ms: [0.3168199956417084]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src0-div]
+  call_duration_s: 0.7531622089445591
+  npu_event_ms: calls=1, median=0.31396, min=0.31396, max=0.31396
+  samples_ms: [0.3139599859714508]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src1-add]
+  call_duration_s: 0.7700940296053886
+  npu_event_ms: calls=1, median=0.32908, min=0.32908, max=0.32908
+  samples_ms: [0.3290799856185913]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src1-sub]
+  call_duration_s: 0.7626360896974802
+  npu_event_ms: calls=1, median=0.31642, min=0.31642, max=0.31642
+  samples_ms: [0.3164199888706207]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src1-mul]
+  call_duration_s: 0.7552377432584763
+  npu_event_ms: calls=1, median=0.31036, min=0.31036, max=0.31036
+  samples_ms: [0.31036001443862915]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src1-div]
+  call_duration_s: 0.7594178449362516
+  npu_event_ms: calls=1, median=0.3375, min=0.3375, max=0.3375
+  samples_ms: [0.3375000059604645]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-src0=src1-add]
+  call_duration_s: 0.7540696952491999
+  npu_event_ms: calls=1, median=0.3024, min=0.3024, max=0.3024
+  samples_ms: [0.30239999294281006]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-src0=src1-sub]
+  call_duration_s: 0.7516389600932598
+  npu_event_ms: calls=1, median=0.31222, min=0.31222, max=0.31222
+  samples_ms: [0.3122200071811676]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-src0=src1-mul]
+  call_duration_s: 0.7576455399394035
+  npu_event_ms: calls=1, median=0.34128, min=0.34128, max=0.34128
+  samples_ms: [0.3412800133228302]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-src0=src1-div]
+  call_duration_s: 0.7579413317143917
+  npu_event_ms: calls=1, median=0.33378, min=0.33378, max=0.33378
+  samples_ms: [0.3337799906730652]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_size_mismatch_src0
+  call_duration_s: 0.23640866205096245
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_size_mismatch_region
+  call_duration_s: 0.015822788700461388
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffer_size_unvalidated[ascendc]
+  call_duration_s: 2.3781736958771944
+  npu_event_ms: calls=1, median=0.36286, min=0.36286, max=0.36286
+  samples_ms: [0.3628599941730499]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffer_size_unvalidated[pto]
+  call_duration_s: 0.8005338050425053
+  npu_event_ms: calls=1, median=0.32784, min=0.32784, max=0.32784
+  samples_ms: [0.32784000039100647]
+

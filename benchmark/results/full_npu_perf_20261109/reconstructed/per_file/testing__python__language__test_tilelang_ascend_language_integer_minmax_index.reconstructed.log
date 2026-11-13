@@ -1,0 +1,25 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_integer_minmax_index.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_integer_minmax_index.py::test_int_minmax_index[max-ascendc]
+  call_duration_s: 3.4756293557584286
+  npu_event_ms: calls=1, median=0.80656, min=0.80656, max=0.80656
+  samples_ms: [0.8065599799156189]
+
+[correct] testing/python/language/test_tilelang_ascend_language_integer_minmax_index.py::test_int_minmax_index[max-pto]
+  call_duration_s: 0.7590870596468449
+  npu_event_ms: calls=1, median=0.33428, min=0.33428, max=0.33428
+  samples_ms: [0.33428001403808594]
+
+[correct] testing/python/language/test_tilelang_ascend_language_integer_minmax_index.py::test_int_minmax_index[min-ascendc]
+  call_duration_s: 2.3786941058933735
+  npu_event_ms: calls=1, median=0.37434, min=0.37434, max=0.37434
+  samples_ms: [0.3743399977684021]
+
+[correct] testing/python/language/test_tilelang_ascend_language_integer_minmax_index.py::test_int_minmax_index[min-pto]
+  call_duration_s: 0.7555329166352749
+  npu_event_ms: calls=1, median=0.33422, min=0.33422, max=0.33422
+  samples_ms: [0.3342199921607971]
+

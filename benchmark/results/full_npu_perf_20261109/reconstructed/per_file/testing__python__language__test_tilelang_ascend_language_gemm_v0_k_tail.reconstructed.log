@@ -1,0 +1,159 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gemm_v0_k_tail.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_single_l1_tile[64-128-128]
+  call_duration_s: 3.790675763040781
+  npu_event_ms: calls=1, median=0.82242, min=0.82242, max=0.82242
+  samples_ms: [0.8224200010299683]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_single_l1_tile[64-128-256]
+  call_duration_s: 2.541133850812912
+  npu_event_ms: calls=1, median=0.378, min=0.378, max=0.378
+  samples_ms: [0.3779999911785126]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_single_l1_tile[64-128-200]
+  call_duration_s: 2.5168884117156267
+  npu_event_ms: calls=1, median=0.3822, min=0.3822, max=0.3822
+  samples_ms: [0.3822000026702881]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_single_l1_tile[64-128-136]
+  call_duration_s: 2.523326026275754
+  npu_event_ms: calls=1, median=0.3486, min=0.3486, max=0.3486
+  samples_ms: [0.34860000014305115]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_single_l1_tile[64-128-264]
+  call_duration_s: 2.50732066296041
+  npu_event_ms: calls=1, median=0.37094, min=0.37094, max=0.37094
+  samples_ms: [0.3709399998188019]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_single_l1_tile[64-128-1000]
+  call_duration_s: 2.567131197080016
+  npu_event_ms: calls=1, median=0.37392, min=0.37392, max=0.37392
+  samples_ms: [0.3739199936389923]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_blocked[200-200]
+  call_duration_s: 2.519924871623516
+  npu_event_ms: calls=1, median=0.38114, min=0.38114, max=0.38114
+  samples_ms: [0.38113999366760254]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_blocked[456-200]
+  call_duration_s: 2.6390904616564512
+  npu_event_ms: calls=1, median=0.38284, min=0.38284, max=0.38284
+  samples_ms: [0.38284000754356384]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_blocked[200-128]
+  call_duration_s: 2.536040000617504
+  npu_event_ms: calls=1, median=0.36806, min=0.36806, max=0.36806
+  samples_ms: [0.36805999279022217]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_blocked[264-128]
+  call_duration_s: 2.5302034188061953
+  npu_event_ms: calls=1, median=0.36376, min=0.36376, max=0.36376
+  samples_ms: [0.36375999450683594]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_transpose[True-False]
+  call_duration_s: 2.5321487486362457
+  npu_event_ms: calls=1, median=0.35934, min=0.35934, max=0.35934
+  samples_ms: [0.35934001207351685]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_transpose[False-True]
+  call_duration_s: 2.5302281100302935
+  npu_event_ms: calls=1, median=0.37892, min=0.37892, max=0.37892
+  samples_ms: [0.3789199888706207]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_transpose[True-True]
+  call_duration_s: 2.5234306398779154
+  npu_event_ms: calls=1, median=0.3731, min=0.3731, max=0.3731
+  samples_ms: [0.37310001254081726]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_kl0size_64[200]
+  call_duration_s: 2.529833611100912
+  npu_event_ms: calls=1, median=0.3724, min=0.3724, max=0.3724
+  samples_ms: [0.3723999857902527]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_kl0size_64[264]
+  call_duration_s: 2.516660839319229
+  npu_event_ms: calls=1, median=0.38198, min=0.38198, max=0.38198
+  samples_ms: [0.3819800019264221]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_kl0size_64[1000]
+  call_duration_s: 2.521893061697483
+  npu_event_ms: calls=1, median=0.37858, min=0.37858, max=0.37858
+  samples_ms: [0.3785800039768219]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_dtypes[float16]
+  call_duration_s: 2.51784385740757
+  npu_event_ms: calls=1, median=0.36274, min=0.36274, max=0.36274
+  samples_ms: [0.36274001002311707]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_dtypes[bfloat16]
+  call_duration_s: 2.5120602790266275
+  npu_event_ms: calls=1, median=0.33534, min=0.33534, max=0.33534
+  samples_ms: [0.3353399932384491]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_int8[512-pass]
+  call_duration_s: 2.6053045876324177
+  npu_event_ms: calls=1, median=0.33384, min=0.33384, max=0.33384
+  samples_ms: [0.333840012550354]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_int8[216-pass]
+  call_duration_s: 2.5402917116880417
+  npu_event_ms: calls=1, median=0.3557, min=0.3557, max=0.3557
+  samples_ms: [0.35569998621940613]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_int8[152-pass]
+  call_duration_s: 2.5465138871222734
+  npu_event_ms: calls=1, median=0.39568, min=0.39568, max=0.39568
+  samples_ms: [0.3956800103187561]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_int8[200-reject]
+  call_duration_s: 1.9929331094026566
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_int8[264-reject]
+  call_duration_s: 1.9772418290376663
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_pipeline[200-2]
+  call_duration_s: 2.557448038831353
+  npu_event_ms: calls=1, median=0.34856, min=0.34856, max=0.34856
+  samples_ms: [0.34856000542640686]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_pipeline[200-3]
+  call_duration_s: 2.548061717301607
+  npu_event_ms: calls=1, median=0.37926, min=0.37926, max=0.37926
+  samples_ms: [0.37926000356674194]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_pipeline[456-2]
+  call_duration_s: 2.5624340139329433
+  npu_event_ms: calls=1, median=0.36438, min=0.36438, max=0.36438
+  samples_ms: [0.36438000202178955]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_pipeline[256-2]
+  call_duration_s: 2.5397660061717033
+  npu_event_ms: calls=1, median=0.3588, min=0.3588, max=0.3588
+  samples_ms: [0.3587999939918518]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_int8_kl0size_c0[128-pass]
+  call_duration_s: 2.537254797294736
+  npu_event_ms: calls=1, median=0.37584, min=0.37584, max=0.37584
+  samples_ms: [0.3758400082588196]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_int8_kl0size_c0[96-pass]
+  call_duration_s: 2.5703321769833565
+  npu_event_ms: calls=1, median=0.37742, min=0.37742, max=0.37742
+  samples_ms: [0.37742000818252563]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_int8_kl0size_c0[48-reject]
+  call_duration_s: 1.973640101030469
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_pipeline_parallel[200]
+  call_duration_s: 2.5786598287522793
+  npu_event_ms: calls=1, median=0.35706, min=0.35706, max=0.35706
+  samples_ms: [0.3570599853992462]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_k_tail.py::test_gemm_v0_ktail_pipeline_parallel[152]
+  call_duration_s: 2.5556692462414503
+  npu_event_ms: calls=1, median=0.33694, min=0.33694, max=0.33694
+  samples_ms: [0.3369399905204773]
+

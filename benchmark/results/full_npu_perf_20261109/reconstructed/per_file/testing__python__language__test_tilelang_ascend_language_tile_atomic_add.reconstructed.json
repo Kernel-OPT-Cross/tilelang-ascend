@@ -1,0 +1,137 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_atomic_add.log",
+  "counts": {
+    "correct": 8
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_1d_accumulates_multiple_blocks_after_zeroing_gm[float32-ascendc]",
+      "category": "correct",
+      "call_duration_s": 3.436180744320154,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.82802,
+        "min_ms": 0.82802,
+        "max_ms": 0.82802,
+        "samples_ms": [
+          0.8280199766159058
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_1d_accumulates_multiple_blocks_after_zeroing_gm[float32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7299390342086554,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.4454,
+        "min_ms": 0.4454,
+        "max_ms": 0.4454,
+        "samples_ms": [
+          0.4453999996185303
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_1d_accumulates_multiple_blocks_after_zeroing_gm[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3674173206090927,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37262,
+        "min_ms": 0.37262,
+        "max_ms": 0.37262,
+        "samples_ms": [
+          0.37261998653411865
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_1d_accumulates_multiple_blocks_after_zeroing_gm[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7246879190206528,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3165,
+        "min_ms": 0.3165,
+        "max_ms": 0.3165,
+        "samples_ms": [
+          0.3165000081062317
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_2d_region_accumulates_multiple_blocks_after_zeroing_gm[ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3945316057652235,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38786,
+        "min_ms": 0.38786,
+        "max_ms": 0.38786,
+        "samples_ms": [
+          0.3878600001335144
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_2d_region_accumulates_multiple_blocks_after_zeroing_gm[pto]",
+      "category": "correct",
+      "call_duration_s": 0.7234764322638512,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34556,
+        "min_ms": 0.34556,
+        "max_ms": 0.34556,
+        "samples_ms": [
+          0.3455600142478943
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_l0c_gemm_accumulates_multiple_blocks[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.5180127192288637,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38826,
+        "min_ms": 0.38826,
+        "max_ms": 0.38826,
+        "samples_ms": [
+          0.38826000690460205
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_l0c_gemm_accumulates_multiple_blocks[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.7883511390537024,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33986,
+        "min_ms": 0.33986,
+        "max_ms": 0.33986,
+        "samples_ms": [
+          0.3398599922657013
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_copy_row_slice_stride.log",
+  "counts": {
+    "correct": 10
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_row_slice_copy_stride_codegen_ascendc",
+      "category": "correct",
+      "call_duration_s": 0.07635789550840855,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_row_slice_atomic_add_stride_codegen_ascendc",
+      "category": "correct",
+      "call_duration_s": 0.017150841653347015,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_fold_middle_scalar_stride_codegen_ascendc",
+      "category": "correct",
+      "call_duration_s": 0.01672717183828354,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_row_slice_copy_stride_codegen[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.020847339183092117,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_row_slice_copy_stride_codegen[pto]",
+      "category": "correct",
+      "call_duration_s": 0.020929530262947083,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_fold_middle_scalar_stride_codegen[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.016876108944416046,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_fold_middle_scalar_stride_codegen[pto]",
+      "category": "correct",
+      "call_duration_s": 0.016659945249557495,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_row_slice_scatter_add_correctness",
+      "category": "correct",
+      "call_duration_s": 3.355723347514868,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.84856,
+        "min_ms": 0.84856,
+        "max_ms": 0.84856,
+        "samples_ms": [
+          0.8485599756240845
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_row_slice_atomic_add_correctness",
+      "category": "correct",
+      "call_duration_s": 2.4022157434374094,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3401,
+        "min_ms": 0.3401,
+        "max_ms": 0.3401,
+        "samples_ms": [
+          0.3400999903678894
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_copy_row_slice_stride.py::test_fold_middle_scalar_copy_correctness",
+      "category": "correct",
+      "call_duration_s": 2.380665834993124,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37862,
+        "min_ms": 0.37862,
+        "max_ms": 0.37862,
+        "samples_ms": [
+          0.3786199986934662
+        ]
+      }
+    }
+  ]
+}

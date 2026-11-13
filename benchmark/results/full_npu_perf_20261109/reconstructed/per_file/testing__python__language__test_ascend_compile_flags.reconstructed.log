@@ -1,0 +1,61 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_ascend_compile_flags.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_resolve_compile_flags[ascendc-False-env0-None-expected0]
+  call_duration_s: 0.0004946794360876083
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_resolve_compile_flags[ascendc-True-env1-None-expected1]
+  call_duration_s: 0.00043721869587898254
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_resolve_compile_flags[pto-None-env2-None-expected2]
+  call_duration_s: 0.0004207361489534378
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_resolve_compile_flags[ascendc-False-env3-None-expected3]
+  call_duration_s: 0.00042941421270370483
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_resolve_compile_flags[ascendc-False-env4-None-expected4]
+  call_duration_s: 0.0004095379263162613
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_resolve_compile_flags[pto-False-env5-None-expected5]
+  call_duration_s: 0.00040196627378463745
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_resolve_compile_flags[ascendc-False-env6-None-expected6]
+  call_duration_s: 0.0005033388733863831
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_resolve_compile_flags[ascendc-True-env7-user7-expected7]
+  call_duration_s: 0.0004186369478702545
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_resolve_compile_flags[ascendc-False-env8--O3-expected8]
+  call_duration_s: 0.0004014987498521805
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_env_opt_level_invalid_raises
+  call_duration_s: 0.0004278067499399185
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_no_environ_mutation
+  call_duration_s: 0.0002839714288711548
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_libgen_appends_flags
+  call_duration_s: 0.002588711678981781
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_libgen_direct_caller_falls_back_to_derived
+  call_duration_s: 0.0016227122396230698
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_compile_resolves_and_threads_flags
+  call_duration_s: 0.01794319413602352
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_cache_key_scopes_flags
+  call_duration_s: 0.002756461501121521
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_autotuner_restore_threads_full_signature
+  call_duration_s: 0.0007872078567743301
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_compile_args_hash_scopes_platform_and_flags
+  call_duration_s: 0.00028057023882865906
+
+[correct] testing/python/language/test_ascend_compile_flags.py::test_auto_sync_pass_prevents_dependency_hazard
+  call_duration_s: 5.843589000403881
+  npu_event_ms: calls=2, median=0.57215, min=0.28206, max=0.86224
+  samples_ms: [0.8622400164604187,0.28205999732017517]
+

@@ -1,0 +1,20 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_scalar_index.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_scalar_index.py::test_scalar_index_2d[4-8-ascendc]
+  call_duration_s: 3.373478263616562
+  npu_event_ms: calls=1, median=0.95658, min=0.95658, max=0.95658
+  samples_ms: [0.9565799832344055]
+
+[correct] testing/python/language/test_tilelang_ascend_language_scalar_index.py::test_scalar_index_2d[3-16-ascendc]
+  call_duration_s: 2.3609447795897722
+  npu_event_ms: calls=1, median=0.38404, min=0.38404, max=0.38404
+  samples_ms: [0.3840399980545044]
+
+[correct] testing/python/language/test_tilelang_ascend_language_scalar_index.py::test_scalar_index_2d[2-32-ascendc]
+  call_duration_s: 2.3576808031648397
+  npu_event_ms: calls=1, median=0.35986, min=0.35986, max=0.35986
+  samples_ms: [0.35986000299453735]
+

@@ -1,0 +1,17 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_negative.log",
+  "counts": {
+    "correct": 1
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_negative.py::test_parallel_3d_is_rejected",
+      "category": "correct",
+      "call_duration_s": 0.2654854618012905,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    }
+  ]
+}

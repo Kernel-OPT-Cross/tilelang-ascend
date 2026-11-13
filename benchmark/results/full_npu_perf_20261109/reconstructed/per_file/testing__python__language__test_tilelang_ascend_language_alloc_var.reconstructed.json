@@ -1,0 +1,41 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_alloc_var.log",
+  "counts": {
+    "correct": 2
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_var.py::test_alloc_var[ascendc]",
+      "category": "correct",
+      "call_duration_s": 3.3674412984400988,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 1.19076,
+        "min_ms": 1.19076,
+        "max_ms": 1.19076,
+        "samples_ms": [
+          1.1907600164413452
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_alloc_var.py::test_alloc_var[pto]",
+      "category": "correct",
+      "call_duration_s": 0.7384325210005045,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38148,
+        "min_ms": 0.38148,
+        "max_ms": 0.38148,
+        "samples_ms": [
+          0.38148000836372375
+        ]
+      }
+    }
+  ]
+}

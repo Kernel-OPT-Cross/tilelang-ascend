@@ -1,0 +1,50 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_complex.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_complex.py::test_complex_dual_assignment[float]
+  call_duration_s: 3.48086641356349
+  npu_event_ms: calls=1, median=0.8082, min=0.8082, max=0.8082
+  samples_ms: [0.8082000017166138]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_complex.py::test_complex_chained_operations[float]
+  call_duration_s: 2.39529294334352
+  npu_event_ms: calls=1, median=0.28232, min=0.28232, max=0.28232
+  samples_ms: [0.2823199927806854]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_complex.py::test_complex_triple_assignments[float]
+  call_duration_s: 2.3941467702388763
+  npu_event_ms: calls=1, median=0.42518, min=0.42518, max=0.42518
+  samples_ms: [0.42517998814582825]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_complex.py::test_complex_scalar_operations[float]
+  call_duration_s: 2.3779004234820604
+  npu_event_ms: calls=1, median=0.38096, min=0.38096, max=0.38096
+  samples_ms: [0.38095998764038086]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_complex.py::test_complex_broadcast_operations[float]
+  call_duration_s: 2.392136937007308
+  npu_event_ms: calls=1, median=0.36762, min=0.36762, max=0.36762
+  samples_ms: [0.36761999130249023]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_complex.py::test_complex_deep_expression[float]
+  call_duration_s: 2.427633114159107
+  npu_event_ms: calls=1, median=0.38664, min=0.38664, max=0.38664
+  samples_ms: [0.3866400122642517]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_complex.py::test_complex_independent_paths[float]
+  call_duration_s: 2.4366345815360546
+  npu_event_ms: calls=1, median=0.40198, min=0.40198, max=0.40198
+  samples_ms: [0.4019800126552582]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_complex.py::test_complex_nested_temp_buffer[float]
+  call_duration_s: 2.3774737548083067
+  npu_event_ms: calls=1, median=0.49292, min=0.49292, max=0.49292
+  samples_ms: [0.49292001128196716]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_complex.py::test_complex_nested_multiple_temp_buffers[float]
+  call_duration_s: 2.3976812809705734
+  npu_event_ms: calls=1, median=0.36348, min=0.36348, max=0.36348
+  samples_ms: [0.36348000168800354]
+

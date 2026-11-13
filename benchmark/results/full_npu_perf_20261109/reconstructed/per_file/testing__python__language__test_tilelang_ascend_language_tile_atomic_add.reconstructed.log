@@ -1,0 +1,45 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_atomic_add.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_1d_accumulates_multiple_blocks_after_zeroing_gm[float32-ascendc]
+  call_duration_s: 3.436180744320154
+  npu_event_ms: calls=1, median=0.82802, min=0.82802, max=0.82802
+  samples_ms: [0.8280199766159058]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_1d_accumulates_multiple_blocks_after_zeroing_gm[float32-pto]
+  call_duration_s: 0.7299390342086554
+  npu_event_ms: calls=1, median=0.4454, min=0.4454, max=0.4454
+  samples_ms: [0.4453999996185303]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_1d_accumulates_multiple_blocks_after_zeroing_gm[float16-ascendc]
+  call_duration_s: 2.3674173206090927
+  npu_event_ms: calls=1, median=0.37262, min=0.37262, max=0.37262
+  samples_ms: [0.37261998653411865]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_1d_accumulates_multiple_blocks_after_zeroing_gm[float16-pto]
+  call_duration_s: 0.7246879190206528
+  npu_event_ms: calls=1, median=0.3165, min=0.3165, max=0.3165
+  samples_ms: [0.3165000081062317]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_2d_region_accumulates_multiple_blocks_after_zeroing_gm[ascendc]
+  call_duration_s: 2.3945316057652235
+  npu_event_ms: calls=1, median=0.38786, min=0.38786, max=0.38786
+  samples_ms: [0.3878600001335144]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_2d_region_accumulates_multiple_blocks_after_zeroing_gm[pto]
+  call_duration_s: 0.7234764322638512
+  npu_event_ms: calls=1, median=0.34556, min=0.34556, max=0.34556
+  samples_ms: [0.3455600142478943]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_l0c_gemm_accumulates_multiple_blocks[float16-ascendc]
+  call_duration_s: 2.5180127192288637
+  npu_event_ms: calls=1, median=0.38826, min=0.38826, max=0.38826
+  samples_ms: [0.38826000690460205]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add.py::test_tile_atomic_add_l0c_gemm_accumulates_multiple_blocks[float16-pto]
+  call_duration_s: 0.7883511390537024
+  npu_event_ms: calls=1, median=0.33986, min=0.33986, max=0.33986
+  samples_ms: [0.3398599922657013]
+

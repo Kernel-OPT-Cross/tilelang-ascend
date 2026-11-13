@@ -1,0 +1,73 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_mixed.log",
+  "counts": {
+    "correct": 4
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_mixed.py::test_parallel_mixed_fill",
+      "category": "correct",
+      "call_duration_s": 3.4658732023090124,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.90326,
+        "min_ms": 0.90326,
+        "max_ms": 0.90326,
+        "samples_ms": [
+          0.9032599925994873
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_mixed.py::test_parallel_mixed_cast",
+      "category": "correct",
+      "call_duration_s": 2.411542661488056,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38906,
+        "min_ms": 0.38906,
+        "max_ms": 0.38906,
+        "samples_ms": [
+          0.38905999064445496
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_mixed.py::test_parallel_mixed_reduce",
+      "category": "correct",
+      "call_duration_s": 2.627238478511572,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38294,
+        "min_ms": 0.38294,
+        "max_ms": 0.38294,
+        "samples_ms": [
+          0.38293999433517456
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_mixed.py::test_parallel_mixed_serial_nest",
+      "category": "correct",
+      "call_duration_s": 2.406087040901184,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37998,
+        "min_ms": 0.37998,
+        "max_ms": 0.37998,
+        "samples_ms": [
+          0.3799799978733063
+        ]
+      }
+    }
+  ]
+}

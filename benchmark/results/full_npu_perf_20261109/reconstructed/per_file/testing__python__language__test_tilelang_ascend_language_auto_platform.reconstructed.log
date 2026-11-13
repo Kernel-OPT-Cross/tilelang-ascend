@@ -1,0 +1,32 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_auto_platform.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_explicit
+  call_duration_s: 0.00021747499704360962
+
+[correct] testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_env
+  call_duration_s: 0.00021719932556152344
+
+[correct] testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_910B
+  call_duration_s: 0.0005635302513837814
+
+[correct] testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_910C
+  call_duration_s: 0.000466223806142807
+
+[correct] testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_950D
+  call_duration_s: 0.0005788523703813553
+
+[correct] testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_unknown_device
+  call_duration_s: 0.0004526916891336441
+
+[correct] testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_910B_torch_fallback
+  call_duration_s: 0.0006629675626754761
+
+[correct] testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_950D_torch_fallback
+  call_duration_s: 0.0007966179400682449
+
+[correct] testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_fallback
+  call_duration_s: 0.0005316752940416336
+

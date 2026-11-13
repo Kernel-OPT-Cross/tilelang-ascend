@@ -1,0 +1,81 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_auto_platform.log",
+  "counts": {
+    "correct": 9
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_explicit",
+      "category": "correct",
+      "call_duration_s": 0.00021747499704360962,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_env",
+      "category": "correct",
+      "call_duration_s": 0.00021719932556152344,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_910B",
+      "category": "correct",
+      "call_duration_s": 0.0005635302513837814,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_910C",
+      "category": "correct",
+      "call_duration_s": 0.000466223806142807,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_950D",
+      "category": "correct",
+      "call_duration_s": 0.0005788523703813553,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_unknown_device",
+      "category": "correct",
+      "call_duration_s": 0.0004526916891336441,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_910B_torch_fallback",
+      "category": "correct",
+      "call_duration_s": 0.0006629675626754761,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_950D_torch_fallback",
+      "category": "correct",
+      "call_duration_s": 0.0007966179400682449,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_auto_platform.py::test_determine_platform_auto_fallback",
+      "category": "correct",
+      "call_duration_s": 0.0005316752940416336,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    }
+  ]
+}

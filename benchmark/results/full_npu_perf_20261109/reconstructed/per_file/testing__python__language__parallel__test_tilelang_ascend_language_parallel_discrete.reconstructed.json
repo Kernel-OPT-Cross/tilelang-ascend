@@ -1,0 +1,153 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_discrete.log",
+  "counts": {
+    "correct": 9
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_mat[reverse]",
+      "category": "correct",
+      "call_duration_s": 3.5139544289559126,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.8056,
+        "min_ms": 0.8056,
+        "max_ms": 0.8056,
+        "samples_ms": [
+          0.8055999875068665
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_mat[mod_k]",
+      "category": "correct",
+      "call_duration_s": 0.0026150811463594437,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.2869,
+        "min_ms": 0.2869,
+        "max_ms": 0.2869,
+        "samples_ms": [
+          0.28690001368522644
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_mat[affine]",
+      "category": "correct",
+      "call_duration_s": 0.0019631292670965195,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.17356,
+        "min_ms": 0.17356,
+        "max_ms": 0.17356,
+        "samples_ms": [
+          0.1735599935054779
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_row[reverse]",
+      "category": "correct",
+      "call_duration_s": 2.4144716393202543,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33852,
+        "min_ms": 0.33852,
+        "max_ms": 0.33852,
+        "samples_ms": [
+          0.33851999044418335
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_row[mod_k]",
+      "category": "correct",
+      "call_duration_s": 0.0034071821719408035,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.17038,
+        "min_ms": 0.17038,
+        "max_ms": 0.17038,
+        "samples_ms": [
+          0.17037999629974365
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_row[affine]",
+      "category": "correct",
+      "call_duration_s": 0.0018685124814510345,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.16278,
+        "min_ms": 0.16278,
+        "max_ms": 0.16278,
+        "samples_ms": [
+          0.1627800017595291
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_col[reverse]",
+      "category": "correct",
+      "call_duration_s": 2.4496929068118334,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35892,
+        "min_ms": 0.35892,
+        "max_ms": 0.35892,
+        "samples_ms": [
+          0.35892000794410706
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_col[mod_k]",
+      "category": "correct",
+      "call_duration_s": 0.002182319760322571,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.17456,
+        "min_ms": 0.17456,
+        "max_ms": 0.17456,
+        "samples_ms": [
+          0.17455999553203583
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/parallel/test_tilelang_ascend_language_parallel_discrete.py::test_parallel_discrete_mat_col[affine]",
+      "category": "correct",
+      "call_duration_s": 0.0018706265836954117,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.16554,
+        "min_ms": 0.16554,
+        "max_ms": 0.16554,
+        "samples_ms": [
+          0.16553999483585358
+        ]
+      }
+    }
+  ]
+}

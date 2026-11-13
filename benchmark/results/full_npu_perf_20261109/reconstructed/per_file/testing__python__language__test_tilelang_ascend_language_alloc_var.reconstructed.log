@@ -1,0 +1,15 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_alloc_var.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_var.py::test_alloc_var[ascendc]
+  call_duration_s: 3.3674412984400988
+  npu_event_ms: calls=1, median=1.19076, min=1.19076, max=1.19076
+  samples_ms: [1.1907600164413452]
+
+[correct] testing/python/language/test_tilelang_ascend_language_alloc_var.py::test_alloc_var[pto]
+  call_duration_s: 0.7384325210005045
+  npu_event_ms: calls=1, median=0.38148, min=0.38148, max=0.38148
+  samples_ms: [0.38148000836372375]
+

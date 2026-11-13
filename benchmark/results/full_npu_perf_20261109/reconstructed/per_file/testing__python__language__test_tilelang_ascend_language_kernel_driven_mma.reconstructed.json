@@ -1,0 +1,57 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_kernel_driven_mma.log",
+  "counts": {
+    "correct": 3
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_kernel_driven_mma.py::test_kernel_driven_mma[128]",
+      "category": "correct",
+      "call_duration_s": 3.558886056765914,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.91154,
+        "min_ms": 0.91154,
+        "max_ms": 0.91154,
+        "samples_ms": [
+          0.9115399718284607
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_kernel_driven_mma.py::test_kernel_driven_mma[96]",
+      "category": "correct",
+      "call_duration_s": 2.5546182561665773,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36462,
+        "min_ms": 0.36462,
+        "max_ms": 0.36462,
+        "samples_ms": [
+          0.36462000012397766
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_kernel_driven_mma.py::test_kernel_driven_mma[32]",
+      "category": "correct",
+      "call_duration_s": 2.5568164326250553,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37688,
+        "min_ms": 0.37688,
+        "max_ms": 0.37688,
+        "samples_ms": [
+          0.3768799901008606
+        ]
+      }
+    }
+  ]
+}

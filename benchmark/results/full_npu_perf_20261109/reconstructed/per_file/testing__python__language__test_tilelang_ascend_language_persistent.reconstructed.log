@@ -1,0 +1,50 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_persistent.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_static_domains[4-1-predicate]
+  call_duration_s: 0.05094660818576813
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_static_domains[10-1-none]
+  call_duration_s: 0.011809015646576881
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_static_domains[11-2-break]
+  call_duration_s: 0.013082632794976234
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_static_domains[20-2-break]
+  call_duration_s: 0.013406828045845032
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_guard_for_dynamic_domain
+  call_duration_s: 0.016354933381080627
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain0-20-0-8-domain extents must be positive]
+  call_duration_s: 0.19745106995105743
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain1-0-0-8-wave_size must be positive]
+  call_duration_s: 0.0006229635328054428
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain2-20--1-8-index must satisfy]
+  call_duration_s: 0.000502878800034523
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain3-20-20-8-index must satisfy]
+  call_duration_s: 0.00041154026985168457
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain4-20-0-0-group_size must be positive]
+  call_duration_s: 0.00045548565685749054
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_persistent_rejects_invalid_static_arguments[domain5-20-0-2-last domain extent must be divisible]
+  call_duration_s: 0.0004931818693876266
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_partial_single_wave_guard_reaches_codegen[ascendc]
+  call_duration_s: 0.033912163227796555
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_partial_single_wave_guard_reaches_codegen[pto]
+  call_duration_s: 0.014608649536967278
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_multi_wave_break_guard_reaches_codegen[ascendc]
+  call_duration_s: 0.01729169301688671
+
+[correct] testing/python/language/test_tilelang_ascend_language_persistent.py::test_multi_wave_break_guard_reaches_codegen[pto]
+  call_duration_s: 0.01691524311900139
+

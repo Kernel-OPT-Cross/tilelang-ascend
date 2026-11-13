@@ -1,0 +1,35 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gemm_v0_n_tiling.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_tiling.py::test_gemm_v0_n_tiling[64-512-128-float16]
+  call_duration_s: 3.7998474668711424
+  npu_event_ms: calls=1, median=0.877, min=0.877, max=0.877
+  samples_ms: [0.8769999742507935]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_tiling.py::test_gemm_v0_n_tiling[64-512-128-bfloat16]
+  call_duration_s: 2.555762058123946
+  npu_event_ms: calls=1, median=0.37628, min=0.37628, max=0.37628
+  samples_ms: [0.3762800097465515]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_tiling.py::test_gemm_v0_n_tiling[64-512-256-float16]
+  call_duration_s: 2.5285998340696096
+  npu_event_ms: calls=1, median=0.37618, min=0.37618, max=0.37618
+  samples_ms: [0.3761799931526184]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_tiling.py::test_gemm_v0_n_tiling[64-512-256-bfloat16]
+  call_duration_s: 2.5245399475097656
+  npu_event_ms: calls=1, median=0.37418, min=0.37418, max=0.37418
+  samples_ms: [0.37417998909950256]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_tiling.py::test_gemm_v0_n_tiling[128-128-128-float16]
+  call_duration_s: 2.518936224281788
+  npu_event_ms: calls=1, median=0.36862, min=0.36862, max=0.36862
+  samples_ms: [0.36862000823020935]
+
+[correct] testing/python/language/test_tilelang_ascend_language_gemm_v0_n_tiling.py::test_gemm_v0_n_tiling[128-128-128-bfloat16]
+  call_duration_s: 2.5160630978643894
+  npu_event_ms: calls=1, median=0.39378, min=0.39378, max=0.39378
+  samples_ms: [0.393779993057251]
+

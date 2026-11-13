@@ -1,0 +1,85 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_merge_sort.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_basic_ascendc
+  call_duration_s: 8.205030096694827
+  npu_event_ms: calls=3, median=0.38668, min=0.37198, max=0.90436
+  samples_ms: [0.9043599963188171,0.386680006980896,0.3719800114631653]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_sizes_ascendc
+  call_duration_s: 7.157212754711509
+  npu_event_ms: calls=4, median=0.37562, min=0.16434, max=0.37958
+  samples_ms: [0.3725399971008301,0.16434000432491302,0.37869998812675476,0.37957999110221863]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_edges_ascendc
+  call_duration_s: 4.797985568642616
+  npu_event_ms: calls=2, median=0.38365, min=0.37574, max=0.39156
+  samples_ms: [0.39155998826026917,0.3757399916648865]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_basic_pto[2]
+  call_duration_s: 0.7711667101830244
+  npu_event_ms: calls=1, median=0.32796, min=0.32796, max=0.32796
+  samples_ms: [0.3279600143432617]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_basic_pto[3]
+  call_duration_s: 0.7707675024867058
+  npu_event_ms: calls=1, median=0.31926, min=0.31926, max=0.31926
+  samples_ms: [0.31926000118255615]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_basic_pto[4]
+  call_duration_s: 0.775295577943325
+  npu_event_ms: calls=1, median=0.32972, min=0.32972, max=0.32972
+  samples_ms: [0.32971999049186707]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_2way_sizes_low[ascendc-128]
+  call_duration_s: 2.3690697140991688
+  npu_event_ms: calls=1, median=0.3678, min=0.3678, max=0.3678
+  samples_ms: [0.3677999973297119]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_2way_sizes_low[pto-16]
+  call_duration_s: 0.7634938266128302
+  npu_event_ms: calls=1, median=0.3167, min=0.3167, max=0.3167
+  samples_ms: [0.3167000114917755]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_2way_sizes_low[pto-64]
+  call_duration_s: 0.020914200693368912
+  npu_event_ms: calls=1, median=0.1739, min=0.1739, max=0.1739
+  samples_ms: [0.17389999330043793]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_2way_sizes_low[pto-128]
+  call_duration_s: 0.7634108681231737
+  npu_event_ms: calls=1, median=0.3353, min=0.3353, max=0.3353
+  samples_ms: [0.3352999985218048]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_region_pto
+  call_duration_s: 0.7692480217665434
+  npu_event_ms: calls=1, median=0.31506, min=0.31506, max=0.31506
+  samples_ms: [0.31505998969078064]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_min_blocklen_pto
+  call_duration_s: 0.7641126662492752
+  npu_event_ms: calls=1, median=0.33142, min=0.33142, max=0.33142
+  samples_ms: [0.33142000436782837]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_stability[ascendc]
+  call_duration_s: 0.022748397663235664
+  npu_event_ms: calls=1, median=0.17462, min=0.17462, max=0.17462
+  samples_ms: [0.17462000250816345]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_stability[pto]
+  call_duration_s: 0.019353695213794708
+  npu_event_ms: calls=1, median=0.16378, min=0.16378, max=0.16378
+  samples_ms: [0.16378000378608704]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_max_blocklen[ascendc-4095]
+  call_duration_s: 2.4142581652849913
+  npu_event_ms: calls=1, median=0.38368, min=0.38368, max=0.38368
+  samples_ms: [0.38367998600006104]
+
+[correct] testing/python/language/test_tilelang_ascend_language_merge_sort.py::test_merge_sort_max_blocklen[pto-4088]
+  call_duration_s: 0.7948947213590145
+  npu_event_ms: calls=1, median=0.33388, min=0.33388, max=0.33388
+  samples_ms: [0.3338800072669983]
+

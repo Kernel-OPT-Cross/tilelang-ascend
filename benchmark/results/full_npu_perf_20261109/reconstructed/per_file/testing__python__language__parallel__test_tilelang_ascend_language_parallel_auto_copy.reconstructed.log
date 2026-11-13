@@ -1,0 +1,115 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_auto_copy.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy[1024-1024-128-128]
+  call_duration_s: 3.4827674217522144
+  npu_event_ms: calls=1, median=0.56326, min=0.56326, max=0.56326
+  samples_ms: [0.563260018825531]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy[512-512-64-64]
+  call_duration_s: 2.3936350755393505
+  npu_event_ms: calls=1, median=0.37426, min=0.37426, max=0.37426
+  samples_ms: [0.3742600083351135]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy[2048-1024-128-128]
+  call_duration_s: 2.3899147864431143
+  npu_event_ms: calls=1, median=0.3356, min=0.3356, max=0.3356
+  samples_ms: [0.33559998869895935]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_different_dtypes[float]
+  call_duration_s: 2.3956484850496054
+  npu_event_ms: calls=1, median=0.37746, min=0.37746, max=0.37746
+  samples_ms: [0.3774600028991699]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_different_dtypes[float16]
+  call_duration_s: 2.3942583799362183
+  npu_event_ms: calls=1, median=0.33656, min=0.33656, max=0.33656
+  samples_ms: [0.3365600109100342]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_different_dtypes[int32]
+  call_duration_s: 2.3937445506453514
+  npu_event_ms: calls=1, median=0.38896, min=0.38896, max=0.38896
+  samples_ms: [0.38896000385284424]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_different_dtypes[int16]
+  call_duration_s: 2.4074279852211475
+  npu_event_ms: calls=1, median=0.37292, min=0.37292, max=0.37292
+  samples_ms: [0.3729200065135956]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_complex
+  call_duration_s: 2.409931167960167
+  npu_event_ms: calls=1, median=0.34806, min=0.34806, max=0.34806
+  samples_ms: [0.3480600118637085]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_unary
+  call_duration_s: 2.3959274142980576
+  npu_event_ms: calls=1, median=0.372, min=0.372, max=0.372
+  samples_ms: [0.3720000088214874]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_scalar
+  call_duration_s: 2.3774841502308846
+  npu_event_ms: calls=1, median=0.35862, min=0.35862, max=0.35862
+  samples_ms: [0.3586199879646301]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d[1024-128]
+  call_duration_s: 2.3735936656594276
+  npu_event_ms: calls=1, median=0.3395, min=0.3395, max=0.3395
+  samples_ms: [0.3395000100135803]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d[512-64]
+  call_duration_s: 2.3671578466892242
+  npu_event_ms: calls=1, median=0.34646, min=0.34646, max=0.34646
+  samples_ms: [0.3464600145816803]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d[2048-128]
+  call_duration_s: 2.36933265440166
+  npu_event_ms: calls=1, median=0.35704, min=0.35704, max=0.35704
+  samples_ms: [0.3570399880409241]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d_different_dtypes[float]
+  call_duration_s: 2.3940228652209044
+  npu_event_ms: calls=1, median=0.36032, min=0.36032, max=0.36032
+  samples_ms: [0.36032000184059143]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d_different_dtypes[float16]
+  call_duration_s: 2.37031483463943
+  npu_event_ms: calls=1, median=0.35662, min=0.35662, max=0.35662
+  samples_ms: [0.35662001371383667]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d_different_dtypes[int32]
+  call_duration_s: 2.3837072048336267
+  npu_event_ms: calls=1, median=0.34822, min=0.34822, max=0.34822
+  samples_ms: [0.34821999073028564]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d_different_dtypes[int16]
+  call_duration_s: 2.383784329518676
+  npu_event_ms: calls=1, median=0.36698, min=0.36698, max=0.36698
+  samples_ms: [0.3669799864292145]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d_complex
+  call_duration_s: 2.4248158391565084
+  npu_event_ms: calls=1, median=0.39278, min=0.39278, max=0.39278
+  samples_ms: [0.39278000593185425]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d_unary
+  call_duration_s: 2.3701301589608192
+  npu_event_ms: calls=1, median=0.34912, min=0.34912, max=0.34912
+  samples_ms: [0.34911999106407166]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_parallel_auto_copy_1d_scalar
+  call_duration_s: 2.411638367921114
+  npu_event_ms: calls=1, median=0.3551, min=0.3551, max=0.3551
+  samples_ms: [0.35510000586509705]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_matmul
+  call_duration_s: 2.75433805026114
+  npu_event_ms: calls=1, median=0.3959, min=0.3959, max=0.3959
+  samples_ms: [0.39590001106262207]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_auto_copy.py::test_matmul_k_1
+  call_duration_s: 2.5525743179023266
+  npu_event_ms: calls=1, median=0.4115, min=0.4115, max=0.4115
+  samples_ms: [0.4115000069141388]
+

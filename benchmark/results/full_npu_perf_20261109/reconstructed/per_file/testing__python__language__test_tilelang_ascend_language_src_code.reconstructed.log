@@ -1,0 +1,20 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_src_code.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_src_code.py::test_src_code_basic_injection
+  call_duration_s: 0.07002240046858788
+
+[correct] testing/python/language/test_tilelang_ascend_language_src_code.py::test_src_code_multiline
+  call_duration_s: 0.015229135751724243
+
+[correct] testing/python/language/test_tilelang_ascend_language_src_code.py::test_src_code_empty_string
+  call_duration_s: 0.01503845490515232
+
+[correct] testing/python/language/test_tilelang_ascend_language_src_code.py::test_src_code_multiple_injections
+  call_duration_s: 0.015069115906953812
+
+[correct] testing/python/language/test_tilelang_ascend_language_src_code.py::test_src_code_pto_backend
+  call_duration_s: 0.015942152589559555
+

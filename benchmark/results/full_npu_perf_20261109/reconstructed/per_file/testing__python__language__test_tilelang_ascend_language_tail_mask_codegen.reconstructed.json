@@ -1,0 +1,1025 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tail_mask_codegen.log",
+  "counts": {
+    "correct": 127
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_add_emits_tail_helper[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.09424255229532719,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_add_emits_tail_helper[pto]",
+      "category": "correct",
+      "call_duration_s": 0.03932901285588741,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_unary_emits_tail_helper[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.028953537344932556,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_unary_emits_tail_helper[pto]",
+      "category": "correct",
+      "call_duration_s": 0.028955359011888504,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_scalar_emits_tail_helper[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.028695233166217804,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_scalar_emits_tail_helper[pto]",
+      "category": "correct",
+      "call_duration_s": 0.029032360762357712,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_tensor-tensor-float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.04458187334239483,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_tensor-tensor-float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.04764198884367943,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_tensor-tensor-float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.04394182376563549,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_tensor-tensor-float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.04642537981271744,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_tensor-scalar-float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.04392167739570141,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_tensor-scalar-float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.04820891469717026,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_tensor-scalar-float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.043552303686738014,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_tensor-scalar-float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.0439372006803751,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_scalar-tensor-float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.043776167556643486,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_scalar-tensor-float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.04411316476762295,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_scalar-tensor-float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.04352431185543537,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_scalar-tensor-float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.04562675394117832,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_scalar-scalar-float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.04360266216099262,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_scalar-scalar-float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.0439173448830843,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_scalar-scalar-float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.043205324560403824,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_emits_backend_path[select_scalar-scalar-float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.04377179220318794,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[EQ-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.043988822028040886,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[EQ-pto]",
+      "category": "correct",
+      "call_duration_s": 0.04432718828320503,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[NE-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.04383398778736591,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[NE-pto]",
+      "category": "correct",
+      "call_duration_s": 0.044298917055130005,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[GT-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.04406004771590233,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[GT-pto]",
+      "category": "correct",
+      "call_duration_s": 0.04445099085569382,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[GE-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.043875064700841904,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[GE-pto]",
+      "category": "correct",
+      "call_duration_s": 0.044331056997179985,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[LT-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.04402774199843407,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[LT-pto]",
+      "category": "correct",
+      "call_duration_s": 0.044442448765039444,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[LE-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.04390881583094597,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_supports_all_modes[LE-pto]",
+      "category": "correct",
+      "call_duration_s": 0.044388508424162865,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_bufferload_compare_clears_packed_mask_state[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.03636404313147068,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_bufferload_compare_clears_packed_mask_state[pto]",
+      "category": "correct",
+      "call_duration_s": 0.03159099631011486,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_broadcast_emits_backend_path[0-float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.02828725427389145,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_broadcast_emits_backend_path[0-float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.028330903500318527,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_broadcast_emits_backend_path[0-float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.02817709557712078,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_broadcast_emits_backend_path[0-float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.028289414942264557,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_broadcast_emits_backend_path[1-float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.02830454520881176,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_broadcast_emits_backend_path[1-float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.02835719846189022,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_broadcast_emits_backend_path[1-float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.02821376547217369,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_broadcast_emits_backend_path[1-float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.028352128341794014,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_ambiguous_scalar_broadcast_keeps_native_path[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.019083188846707344,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_ambiguous_scalar_broadcast_keeps_native_path[pto]",
+      "category": "correct",
+      "call_duration_s": 0.01930513046681881,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_same_shape_broadcast_preserves_tail_state[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.028861433267593384,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_same_shape_broadcast_preserves_tail_state[pto]",
+      "category": "correct",
+      "call_duration_s": 0.02872307226061821,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_mixed_broadcast_compare_select_emits_all_tail_paths[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.06061513163149357,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_mixed_broadcast_compare_select_emits_all_tail_paths[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.06127048097550869,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_mixed_broadcast_compare_select_emits_all_tail_paths[float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.06055657006800175,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_mixed_broadcast_compare_select_emits_all_tail_paths[float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.061429109424352646,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_mixed_unary_scalar_select_emits_all_tail_paths[float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.03793925233185291,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_mixed_unary_scalar_select_emits_all_tail_paths[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.03858669102191925,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_mixed_unary_scalar_select_emits_all_tail_paths[float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.037900252267718315,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_mixed_unary_scalar_select_emits_all_tail_paths[float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.03855893015861511,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_full_tile_compare_select_keeps_native_path[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.025000324472784996,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_full_tile_compare_select_keeps_native_path[pto]",
+      "category": "correct",
+      "call_duration_s": 0.025379428640007973,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_flag_off_keeps_native_path[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.03689121641218662,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_compare_select_flag_off_keeps_native_path[pto]",
+      "category": "correct",
+      "call_duration_s": 0.037324029952287674,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_wide_tail_compare_select_falls_back_and_clears_state[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.03865954093635082,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_wide_tail_compare_select_falls_back_and_clears_state[pto]",
+      "category": "correct",
+      "call_duration_s": 0.03916450962424278,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_select_requires_tracked_compare_mask[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.031306326389312744,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_select_requires_tracked_compare_mask[pto]",
+      "category": "correct",
+      "call_duration_s": 0.03207133524119854,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[0-sum-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.030805660411715508,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[0-sum-pto]",
+      "category": "correct",
+      "call_duration_s": 0.028308916836977005,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[0-max-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.027956990525126457,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[0-max-pto]",
+      "category": "correct",
+      "call_duration_s": 0.028171299025416374,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[0-min-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.027996966615319252,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[0-min-pto]",
+      "category": "correct",
+      "call_duration_s": 0.028736086562275887,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[-2-sum-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.02813466265797615,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[-2-sum-pto]",
+      "category": "correct",
+      "call_duration_s": 0.02822607383131981,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[-2-max-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.02797440066933632,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[-2-max-pto]",
+      "category": "correct",
+      "call_duration_s": 0.028190385550260544,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[-2-min-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.02802141010761261,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_axis0_emits_backend_path[-2-min-pto]",
+      "category": "correct",
+      "call_duration_s": 0.028676584362983704,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_sum_rewrites_only_partial_tiles[ascendc-row_tail]",
+      "category": "correct",
+      "call_duration_s": 0.023047523573040962,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_sum_rewrites_only_partial_tiles[ascendc-column_tail]",
+      "category": "correct",
+      "call_duration_s": 0.023989934474229813,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_sum_rewrites_only_partial_tiles[ascendc-34-130-True]",
+      "category": "correct",
+      "call_duration_s": 0.028059257194399834,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_sum_rewrites_only_partial_tiles[ascendc-32-128-False]",
+      "category": "correct",
+      "call_duration_s": 0.01948901265859604,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_sum_rewrites_only_partial_tiles[pto-row_tail]",
+      "category": "correct",
+      "call_duration_s": 0.023368408903479576,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_sum_rewrites_only_partial_tiles[pto-column_tail]",
+      "category": "correct",
+      "call_duration_s": 0.024225052446126938,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_sum_rewrites_only_partial_tiles[pto-34-130-True]",
+      "category": "correct",
+      "call_duration_s": 0.02819436602294445,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_sum_rewrites_only_partial_tiles[pto-32-128-False]",
+      "category": "correct",
+      "call_duration_s": 0.01961018703877926,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_accepts_explicit_matching_real_shape[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.028009068220853806,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_accepts_explicit_matching_real_shape[pto]",
+      "category": "correct",
+      "call_duration_s": 0.028148019686341286,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_supports_output_slice[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.027817143127322197,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_supports_output_slice[pto]",
+      "category": "correct",
+      "call_duration_s": 0.028599314391613007,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_last_axis_uses_native_path[sum-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.024527737870812416,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_last_axis_uses_native_path[sum-pto]",
+      "category": "correct",
+      "call_duration_s": 0.024793172255158424,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_last_axis_uses_native_path[max-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.02458367682993412,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_last_axis_uses_native_path[max-pto]",
+      "category": "correct",
+      "call_duration_s": 0.024755354970693588,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_last_axis_uses_native_path[min-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.024491943418979645,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_float32_last_axis_uses_native_path[min-pto]",
+      "category": "correct",
+      "call_duration_s": 0.024767760187387466,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_axis0_propagates_column_tail_to_unary[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.030330408364534378,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_axis0_propagates_column_tail_to_unary[pto]",
+      "category": "correct",
+      "call_duration_s": 0.030519848689436913,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_native_reduce_clears_downstream_tail_state[34-130-float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.02554423362016678,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_native_reduce_clears_downstream_tail_state[34-130-float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.028697965666651726,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_native_reduce_clears_downstream_tail_state[32-130-float-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.024558812379837036,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_native_reduce_clears_downstream_tail_state[32-130-float-pto]",
+      "category": "correct",
+      "call_duration_s": 0.0224668737500906,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_native_reduce_clears_downstream_tail_state[34-130-float16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.025613553822040558,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_native_reduce_clears_downstream_tail_state[34-130-float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.02576371468603611,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[ascendc-sum-float-False-None]",
+      "category": "correct",
+      "call_duration_s": 0.02493371069431305,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[ascendc-sum-float16-True-None]",
+      "category": "correct",
+      "call_duration_s": 0.0249587744474411,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[ascendc-sum-float-True-real_shape2]",
+      "category": "correct",
+      "call_duration_s": 0.024896034970879555,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[ascendc-max-float-False-None]",
+      "category": "correct",
+      "call_duration_s": 0.024963123723864555,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[ascendc-max-float16-True-None]",
+      "category": "correct",
+      "call_duration_s": 0.02489391714334488,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[ascendc-max-float-True-real_shape2]",
+      "category": "correct",
+      "call_duration_s": 0.02483472228050232,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[ascendc-min-float-False-None]",
+      "category": "correct",
+      "call_duration_s": 0.024902047589421272,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[ascendc-min-float16-True-None]",
+      "category": "correct",
+      "call_duration_s": 0.02500435896217823,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[ascendc-min-float-True-real_shape2]",
+      "category": "correct",
+      "call_duration_s": 0.024869604036211967,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[pto-sum-float-False-None]",
+      "category": "correct",
+      "call_duration_s": 0.025663156062364578,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[pto-sum-float16-True-None]",
+      "category": "correct",
+      "call_duration_s": 0.025300534442067146,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[pto-sum-float-True-real_shape2]",
+      "category": "correct",
+      "call_duration_s": 0.025069810450077057,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[pto-max-float-False-None]",
+      "category": "correct",
+      "call_duration_s": 0.025218738242983818,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[pto-max-float16-True-None]",
+      "category": "correct",
+      "call_duration_s": 0.024999815970659256,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[pto-max-float-True-real_shape2]",
+      "category": "correct",
+      "call_duration_s": 0.025046473369002342,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[pto-min-float-False-None]",
+      "category": "correct",
+      "call_duration_s": 0.025135591626167297,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[pto-min-float16-True-None]",
+      "category": "correct",
+      "call_duration_s": 0.024923741817474365,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_unsupported_tail_reduce_contracts_fall_back[pto-min-float-True-real_shape2]",
+      "category": "correct",
+      "call_duration_s": 0.02486289106309414,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_pto_accumulating_tail_reduce_uses_native_reduce_and_merge[sum-TADD(]",
+      "category": "correct",
+      "call_duration_s": 0.02515486627817154,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_pto_accumulating_tail_reduce_uses_native_reduce_and_merge[max-TMAX(]",
+      "category": "correct",
+      "call_duration_s": 0.025104166939854622,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_pto_accumulating_tail_reduce_uses_native_reduce_and_merge[min-TMIN(]",
+      "category": "correct",
+      "call_duration_s": 0.025191547349095345,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_flag_off_emits_no_tail_helper[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.03688882477581501,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_tail_reduce_flag_off_emits_no_tail_helper[pto]",
+      "category": "correct",
+      "call_duration_s": 0.036724820733070374,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_flag_off_emits_no_tail_helper[ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.030797256156802177,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tail_mask_codegen.py::test_flag_off_emits_no_tail_helper[pto]",
+      "category": "correct",
+      "call_duration_s": 0.03097686916589737,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    }
+  ]
+}

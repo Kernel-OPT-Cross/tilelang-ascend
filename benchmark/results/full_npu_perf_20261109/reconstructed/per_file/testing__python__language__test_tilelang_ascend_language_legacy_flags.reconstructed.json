@@ -1,0 +1,17 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_legacy_flags.log",
+  "counts": {
+    "correct": 1
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_legacy_flags.py::test_legacy_flag_helpers_are_not_exported",
+      "category": "correct",
+      "call_duration_s": 0.00022255629301071167,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    }
+  ]
+}

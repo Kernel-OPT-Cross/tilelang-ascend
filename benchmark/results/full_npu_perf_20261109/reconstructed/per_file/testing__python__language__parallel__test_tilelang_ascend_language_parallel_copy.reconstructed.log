@@ -1,0 +1,30 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_copy.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_copy.py::test_parallel_copy_gm_ub_gm[float]
+  call_duration_s: 3.4985827021300793
+  npu_event_ms: calls=1, median=0.88224, min=0.88224, max=0.88224
+  samples_ms: [0.8822399973869324]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_copy.py::test_parallel_copy_gm_ub_gm[float16]
+  call_duration_s: 2.449935646727681
+  npu_event_ms: calls=1, median=0.38548, min=0.38548, max=0.38548
+  samples_ms: [0.38547998666763306]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_copy.py::test_parallel_copy_gm_ub_gm[int32]
+  call_duration_s: 2.430370355024934
+  npu_event_ms: calls=1, median=0.38322, min=0.38322, max=0.38322
+  samples_ms: [0.38321998715400696]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_copy.py::test_parallel_copy_gm_ub_gm_1d
+  call_duration_s: 2.434242770075798
+  npu_event_ms: calls=1, median=0.37666, min=0.37666, max=0.37666
+  samples_ms: [0.37665998935699463]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_copy.py::test_parallel_copy_gm_l1_l0c_gm
+  call_duration_s: 2.783789796754718
+  npu_event_ms: calls=1, median=0.50716, min=0.50716, max=0.50716
+  samples_ms: [0.5071600079536438]
+

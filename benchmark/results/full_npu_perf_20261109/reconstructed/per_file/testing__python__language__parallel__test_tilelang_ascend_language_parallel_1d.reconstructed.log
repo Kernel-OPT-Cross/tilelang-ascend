@@ -1,0 +1,70 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_1d.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_unary[exp-<lambda>-exp-<lambda>]
+  call_duration_s: 3.4515032414346933
+  npu_event_ms: calls=1, median=0.9531, min=0.9531, max=0.9531
+  samples_ms: [0.9531000256538391]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_unary[abs-<lambda>-abs-<lambda>]
+  call_duration_s: 2.445226237177849
+  npu_event_ms: calls=1, median=0.39222, min=0.39222, max=0.39222
+  samples_ms: [0.39221999049186707]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_unary[sqrt-<lambda>-sqrt-<lambda>]
+  call_duration_s: 2.405353222042322
+  npu_event_ms: calls=1, median=0.37822, min=0.37822, max=0.37822
+  samples_ms: [0.37821999192237854]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_binary_float[sub-<lambda>-<lambda>]
+  call_duration_s: 2.3889141734689474
+  npu_event_ms: calls=1, median=0.37604, min=0.37604, max=0.37604
+  samples_ms: [0.3760400116443634]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_binary_float[mul-<lambda>-<lambda>]
+  call_duration_s: 2.3998739048838615
+  npu_event_ms: calls=1, median=0.38668, min=0.38668, max=0.38668
+  samples_ms: [0.386680006980896]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_binary_float[div-<lambda>-<lambda>]
+  call_duration_s: 2.388855354860425
+  npu_event_ms: calls=1, median=0.40302, min=0.40302, max=0.40302
+  samples_ms: [0.4030199944972992]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_binary_float[max-<lambda>-maximum]
+  call_duration_s: 2.3768492098897696
+  npu_event_ms: calls=1, median=0.35972, min=0.35972, max=0.35972
+  samples_ms: [0.35971999168395996]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_binary_float[min-<lambda>-minimum]
+  call_duration_s: 2.389631310477853
+  npu_event_ms: calls=1, median=0.3757, min=0.3757, max=0.3757
+  samples_ms: [0.3756999969482422]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_binary_int[and-<lambda>-<lambda>]
+  call_duration_s: 2.438761118799448
+  npu_event_ms: calls=1, median=0.36524, min=0.36524, max=0.36524
+  samples_ms: [0.3652400076389313]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_binary_int[or-<lambda>-<lambda>]
+  call_duration_s: 2.416223492473364
+  npu_event_ms: calls=1, median=0.37324, min=0.37324, max=0.37324
+  samples_ms: [0.37323999404907227]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_scalar_immediate[add_imm-<lambda>-<lambda>]
+  call_duration_s: 2.409881154075265
+  npu_event_ms: calls=1, median=0.37526, min=0.37526, max=0.37526
+  samples_ms: [0.37525999546051025]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_scalar_immediate[mul_imm-<lambda>-<lambda>]
+  call_duration_s: 2.3808253817260265
+  npu_event_ms: calls=1, median=0.35634, min=0.35634, max=0.35634
+  samples_ms: [0.3563399910926819]
+
+[correct] testing/python/language/parallel/test_tilelang_ascend_language_parallel_1d.py::test_parallel_1d_offset
+  call_duration_s: 2.393573435023427
+  npu_event_ms: calls=1, median=0.34538, min=0.34538, max=0.34538
+  samples_ms: [0.3453800082206726]
+

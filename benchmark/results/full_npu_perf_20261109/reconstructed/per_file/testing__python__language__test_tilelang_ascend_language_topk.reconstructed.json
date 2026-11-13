@@ -1,0 +1,553 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_topk.log",
+  "counts": {
+    "correct": 34
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[128-ascendc-float]",
+      "category": "correct",
+      "call_duration_s": 3.530808625742793,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.919,
+        "min_ms": 0.919,
+        "max_ms": 0.919,
+        "samples_ms": [
+          0.9190000295639038
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[128-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.605617383494973,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38576,
+        "min_ms": 0.38576,
+        "max_ms": 0.38576,
+        "samples_ms": [
+          0.38576000928878784
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[128-pto-float]",
+      "category": "correct",
+      "call_duration_s": 0.8133025337010622,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33844,
+        "min_ms": 0.33844,
+        "max_ms": 0.33844,
+        "samples_ms": [
+          0.3384400010108948
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[128-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.8383596930652857,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32726,
+        "min_ms": 0.32726,
+        "max_ms": 0.32726,
+        "samples_ms": [
+          0.32725998759269714
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[51-ascendc-float]",
+      "category": "correct",
+      "call_duration_s": 2.528212098404765,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38688,
+        "min_ms": 0.38688,
+        "max_ms": 0.38688,
+        "samples_ms": [
+          0.3868800103664398
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[51-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.581931745633483,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38456,
+        "min_ms": 0.38456,
+        "max_ms": 0.38456,
+        "samples_ms": [
+          0.3845599889755249
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[51-pto-float]",
+      "category": "correct",
+      "call_duration_s": 0.7980390153825283,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32514,
+        "min_ms": 0.32514,
+        "max_ms": 0.32514,
+        "samples_ms": [
+          0.32513999938964844
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[51-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.8454132173210382,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3309,
+        "min_ms": 0.3309,
+        "max_ms": 0.3309,
+        "samples_ms": [
+          0.33090001344680786
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[100-ascendc-float]",
+      "category": "correct",
+      "call_duration_s": 2.5251607447862625,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38778,
+        "min_ms": 0.38778,
+        "max_ms": 0.38778,
+        "samples_ms": [
+          0.38778001070022583
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[100-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.605733308941126,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3766,
+        "min_ms": 0.3766,
+        "max_ms": 0.3766,
+        "samples_ms": [
+          0.3765999972820282
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[100-pto-float]",
+      "category": "correct",
+      "call_duration_s": 0.8016407694667578,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31148,
+        "min_ms": 0.31148,
+        "max_ms": 0.31148,
+        "samples_ms": [
+          0.31147998571395874
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_basic[100-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.847192220389843,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31502,
+        "min_ms": 0.31502,
+        "max_ms": 0.31502,
+        "samples_ms": [
+          0.31501999497413635
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[1-ascendc-float]",
+      "category": "correct",
+      "call_duration_s": 2.510740540921688,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37006,
+        "min_ms": 0.37006,
+        "max_ms": 0.37006,
+        "samples_ms": [
+          0.370059996843338
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[1-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.5742068458348513,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.377,
+        "min_ms": 0.377,
+        "max_ms": 0.377,
+        "samples_ms": [
+          0.37700000405311584
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[1-pto-float]",
+      "category": "correct",
+      "call_duration_s": 0.7994092348963022,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3367,
+        "min_ms": 0.3367,
+        "max_ms": 0.3367,
+        "samples_ms": [
+          0.3366999924182892
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[1-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.8409515898674726,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.30924,
+        "min_ms": 0.30924,
+        "max_ms": 0.30924,
+        "samples_ms": [
+          0.3092400133609772
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[64-ascendc-float]",
+      "category": "correct",
+      "call_duration_s": 2.51236885599792,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36248,
+        "min_ms": 0.36248,
+        "max_ms": 0.36248,
+        "samples_ms": [
+          0.3624800145626068
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[64-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.5815595611929893,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36428,
+        "min_ms": 0.36428,
+        "max_ms": 0.36428,
+        "samples_ms": [
+          0.36427998542785645
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[64-pto-float]",
+      "category": "correct",
+      "call_duration_s": 0.7959113270044327,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32352,
+        "min_ms": 0.32352,
+        "max_ms": 0.32352,
+        "samples_ms": [
+          0.3235200047492981
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_k_boundary[64-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.8491079770028591,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32042,
+        "min_ms": 0.32042,
+        "max_ms": 0.32042,
+        "samples_ms": [
+          0.3204199969768524
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_2d[ascendc-float]",
+      "category": "correct",
+      "call_duration_s": 2.5063123032450676,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36172,
+        "min_ms": 0.36172,
+        "max_ms": 0.36172,
+        "samples_ms": [
+          0.3617199957370758
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_2d[ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.5654213801026344,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36322,
+        "min_ms": 0.36322,
+        "max_ms": 0.36322,
+        "samples_ms": [
+          0.3632200062274933
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_2d[pto-float]",
+      "category": "correct",
+      "call_duration_s": 0.7958817314356565,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32288,
+        "min_ms": 0.32288,
+        "max_ms": 0.32288,
+        "samples_ms": [
+          0.32287999987602234
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_2d[pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.8352977782487869,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33406,
+        "min_ms": 0.33406,
+        "max_ms": 0.33406,
+        "samples_ms": [
+          0.33406001329421997
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_src_inplace[ascendc-float]",
+      "category": "correct",
+      "call_duration_s": 2.527223477140069,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38694,
+        "min_ms": 0.38694,
+        "max_ms": 0.38694,
+        "samples_ms": [
+          0.38694000244140625
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_src_inplace[ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.579539682716131,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38474,
+        "min_ms": 0.38474,
+        "max_ms": 0.38474,
+        "samples_ms": [
+          0.3847399950027466
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_src_inplace[pto-float]",
+      "category": "correct",
+      "call_duration_s": 0.814860001206398,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3194,
+        "min_ms": 0.3194,
+        "max_ms": 0.3194,
+        "samples_ms": [
+          0.31940001249313354
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_src_inplace[pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.8589133899658918,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32904,
+        "min_ms": 0.32904,
+        "max_ms": 0.32904,
+        "samples_ms": [
+          0.329039990901947
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_large_actual_num[ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.582293091341853,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38664,
+        "min_ms": 0.38664,
+        "max_ms": 0.38664,
+        "samples_ms": [
+          0.3866400122642517
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_large_actual_num[pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.9981327168643475,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33164,
+        "min_ms": 0.33164,
+        "max_ms": 0.33164,
+        "samples_ms": [
+          0.33164000511169434
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_fp16_index_precision[2049-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.598878376185894,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.43424,
+        "min_ms": 0.43424,
+        "max_ms": 0.43424,
+        "samples_ms": [
+          0.4342400133609772
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_fp16_index_precision[2049-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.9388290289789438,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33728,
+        "min_ms": 0.33728,
+        "max_ms": 0.33728,
+        "samples_ms": [
+          0.3372800052165985
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_fp16_index_precision[4096-ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.5967940036207438,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39364,
+        "min_ms": 0.39364,
+        "max_ms": 0.39364,
+        "samples_ms": [
+          0.39364001154899597
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_topk.py::test_topk_fp16_index_precision[4096-pto-float16]",
+      "category": "correct",
+      "call_duration_s": 1.0330895967781544,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31856,
+        "min_ms": 0.31856,
+        "max_ms": 0.31856,
+        "samples_ms": [
+          0.31856000423431396
+        ]
+      }
+    }
+  ]
+}

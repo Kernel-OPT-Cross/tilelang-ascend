@@ -1,0 +1,11 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_copy_pad_value.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_copy_pad_value.py::test_sliced_default_copy_pad_value_generates_null_for_pto
+  call_duration_s: 0.7862144540995359
+
+[correct] testing/python/language/test_tilelang_ascend_language_copy_pad_value.py::test_explicit_zero_copy_pad_value_generates_zero_for_pto
+  call_duration_s: 0.7422355432063341
+

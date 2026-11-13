@@ -1,0 +1,561 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_explicit_tmp.log",
+  "counts": {
+    "correct": 69
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_every_workspace_api_exposes_the_public_tmp_contract",
+      "category": "correct",
+      "call_duration_s": 0.007939798757433891,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_explicit_tmp_arena_preserves_byte_geometry",
+      "category": "correct",
+      "call_duration_s": 0.0050462111830711365,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_explicit_tmp_arena_validation",
+      "category": "correct",
+      "call_duration_s": 0.005929494276642799,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_every_workspace_api_has_the_target_specific_lowered_layout[False-uint8-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.01431470550596714,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_every_workspace_api_has_the_target_specific_lowered_layout[False-uint8-pto]",
+      "category": "correct",
+      "call_duration_s": 0.012151483446359634,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_every_workspace_api_has_the_target_specific_lowered_layout[True-uint8-ascendc]",
+      "category": "correct",
+      "call_duration_s": 0.01586722955107689,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_every_workspace_api_has_the_target_specific_lowered_layout[True-uint8-pto]",
+      "category": "correct",
+      "call_duration_s": 0.014199133962392807,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_unsupported_workspace_api_fails_before_codegen[tl.ascend_bilinear_interpolation]",
+      "category": "correct",
+      "call_duration_s": 0.1987653411924839,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_unsupported_workspace_api_fails_before_codegen[tl.ascend_cos]",
+      "category": "correct",
+      "call_duration_s": 0.004835184663534164,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_unsupported_workspace_api_fails_before_codegen[tl.ascend_reducesum_experiment]",
+      "category": "correct",
+      "call_duration_s": 0.004917040467262268,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_unsupported_workspace_api_fails_before_codegen[tl.ascend_reducesum_mask_experiment]",
+      "category": "correct",
+      "call_duration_s": 0.004665130749344826,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_unsupported_workspace_api_fails_before_codegen[tl.ascend_sin]",
+      "category": "correct",
+      "call_duration_s": 0.004343416541814804,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_merge_sort_codegen_has_no_workspace_argument",
+      "category": "correct",
+      "call_duration_s": 0.07149760611355305,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_optional_workspace_metadata_uses_the_lowered_call_layout",
+      "category": "correct",
+      "call_duration_s": 0.0022354070097208023,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_select_metadata_tracks_shifted_src_and_destination",
+      "category": "correct",
+      "call_duration_s": 0.0029987357556819916,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_mixed_typed_implicit_calls_share_one_byte_arena",
+      "category": "correct",
+      "call_duration_s": 0.01649901084601879,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_implicit_workspace_names_do_not_collide_with_explicit_arenas",
+      "category": "correct",
+      "call_duration_s": 0.017646251246333122,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_zero_workspace_apis_elide_an_explicit_empty_arena",
+      "category": "correct",
+      "call_duration_s": 0.024409418925642967,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_typed_workspace_codegen_preserves_dtype_and_byte_address",
+      "category": "correct",
+      "call_duration_s": 0.01782430335879326,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_explicit_reduce_uses_byte_correct_row_and_column_views",
+      "category": "correct",
+      "call_duration_s": 0.06676764972507954,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_explicit_arena_capacity_contract",
+      "category": "correct",
+      "call_duration_s": 0.058481717482209206,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_implicit_pto_reduce_allocations_follow_row_and_column_layouts",
+      "category": "correct",
+      "call_duration_s": 0.0291210375726223,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_physical_row_remains_after_clear_false_and_two_tmp_views",
+      "category": "correct",
+      "call_duration_s": 0.014886070042848587,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_inject_tmp_buffer_is_idempotent_for_all_workspace_layouts",
+      "category": "correct",
+      "call_duration_s": 0.05211164616048336,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_broadcast_codegen_preserves_explicit_tmp_region_offset",
+      "category": "correct",
+      "call_duration_s": 0.017240189015865326,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_reduce_zero_workspace_paths_elide_explicit_and_implicit_tmp",
+      "category": "correct",
+      "call_duration_s": 0.04376048222184181,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_half_sum_reduce_needs_widen_workspace",
+      "category": "correct",
+      "call_duration_s": 0.014079127460718155,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_implicit_reduce_uses_transitional_heuristic[sum-shape0--1-32]",
+      "category": "correct",
+      "call_duration_s": 0.014464054256677628,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_implicit_reduce_uses_transitional_heuristic[sum-shape1--1-4096]",
+      "category": "correct",
+      "call_duration_s": 0.014298664405941963,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_implicit_reduce_uses_transitional_heuristic[max-shape2--1-256]",
+      "category": "correct",
+      "call_duration_s": 0.014957146719098091,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_implicit_reduce_uses_transitional_heuristic[max-shape3--1-2048]",
+      "category": "correct",
+      "call_duration_s": 0.01437908411026001,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_implicit_reduce_uses_transitional_heuristic[sum-shape4-0-1024]",
+      "category": "correct",
+      "call_duration_s": 0.014386316761374474,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[sort-float16-64-float16-1024]",
+      "category": "correct",
+      "call_duration_s": 0.0013265740126371384,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[sort-float32-64-float32-512]",
+      "category": "correct",
+      "call_duration_s": 0.0012133847922086716,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[topk-float16-64-float16-1280]",
+      "category": "correct",
+      "call_duration_s": 0.0013967566192150116,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[topk-float32-64-float32-1024]",
+      "category": "correct",
+      "call_duration_s": 0.0013498570770025253,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[sin-float16-64-uint8-512]",
+      "category": "correct",
+      "call_duration_s": 0.0012234002351760864,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[sin-float16-512-uint8-2048]",
+      "category": "correct",
+      "call_duration_s": 0.001208452507853508,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[cos-float32-32-uint8-384]",
+      "category": "correct",
+      "call_duration_s": 0.001205485314130783,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[cos-float32-256-uint8-2048]",
+      "category": "correct",
+      "call_duration_s": 0.0012076366692781448,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[pow-float16-64-uint8-1152]",
+      "category": "correct",
+      "call_duration_s": 0.001209089532494545,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[pow-float32-32-uint8-768]",
+      "category": "correct",
+      "call_duration_s": 0.001182064414024353,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[pow-float32-256-uint8-2048]",
+      "category": "correct",
+      "call_duration_s": 0.0012219678610563278,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[pow-int32-32-uint8-768]",
+      "category": "correct",
+      "call_duration_s": 0.0012015197426080704,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[pow-int32-256-uint8-2048]",
+      "category": "correct",
+      "call_duration_s": 0.0012014172971248627,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[xor-int16-16-uint8-64]",
+      "category": "correct",
+      "call_duration_s": 0.0011984612792730331,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[xor-int16-64-uint8-128]",
+      "category": "correct",
+      "call_duration_s": 0.0011994857341051102,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[round-float16-64-uint8-256]",
+      "category": "correct",
+      "call_duration_s": 0.0011417698115110397,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[round-float16-256-uint8-512]",
+      "category": "correct",
+      "call_duration_s": 0.0011413544416427612,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[sigmoid-float32-64-uint8-256]",
+      "category": "correct",
+      "call_duration_s": 0.001158611848950386,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[reduce_sum_experiment-float16-64-float16-128]",
+      "category": "correct",
+      "call_duration_s": 0.001147884875535965,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_implicit_workspace_policy[reduce_sum_mask_experiment-float32-64-float32-256]",
+      "category": "correct",
+      "call_duration_s": 0.0011924784630537033,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_bilinear_workspace_policy",
+      "category": "correct",
+      "call_duration_s": 0.0013322383165359497,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[float16-src_shape0-dst_shape0-1-0]",
+      "category": "correct",
+      "call_duration_s": 0.0012223385274410248,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[float32-src_shape1-dst_shape1-0-0]",
+      "category": "correct",
+      "call_duration_s": 0.001108737662434578,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[float16-src_shape2-dst_shape2-0-32]",
+      "category": "correct",
+      "call_duration_s": 0.0012987013906240463,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[float16-src_shape3-dst_shape3-1-512]",
+      "category": "correct",
+      "call_duration_s": 0.0013006385415792465,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[float16-src_shape4-dst_shape4-1-1536]",
+      "category": "correct",
+      "call_duration_s": 0.0012912619858980179,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[float32-src_shape5-dst_shape5-1-256]",
+      "category": "correct",
+      "call_duration_s": 0.0013086218386888504,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[float32-src_shape6-dst_shape6-1-768]",
+      "category": "correct",
+      "call_duration_s": 0.001299569383263588,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[uint8-src_shape7-dst_shape7-1-128]",
+      "category": "correct",
+      "call_duration_s": 0.0012986864894628525,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[uint8-src_shape8-dst_shape8-0-160]",
+      "category": "correct",
+      "call_duration_s": 0.001249011605978012,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[uint8-src_shape9-dst_shape9-0-1184]",
+      "category": "correct",
+      "call_duration_s": 0.0012925956398248672,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[uint8-src_shape10-dst_shape10-1-800]",
+      "category": "correct",
+      "call_duration_s": 0.0013211797922849655,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_dav_2201_broadcast_workspace_policy[uint8-src_shape11-dst_shape11-1-1856]",
+      "category": "correct",
+      "call_duration_s": 0.0012938231229782104,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_zero_workspace_codegen_uses_basic_intrinsics",
+      "category": "correct",
+      "call_duration_s": 0.014991240575909615,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_ascendc_experimental_reduce_codegen_uses_source_dtype_workspace",
+      "category": "correct",
+      "call_duration_s": 0.0134725421667099,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_select_and_gather_codegen_preserve_workspace_region_offsets",
+      "category": "correct",
+      "call_duration_s": 0.017932914197444916,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_explicit_tmp.py::test_pto_half_sort_codegen_scales_typed_workspace_offset",
+      "category": "correct",
+      "call_duration_s": 0.014501404017210007,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    }
+  ]
+}

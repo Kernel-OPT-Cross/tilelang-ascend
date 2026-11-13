@@ -1,0 +1,33 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_int32_1d[ascendc]
+  call_duration_s: 3.4406998716294765
+  npu_event_ms: calls=1, median=0.81766, min=0.81766, max=0.81766
+  samples_ms: [0.8176599740982056]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_int32_1d[pto]
+  call_duration_s: 0.7334195598959923
+  npu_event_ms: calls=1, median=0.32982, min=0.32982, max=0.32982
+  samples_ms: [0.32982000708580017]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_dst_scope_violation_raises
+  call_duration_s: 0.2251429669559002
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_src_scope_violation_raises
+  call_duration_s: 0.013009851798415184
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_dtype_mismatch_raises
+  call_duration_s: 0.013973509892821312
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_unsupported_dtype_raises[uint16-pto]
+  call_duration_s: 0.5589517969638109
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_unsupported_dtype_raises[uint32-pto]
+  call_duration_s: 0.5727982297539711
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_unsupported_dtype_raises[int8-ascendc]
+  call_duration_s: 1.9674111921340227
+

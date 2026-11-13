@@ -1,0 +1,35 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_dynamic_fill.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_dynamic_fill.py::test_dynamic_fill[shape0-ascendc]
+  call_duration_s: 3.382771112024784
+  npu_event_ms: calls=1, median=0.9571, min=0.9571, max=0.9571
+  samples_ms: [0.957099974155426]
+
+[correct] testing/python/language/test_tilelang_ascend_language_dynamic_fill.py::test_dynamic_fill[shape0-pto]
+  call_duration_s: 0.7511208411306143
+  npu_event_ms: calls=1, median=0.30736, min=0.30736, max=0.30736
+  samples_ms: [0.3073599934577942]
+
+[correct] testing/python/language/test_tilelang_ascend_language_dynamic_fill.py::test_dynamic_fill_multirow[48-ascendc]
+  call_duration_s: 2.3601447697728872
+  npu_event_ms: calls=1, median=0.34206, min=0.34206, max=0.34206
+  samples_ms: [0.34205999970436096]
+
+[correct] testing/python/language/test_tilelang_ascend_language_dynamic_fill.py::test_dynamic_fill_multirow[48-pto]
+  call_duration_s: 0.7336360793560743
+  npu_event_ms: calls=1, median=0.33356, min=0.33356, max=0.33356
+  samples_ms: [0.3335599899291992]
+
+[correct] testing/python/language/test_tilelang_ascend_language_dynamic_fill.py::test_dynamic_fill_multirow[64-ascendc]
+  call_duration_s: 0.018469244241714478
+  npu_event_ms: calls=1, median=0.16426, min=0.16426, max=0.16426
+  samples_ms: [0.16425999999046326]
+
+[correct] testing/python/language/test_tilelang_ascend_language_dynamic_fill.py::test_dynamic_fill_multirow[64-pto]
+  call_duration_s: 0.014535494148731232
+  npu_event_ms: calls=1, median=0.15184, min=0.15184, max=0.15184
+  samples_ms: [0.1518400013446808]
+

@@ -1,0 +1,89 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.log",
+  "counts": {
+    "correct": 8
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_int32_1d[ascendc]",
+      "category": "correct",
+      "call_duration_s": 3.4406998716294765,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.81766,
+        "min_ms": 0.81766,
+        "max_ms": 0.81766,
+        "samples_ms": [
+          0.8176599740982056
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_int32_1d[pto]",
+      "category": "correct",
+      "call_duration_s": 0.7334195598959923,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32982,
+        "min_ms": 0.32982,
+        "max_ms": 0.32982,
+        "samples_ms": [
+          0.32982000708580017
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_dst_scope_violation_raises",
+      "category": "correct",
+      "call_duration_s": 0.2251429669559002,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_src_scope_violation_raises",
+      "category": "correct",
+      "call_duration_s": 0.013009851798415184,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_dtype_mismatch_raises",
+      "category": "correct",
+      "call_duration_s": 0.013973509892821312,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_unsupported_dtype_raises[uint16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.5589517969638109,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_unsupported_dtype_raises[uint32-pto]",
+      "category": "correct",
+      "call_duration_s": 0.5727982297539711,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.py::test_atomic_add_unsupported_dtype_raises[int8-ascendc]",
+      "category": "correct",
+      "call_duration_s": 1.9674111921340227,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    }
+  ]
+}

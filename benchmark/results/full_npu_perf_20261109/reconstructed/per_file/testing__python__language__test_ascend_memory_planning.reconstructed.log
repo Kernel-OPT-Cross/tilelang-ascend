@@ -1,0 +1,115 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_ascend_memory_planning.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_linear_mode_sequential_no_overlap
+  call_duration_s: 2.4217850659042597
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_auto_mode_overlapping_buffers_no_reuse
+  call_duration_s: 2.366260116919875
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_loop_buffer_before_loop_not_reused_inside
+  call_duration_s: 2.389928884804249
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_loop_buffer_inside_loop_can_reuse
+  call_duration_s: 2.370963664725423
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_nested_loop_outer_buffer_not_reused
+  call_duration_s: 2.3712100964039564
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_annotate_address_respected_in_auto_mode
+  call_duration_s: 2.361005663871765
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_annotate_address_no_conflict_in_auto_mode
+  call_duration_s: 2.3557587135583162
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_tmp_buffer_gets_address_in_auto_mode
+  call_duration_s: 2.477519763633609
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_tmp_buffer_does_not_overlap_user_buffers
+  call_duration_s: 2.492844086140394
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_linear_mode_no_reuse
+  call_duration_s: 4.721416162326932
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_multiple_scopes_independent_allocation
+  call_duration_s: 2.4951984751969576
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_else_branch_buffers_no_overlap[ascendc]
+  call_duration_s: 2.3712316639721394
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_else_branch_buffers_no_overlap[pto]
+  call_duration_s: 0.75094223767519
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_else_branch_buffer_not_reuse_outer[ascendc]
+  call_duration_s: 2.3697066102176905
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_else_branch_buffer_not_reuse_outer[pto]
+  call_duration_s: 0.7694587800651789
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_then_else_dynamic_index_buffers_no_overlap[ascendc]
+  call_duration_s: 2.4595285952091217
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_then_else_dynamic_index_buffers_no_overlap[pto]
+  call_duration_s: 0.7644561175256968
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_then_else_in_loop_buffer_liveness[ascendc]
+  call_duration_s: 2.3814388252794743
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_then_else_in_loop_buffer_liveness[pto]
+  call_duration_s: 0.7598239127546549
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_else_boundary_last_block[ascendc]
+  call_duration_s: 2.409449480473995
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_else_boundary_last_block[pto]
+  call_duration_s: 0.7576283570379019
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_then_else_min_buffer_boundary[ascendc]
+  call_duration_s: 2.373564973473549
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_if_then_else_min_buffer_boundary[pto]
+  call_duration_s: 0.7560659199953079
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_npu_loop_liveness_correctness
+  call_duration_s: 3.3941203244030476
+  npu_event_ms: calls=1, median=0.84916, min=0.84916, max=0.84916
+  samples_ms: [0.8491600155830383]
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_npu_nested_loop_correctness
+  call_duration_s: 2.4012937285006046
+  npu_event_ms: calls=1, median=0.42132, min=0.42132, max=0.42132
+  samples_ms: [0.42131999135017395]
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_npu_reduce_with_auto_planning
+  call_duration_s: 2.4905593749135733
+  npu_event_ms: calls=1, median=0.36988, min=0.36988, max=0.36988
+  samples_ms: [0.36987999081611633]
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_npu_sequential_ops_correctness
+  call_duration_s: 2.377514313906431
+  npu_event_ms: calls=1, median=0.37824, min=0.37824, max=0.37824
+  samples_ms: [0.3782399892807007]
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_npu_if_else_branch_correctness
+  call_duration_s: 2.393112976104021
+  npu_event_ms: calls=2, median=0.23996, min=0.12852, max=0.3514
+  samples_ms: [0.3513999879360199,0.12851999700069427]
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_npu_if_then_else_dynamic_index_correctness
+  call_duration_s: 2.3615946862846613
+  npu_event_ms: calls=2, median=0.23504, min=0.12088, max=0.3492
+  samples_ms: [0.3492000102996826,0.12088000029325485]
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_npu_if_else_in_loop_correctness
+  call_duration_s: 2.396347150206566
+  npu_event_ms: calls=2, median=0.23297, min=0.12448, max=0.34146
+  samples_ms: [0.3414599895477295,0.1244800016283989]
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_letstmt_buffer_load_shared_no_crash[ascendc]
+  call_duration_s: 0.020316127687692642
+
+[correct] testing/python/language/test_ascend_memory_planning.py::test_letstmt_buffer_load_shared_no_crash[pto]
+  call_duration_s: 0.016444331035017967
+

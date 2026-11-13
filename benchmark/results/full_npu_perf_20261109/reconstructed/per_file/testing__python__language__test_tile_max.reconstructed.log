@@ -1,0 +1,691 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tile_max.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles[float16]
+  call_duration_s: 2.4306150153279305
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles[float32]
+  call_duration_s: 2.3879167158156633
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles[int16]
+  call_duration_s: 2.3769054897129536
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles[int32]
+  call_duration_s: 2.3738438356667757
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles_both_targets[ascendc]
+  call_duration_s: 2.3756002634763718
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_compiles_both_targets[pto]
+  call_duration_s: 0.7624460030347109
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_scalar_variant_compiles
+  call_duration_s: 2.368763906881213
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_various_shapes_compile[shape0]
+  call_duration_s: 2.371716445311904
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_various_shapes_compile[shape1]
+  call_duration_s: 2.3904764484614134
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxCompile::test_various_shapes_compile[shape2]
+  call_duration_s: 2.4096248783171177
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[float16-ascendc]
+  call_duration_s: 3.3881649505347013
+  npu_event_ms: calls=1, median=0.8688, min=0.8688, max=0.8688
+  samples_ms: [0.8687999844551086]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[float16-pto]
+  call_duration_s: 0.7657479718327522
+  npu_event_ms: calls=1, median=0.32854, min=0.32854, max=0.32854
+  samples_ms: [0.32853999733924866]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[float32-ascendc]
+  call_duration_s: 2.3717952128499746
+  npu_event_ms: calls=1, median=0.37144, min=0.37144, max=0.37144
+  samples_ms: [0.37143999338150024]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[float32-pto]
+  call_duration_s: 0.7614148631691933
+  npu_event_ms: calls=1, median=0.44344, min=0.44344, max=0.44344
+  samples_ms: [0.4434399902820587]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[int16-ascendc]
+  call_duration_s: 2.428140986710787
+  npu_event_ms: calls=1, median=0.38946, min=0.38946, max=0.38946
+  samples_ms: [0.3894599974155426]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[int16-pto]
+  call_duration_s: 0.7856705449521542
+  npu_event_ms: calls=1, median=0.34344, min=0.34344, max=0.34344
+  samples_ms: [0.3434399962425232]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[int32-ascendc]
+  call_duration_s: 2.402519902214408
+  npu_event_ms: calls=1, median=0.39116, min=0.39116, max=0.39116
+  samples_ms: [0.3911600112915039]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_basic_1024x1024[int32-pto]
+  call_duration_s: 0.760752260684967
+  npu_event_ms: calls=1, median=0.34076, min=0.34076, max=0.34076
+  samples_ms: [0.3407599925994873]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-ascendc-256-256-64-64]
+  call_duration_s: 2.3832531925290823
+  npu_event_ms: calls=1, median=0.38482, min=0.38482, max=0.38482
+  samples_ms: [0.38482001423835754]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-ascendc-512-1024-64-128]
+  call_duration_s: 2.367628177627921
+  npu_event_ms: calls=1, median=0.37506, min=0.37506, max=0.37506
+  samples_ms: [0.37505999207496643]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-ascendc-1024-512-128-64]
+  call_duration_s: 2.3710216283798218
+  npu_event_ms: calls=1, median=0.38818, min=0.38818, max=0.38818
+  samples_ms: [0.3881799876689911]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-ascendc-2048-2048-128-128]
+  call_duration_s: 2.373138526454568
+  npu_event_ms: calls=1, median=0.5209, min=0.5209, max=0.5209
+  samples_ms: [0.5209000110626221]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-pto-256-256-64-64]
+  call_duration_s: 0.7712900750339031
+  npu_event_ms: calls=1, median=0.3361, min=0.3361, max=0.3361
+  samples_ms: [0.3361000120639801]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-pto-512-1024-64-128]
+  call_duration_s: 0.7623134832829237
+  npu_event_ms: calls=1, median=0.31616, min=0.31616, max=0.31616
+  samples_ms: [0.3161599934101105]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-pto-1024-512-128-64]
+  call_duration_s: 0.7727700993418694
+  npu_event_ms: calls=1, median=0.334, min=0.334, max=0.334
+  samples_ms: [0.33399999141693115]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float16-pto-2048-2048-128-128]
+  call_duration_s: 0.7655232883989811
+  npu_event_ms: calls=1, median=0.35346, min=0.35346, max=0.35346
+  samples_ms: [0.35346001386642456]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-ascendc-256-256-64-64]
+  call_duration_s: 2.3870221003890038
+  npu_event_ms: calls=1, median=0.40174, min=0.40174, max=0.40174
+  samples_ms: [0.40174001455307007]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-ascendc-512-1024-64-128]
+  call_duration_s: 2.3784116320312023
+  npu_event_ms: calls=1, median=0.3824, min=0.3824, max=0.3824
+  samples_ms: [0.3824000060558319]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-ascendc-1024-512-128-64]
+  call_duration_s: 2.369006024673581
+  npu_event_ms: calls=1, median=0.36206, min=0.36206, max=0.36206
+  samples_ms: [0.362060010433197]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-ascendc-2048-2048-128-128]
+  call_duration_s: 2.3757971338927746
+  npu_event_ms: calls=1, median=0.38166, min=0.38166, max=0.38166
+  samples_ms: [0.38166001439094543]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-pto-256-256-64-64]
+  call_duration_s: 0.7579613383859396
+  npu_event_ms: calls=1, median=0.36626, min=0.36626, max=0.36626
+  samples_ms: [0.36625999212265015]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-pto-512-1024-64-128]
+  call_duration_s: 0.7589043155312538
+  npu_event_ms: calls=1, median=0.31184, min=0.31184, max=0.31184
+  samples_ms: [0.3118399977684021]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-pto-1024-512-128-64]
+  call_duration_s: 0.7619433477520943
+  npu_event_ms: calls=1, median=0.3496, min=0.3496, max=0.3496
+  samples_ms: [0.3495999872684479]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[float32-pto-2048-2048-128-128]
+  call_duration_s: 0.7610792126506567
+  npu_event_ms: calls=1, median=0.41968, min=0.41968, max=0.41968
+  samples_ms: [0.41967999935150146]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-ascendc-256-256-64-64]
+  call_duration_s: 2.383406300097704
+  npu_event_ms: calls=1, median=0.38214, min=0.38214, max=0.38214
+  samples_ms: [0.38214001059532166]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-ascendc-512-1024-64-128]
+  call_duration_s: 2.375168679282069
+  npu_event_ms: calls=1, median=0.37302, min=0.37302, max=0.37302
+  samples_ms: [0.3730199933052063]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-ascendc-1024-512-128-64]
+  call_duration_s: 2.3802233804017305
+  npu_event_ms: calls=1, median=0.3676, min=0.3676, max=0.3676
+  samples_ms: [0.3675999939441681]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-ascendc-2048-2048-128-128]
+  call_duration_s: 2.3873304557055235
+  npu_event_ms: calls=1, median=0.35312, min=0.35312, max=0.35312
+  samples_ms: [0.35311999917030334]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-pto-256-256-64-64]
+  call_duration_s: 0.7622825596481562
+  npu_event_ms: calls=1, median=0.3391, min=0.3391, max=0.3391
+  samples_ms: [0.3391000032424927]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-pto-512-1024-64-128]
+  call_duration_s: 0.7640184219926596
+  npu_event_ms: calls=1, median=0.34148, min=0.34148, max=0.34148
+  samples_ms: [0.34147998690605164]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-pto-1024-512-128-64]
+  call_duration_s: 0.7583661526441574
+  npu_event_ms: calls=1, median=0.33032, min=0.33032, max=0.33032
+  samples_ms: [0.33032000064849854]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int16-pto-2048-2048-128-128]
+  call_duration_s: 0.7700583804398775
+  npu_event_ms: calls=1, median=0.36192, min=0.36192, max=0.36192
+  samples_ms: [0.36191999912261963]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-ascendc-256-256-64-64]
+  call_duration_s: 2.3796068616211414
+  npu_event_ms: calls=1, median=0.37328, min=0.37328, max=0.37328
+  samples_ms: [0.37327998876571655]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-ascendc-512-1024-64-128]
+  call_duration_s: 2.394603094086051
+  npu_event_ms: calls=1, median=0.38772, min=0.38772, max=0.38772
+  samples_ms: [0.387719988822937]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-ascendc-1024-512-128-64]
+  call_duration_s: 2.3704981487244368
+  npu_event_ms: calls=1, median=1.94672, min=1.94672, max=1.94672
+  samples_ms: [1.946720004081726]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-ascendc-2048-2048-128-128]
+  call_duration_s: 2.530591007322073
+  npu_event_ms: calls=1, median=0.37172, min=0.37172, max=0.37172
+  samples_ms: [0.37171998620033264]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-pto-256-256-64-64]
+  call_duration_s: 0.7621073499321938
+  npu_event_ms: calls=1, median=0.33032, min=0.33032, max=0.33032
+  samples_ms: [0.33032000064849854]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-pto-512-1024-64-128]
+  call_duration_s: 0.75962770357728
+  npu_event_ms: calls=1, median=0.33454, min=0.33454, max=0.33454
+  samples_ms: [0.3345400094985962]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-pto-1024-512-128-64]
+  call_duration_s: 0.7651710230857134
+  npu_event_ms: calls=1, median=0.33764, min=0.33764, max=0.33764
+  samples_ms: [0.3376399874687195]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_various_shapes[int32-pto-2048-2048-128-128]
+  call_duration_s: 0.7568435724824667
+  npu_event_ms: calls=1, median=0.34604, min=0.34604, max=0.34604
+  samples_ms: [0.3460400104522705]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-ascendc-100-200]
+  call_duration_s: 2.384613836184144
+  npu_event_ms: calls=1, median=0.37702, min=0.37702, max=0.37702
+  samples_ms: [0.377020001411438]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-ascendc-107-145]
+  call_duration_s: 2.37498945184052
+  npu_event_ms: calls=1, median=0.44028, min=0.44028, max=0.44028
+  samples_ms: [0.4402799904346466]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-ascendc-255-513]
+  call_duration_s: 2.4214233495295048
+  npu_event_ms: calls=1, median=0.38778, min=0.38778, max=0.38778
+  samples_ms: [0.38778001070022583]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-pto-100-200]
+  call_duration_s: 0.7720511239022017
+  npu_event_ms: calls=1, median=0.3386, min=0.3386, max=0.3386
+  samples_ms: [0.3386000096797943]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-pto-107-145]
+  call_duration_s: 0.7559329215437174
+  npu_event_ms: calls=1, median=0.34772, min=0.34772, max=0.34772
+  samples_ms: [0.3477199971675873]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float16-pto-255-513]
+  call_duration_s: 0.7584286835044622
+  npu_event_ms: calls=1, median=0.3286, min=0.3286, max=0.3286
+  samples_ms: [0.3285999894142151]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-ascendc-100-200]
+  call_duration_s: 2.371714148670435
+  npu_event_ms: calls=1, median=0.40734, min=0.40734, max=0.40734
+  samples_ms: [0.40733999013900757]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-ascendc-107-145]
+  call_duration_s: 2.3727567475289106
+  npu_event_ms: calls=1, median=0.39418, min=0.39418, max=0.39418
+  samples_ms: [0.3941799998283386]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-ascendc-255-513]
+  call_duration_s: 2.3731410335749388
+  npu_event_ms: calls=1, median=0.36964, min=0.36964, max=0.36964
+  samples_ms: [0.3696399927139282]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-pto-100-200]
+  call_duration_s: 0.7565818931907415
+  npu_event_ms: calls=1, median=0.33012, min=0.33012, max=0.33012
+  samples_ms: [0.3301199972629547]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-pto-107-145]
+  call_duration_s: 0.7573538720607758
+  npu_event_ms: calls=1, median=0.3181, min=0.3181, max=0.3181
+  samples_ms: [0.3181000053882599]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[float32-pto-255-513]
+  call_duration_s: 0.7623810768127441
+  npu_event_ms: calls=1, median=0.46794, min=0.46794, max=0.46794
+  samples_ms: [0.46794000267982483]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-ascendc-100-200]
+  call_duration_s: 2.371970906853676
+  npu_event_ms: calls=1, median=0.37796, min=0.37796, max=0.37796
+  samples_ms: [0.3779599964618683]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-ascendc-107-145]
+  call_duration_s: 2.3728738613426685
+  npu_event_ms: calls=1, median=0.3607, min=0.3607, max=0.3607
+  samples_ms: [0.36070001125335693]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-ascendc-255-513]
+  call_duration_s: 2.375299932435155
+  npu_event_ms: calls=1, median=0.39916, min=0.39916, max=0.39916
+  samples_ms: [0.3991599977016449]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-pto-100-200]
+  call_duration_s: 0.7594202887266874
+  npu_event_ms: calls=1, median=0.3207, min=0.3207, max=0.3207
+  samples_ms: [0.3206999897956848]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-pto-107-145]
+  call_duration_s: 0.7551664840430021
+  npu_event_ms: calls=1, median=0.31046, min=0.31046, max=0.31046
+  samples_ms: [0.31046000123023987]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int16-pto-255-513]
+  call_duration_s: 0.7584503572434187
+  npu_event_ms: calls=1, median=0.32034, min=0.32034, max=0.32034
+  samples_ms: [0.32034000754356384]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-ascendc-100-200]
+  call_duration_s: 2.3687321208417416
+  npu_event_ms: calls=1, median=0.36766, min=0.36766, max=0.36766
+  samples_ms: [0.3676599860191345]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-ascendc-107-145]
+  call_duration_s: 2.365962313488126
+  npu_event_ms: calls=1, median=0.36414, min=0.36414, max=0.36414
+  samples_ms: [0.36414000391960144]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-ascendc-255-513]
+  call_duration_s: 2.3726137969642878
+  npu_event_ms: calls=1, median=0.37814, min=0.37814, max=0.37814
+  samples_ms: [0.37814000248908997]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-pto-100-200]
+  call_duration_s: 0.761136531829834
+  npu_event_ms: calls=1, median=0.33992, min=0.33992, max=0.33992
+  samples_ms: [0.3399200141429901]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-pto-107-145]
+  call_duration_s: 0.7673018146306276
+  npu_event_ms: calls=1, median=0.3239, min=0.3239, max=0.3239
+  samples_ms: [0.3239000141620636]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tail_blocks[int32-pto-255-513]
+  call_duration_s: 0.7620039936155081
+  npu_event_ms: calls=1, median=0.33088, min=0.33088, max=0.33088
+  samples_ms: [0.33087998628616333]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[float16-ascendc-256]
+  call_duration_s: 2.363650169223547
+  npu_event_ms: calls=1, median=0.37618, min=0.37618, max=0.37618
+  samples_ms: [0.3761799931526184]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[float16-pto-256]
+  call_duration_s: 0.7546941637992859
+  npu_event_ms: calls=1, median=0.3196, min=0.3196, max=0.3196
+  samples_ms: [0.319599986076355]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[float32-ascendc-256]
+  call_duration_s: 2.3574869949370623
+  npu_event_ms: calls=1, median=0.37748, min=0.37748, max=0.37748
+  samples_ms: [0.37748000025749207]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[float32-pto-256]
+  call_duration_s: 0.7494741175323725
+  npu_event_ms: calls=1, median=0.32456, min=0.32456, max=0.32456
+  samples_ms: [0.3245599865913391]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[int16-ascendc-256]
+  call_duration_s: 2.3776856753975153
+  npu_event_ms: calls=1, median=0.36622, min=0.36622, max=0.36622
+  samples_ms: [0.36621999740600586]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[int16-pto-256]
+  call_duration_s: 0.7512472029775381
+  npu_event_ms: calls=1, median=0.3287, min=0.3287, max=0.3287
+  samples_ms: [0.3287000060081482]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[int32-ascendc-256]
+  call_duration_s: 2.365611594170332
+  npu_event_ms: calls=1, median=0.4472, min=0.4472, max=0.4472
+  samples_ms: [0.4472000002861023]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_1d[int32-pto-256]
+  call_duration_s: 0.7565975338220596
+  npu_event_ms: calls=1, median=0.34106, min=0.34106, max=0.34106
+  samples_ms: [0.34106001257896423]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[float16-ascendc-2.0]
+  call_duration_s: 2.3970045261085033
+  npu_event_ms: calls=1, median=0.3949, min=0.3949, max=0.3949
+  samples_ms: [0.39489999413490295]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[float16-pto-2.0]
+  call_duration_s: 0.757122190669179
+  npu_event_ms: calls=1, median=0.34134, min=0.34134, max=0.34134
+  samples_ms: [0.34134000539779663]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[float32-ascendc-2.0]
+  call_duration_s: 2.366396654397249
+  npu_event_ms: calls=1, median=0.3831, min=0.3831, max=0.3831
+  samples_ms: [0.3831000030040741]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[float32-pto-2.0]
+  call_duration_s: 0.7534258998930454
+  npu_event_ms: calls=1, median=0.3558, min=0.3558, max=0.3558
+  samples_ms: [0.35580000281333923]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[int16-ascendc-2.0]
+  call_duration_s: 2.4054119177162647
+  npu_event_ms: calls=1, median=0.3746, min=0.3746, max=0.3746
+  samples_ms: [0.37459999322891235]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[int16-pto-2.0]
+  call_duration_s: 0.7572811096906662
+  npu_event_ms: calls=1, median=0.33684, min=0.33684, max=0.33684
+  samples_ms: [0.3368400037288666]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[int32-ascendc-2.0]
+  call_duration_s: 2.367877781391144
+  npu_event_ms: calls=1, median=0.37446, min=0.37446, max=0.37446
+  samples_ms: [0.37446001172065735]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_tensor_op_scalar[int32-pto-2.0]
+  call_duration_s: 0.75131312943995
+  npu_event_ms: calls=1, median=0.33186, min=0.33186, max=0.33186
+  samples_ms: [0.3318600058555603]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[float16-ascendc]
+  call_duration_s: 2.3631248977035284
+  npu_event_ms: calls=1, median=0.35964, min=0.35964, max=0.35964
+  samples_ms: [0.3596400022506714]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[float16-pto]
+  call_duration_s: 0.7820887174457312
+  npu_event_ms: calls=1, median=0.31694, min=0.31694, max=0.31694
+  samples_ms: [0.3169400095939636]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[float32-ascendc]
+  call_duration_s: 2.400476874783635
+  npu_event_ms: calls=1, median=0.3634, min=0.3634, max=0.3634
+  samples_ms: [0.36340001225471497]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[float32-pto]
+  call_duration_s: 0.8010310996323824
+  npu_event_ms: calls=1, median=0.30728, min=0.30728, max=0.30728
+  samples_ms: [0.3072800040245056]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[int16-ascendc]
+  call_duration_s: 2.3802013490349054
+  npu_event_ms: calls=1, median=0.36474, min=0.36474, max=0.36474
+  samples_ms: [0.3647400140762329]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[int16-pto]
+  call_duration_s: 0.7827197108417749
+  npu_event_ms: calls=1, median=0.31546, min=0.31546, max=0.31546
+  samples_ms: [0.3154599964618683]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[int32-ascendc]
+  call_duration_s: 2.375778740271926
+  npu_event_ms: calls=1, median=0.3755, min=0.3755, max=0.3755
+  samples_ms: [0.37549999356269836]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_buffload[int32-pto]
+  call_duration_s: 0.7825796362012625
+  npu_event_ms: calls=1, median=0.30444, min=0.30444, max=0.30444
+  samples_ms: [0.3044399917125702]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[float16-ascendc]
+  call_duration_s: 2.376805329695344
+  npu_event_ms: calls=1, median=0.3826, min=0.3826, max=0.3826
+  samples_ms: [0.38260000944137573]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[float16-pto]
+  call_duration_s: 0.7897924352437258
+  npu_event_ms: calls=1, median=0.29934, min=0.29934, max=0.29934
+  samples_ms: [0.29934000968933105]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[float32-ascendc]
+  call_duration_s: 2.37671578861773
+  npu_event_ms: calls=1, median=0.36904, min=0.36904, max=0.36904
+  samples_ms: [0.36904001235961914]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[float32-pto]
+  call_duration_s: 0.8013035766780376
+  npu_event_ms: calls=1, median=0.33628, min=0.33628, max=0.33628
+  samples_ms: [0.3362799882888794]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[int16-ascendc]
+  call_duration_s: 2.4004620537161827
+  npu_event_ms: calls=1, median=0.3809, min=0.3809, max=0.3809
+  samples_ms: [0.38089999556541443]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[int16-pto]
+  call_duration_s: 0.7944070603698492
+  npu_event_ms: calls=1, median=0.32066, min=0.32066, max=0.32066
+  samples_ms: [0.3206599950790405]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[int32-ascendc]
+  call_duration_s: 2.3744675498455763
+  npu_event_ms: calls=1, median=0.38968, min=0.38968, max=0.38968
+  samples_ms: [0.38967999815940857]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_row_slice_2d[int32-pto]
+  call_duration_s: 0.791332732886076
+  npu_event_ms: calls=1, median=0.3358, min=0.3358, max=0.3358
+  samples_ms: [0.3357999920845032]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[float16-ascendc]
+  call_duration_s: 2.380476601421833
+  npu_event_ms: calls=1, median=0.35342, min=0.35342, max=0.35342
+  samples_ms: [0.3534199893474579]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[float16-pto]
+  call_duration_s: 0.7605463247746229
+  npu_event_ms: calls=1, median=0.31994, min=0.31994, max=0.31994
+  samples_ms: [0.3199400007724762]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[float32-ascendc]
+  call_duration_s: 2.3790375515818596
+  npu_event_ms: calls=1, median=0.38958, min=0.38958, max=0.38958
+  samples_ms: [0.38958001136779785]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[float32-pto]
+  call_duration_s: 0.7621526978909969
+  npu_event_ms: calls=1, median=0.31946, min=0.31946, max=0.31946
+  samples_ms: [0.3194600045681]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[int16-ascendc]
+  call_duration_s: 2.3891282323747873
+  npu_event_ms: calls=1, median=0.36448, min=0.36448, max=0.36448
+  samples_ms: [0.36447998881340027]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[int16-pto]
+  call_duration_s: 0.7628090362995863
+  npu_event_ms: calls=1, median=0.3512, min=0.3512, max=0.3512
+  samples_ms: [0.35120001435279846]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[int32-ascendc]
+  call_duration_s: 2.3754947185516357
+  npu_event_ms: calls=1, median=0.36356, min=0.36356, max=0.36356
+  samples_ms: [0.3635599911212921]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxE2E::test_inplace[int32-pto]
+  call_duration_s: 0.7608852200210094
+  npu_event_ms: calls=1, median=0.35126, min=0.35126, max=0.35126
+  samples_ms: [0.3512600064277649]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_large_values[float16-ascendc]
+  call_duration_s: 2.3835305981338024
+  npu_event_ms: calls=1, median=0.4359, min=0.4359, max=0.4359
+  samples_ms: [0.4359000027179718]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_large_values[float16-pto]
+  call_duration_s: 0.7569669783115387
+  npu_event_ms: calls=1, median=0.3937, min=0.3937, max=0.3937
+  samples_ms: [0.3937000036239624]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_large_values[float32-ascendc]
+  call_duration_s: 2.3787962589412928
+  npu_event_ms: calls=1, median=0.45324, min=0.45324, max=0.45324
+  samples_ms: [0.4532400071620941]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_large_values[float32-pto]
+  call_duration_s: 0.754832785576582
+  npu_event_ms: calls=1, median=0.39062, min=0.39062, max=0.39062
+  samples_ms: [0.39061999320983887]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_zeros[float16-ascendc]
+  call_duration_s: 2.36784809269011
+  npu_event_ms: calls=1, median=0.42976, min=0.42976, max=0.42976
+  samples_ms: [0.42976000905036926]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_zeros[float16-pto]
+  call_duration_s: 0.757853215560317
+  npu_event_ms: calls=1, median=0.37226, min=0.37226, max=0.37226
+  samples_ms: [0.3722600042819977]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_zeros[float32-ascendc]
+  call_duration_s: 2.4429372306913137
+  npu_event_ms: calls=1, median=0.55558, min=0.55558, max=0.55558
+  samples_ms: [0.5555800199508667]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_zeros[float32-pto]
+  call_duration_s: 0.7624958790838718
+  npu_event_ms: calls=1, median=0.40962, min=0.40962, max=0.40962
+  samples_ms: [0.4096199870109558]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_negative_values[float16-ascendc]
+  call_duration_s: 2.375432264059782
+  npu_event_ms: calls=1, median=0.45146, min=0.45146, max=0.45146
+  samples_ms: [0.45146000385284424]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_negative_values[float16-pto]
+  call_duration_s: 0.7611976079642773
+  npu_event_ms: calls=1, median=0.39532, min=0.39532, max=0.39532
+  samples_ms: [0.39531999826431274]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_negative_values[float32-ascendc]
+  call_duration_s: 2.404451411217451
+  npu_event_ms: calls=1, median=1.54904, min=1.54904, max=1.54904
+  samples_ms: [1.5490399599075317]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_negative_values[float32-pto]
+  call_duration_s: 0.7939630337059498
+  npu_event_ms: calls=1, median=0.41122, min=0.41122, max=0.41122
+  samples_ms: [0.4112200140953064]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_inf_input[ascendc]
+  call_duration_s: 2.398757841438055
+  npu_event_ms: calls=1, median=0.43672, min=0.43672, max=0.43672
+  samples_ms: [0.43672001361846924]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_inf_input[pto]
+  call_duration_s: 0.7594191655516624
+  npu_event_ms: calls=1, median=0.38266, min=0.38266, max=0.38266
+  samples_ms: [0.38266000151634216]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_nan_input[ascendc]
+  call_duration_s: 2.3753450624644756
+  npu_event_ms: calls=1, median=0.43532, min=0.43532, max=0.43532
+  samples_ms: [0.4353199899196625]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_nan_input[pto]
+  call_duration_s: 0.7586711663752794
+  npu_event_ms: calls=1, median=0.37818, min=0.37818, max=0.37818
+  samples_ms: [0.37817999720573425]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_minimum_shape[float16-ascendc]
+  call_duration_s: 2.384648961946368
+  npu_event_ms: calls=1, median=0.37284, min=0.37284, max=0.37284
+  samples_ms: [0.3728399872779846]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_minimum_shape[float16-pto]
+  call_duration_s: 0.7608465701341629
+  npu_event_ms: calls=1, median=0.32796, min=0.32796, max=0.32796
+  samples_ms: [0.3279600143432617]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_minimum_shape[float32-ascendc]
+  call_duration_s: 2.40855080075562
+  npu_event_ms: calls=1, median=0.3904, min=0.3904, max=0.3904
+  samples_ms: [0.3903999924659729]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_minimum_shape[float32-pto]
+  call_duration_s: 0.7549399808049202
+  npu_event_ms: calls=1, median=0.33322, min=0.33322, max=0.33322
+  samples_ms: [0.3332200050354004]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_multidim_buffload_takes_first_index[float16-ascendc]
+  call_duration_s: 2.3686692621558905
+  npu_event_ms: calls=1, median=0.3491, min=0.3491, max=0.3491
+  samples_ms: [0.3490999937057495]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_multidim_buffload_takes_first_index[float16-pto]
+  call_duration_s: 0.7861623466014862
+  npu_event_ms: calls=1, median=0.3189, min=0.3189, max=0.3189
+  samples_ms: [0.3188999891281128]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_multidim_buffload_takes_first_index[float32-ascendc]
+  call_duration_s: 2.364753870293498
+  npu_event_ms: calls=1, median=0.3647, min=0.3647, max=0.3647
+  samples_ms: [0.36469998955726624]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_multidim_buffload_takes_first_index[float32-pto]
+  call_duration_s: 0.7824306041002274
+  npu_event_ms: calls=1, median=0.29626, min=0.29626, max=0.29626
+  samples_ms: [0.2962599992752075]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_size_mismatch_src0
+  call_duration_s: 0.23870251514017582
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_size_mismatch_region
+  call_duration_s: 0.015042092651128769
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_buffer_size_unvalidated[ascendc]
+  call_duration_s: 2.388711078092456
+  npu_event_ms: calls=1, median=0.41804, min=0.41804, max=0.41804
+  samples_ms: [0.418040007352829]
+
+[correct] testing/python/language/test_tile_max.py::TestTileMaxBoundary::test_buffer_size_unvalidated[pto]
+  call_duration_s: 0.8002982567995787
+  npu_event_ms: calls=1, median=0.31702, min=0.31702, max=0.31702
+  samples_ms: [0.3170199990272522]
+

@@ -1,0 +1,46 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[ascendc-float32]
+  call_duration_s: 3.3917579147964716
+  npu_event_ms: calls=1, median=1.08214, min=1.08214, max=1.08214
+  samples_ms: [1.0821399688720703]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[ascendc-int16]
+  call_duration_s: 2.38564857468009
+  npu_event_ms: calls=1, median=0.40418, min=0.40418, max=0.40418
+  samples_ms: [0.40417999029159546]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[ascendc-int32]
+  call_duration_s: 2.3845197167247534
+  npu_event_ms: calls=1, median=0.39982, min=0.39982, max=0.39982
+  samples_ms: [0.3998199999332428]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[pto-float32]
+  call_duration_s: 0.735025929287076
+  npu_event_ms: calls=1, median=0.355, min=0.355, max=0.355
+  samples_ms: [0.35499998927116394]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[pto-int16]
+  call_duration_s: 0.7209264431148767
+  npu_event_ms: calls=1, median=0.36394, min=0.36394, max=0.36394
+  samples_ms: [0.3639400005340576]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_1d[pto-int32]
+  call_duration_s: 0.7296542637050152
+  npu_event_ms: calls=1, median=0.3337, min=0.3337, max=0.3337
+  samples_ms: [0.3337000012397766]
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_unsupported_dtype_raises[float16-pto]
+  call_duration_s: 0.5660782530903816
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_createvecindex_unsupported_dtype_raises[uint16-ascendc]
+  call_duration_s: 1.9437981583178043
+
+[correct] testing/python/language/test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.py::test_create_vec_index_snake_case_alias
+  call_duration_s: 2.3827744722366333
+  npu_event_ms: calls=1, median=0.40036, min=0.40036, max=0.40036
+  samples_ms: [0.40035998821258545]
+

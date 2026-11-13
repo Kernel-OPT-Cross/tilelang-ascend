@@ -1,0 +1,308 @@
+RECOVERED SUMMARY — NOT THE ORIGINAL PYTEST LOG
+Original path: benchmark/results/full_npu_perf_20261109/testing__python__language__test_ascend_sync_insert_vs.log
+The original stdout/stderr and complete stack traces were lost when the server was released.
+The following records were reconstructed from test_classification.csv and kernel_performance.csv.
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_config_disabled_is_noop[ascendc]
+  call_duration_s: 2.4098498970270157
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_config_disabled_is_noop[pto]
+  call_duration_s: 0.7337346319109201
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_v_to_v_barrier_inserted[ascendc]
+  call_duration_s: 4.711471678689122
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_v_to_v_barrier_inserted[pto]
+  call_duration_s: 1.4708776790648699
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_no_sync_independent_buffers[ascendc]
+  call_duration_s: 2.3674836475402117
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_no_sync_independent_buffers[pto]
+  call_duration_s: 0.7374660819768906
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_v_to_v_pipe_barrier[ascendc]
+  call_duration_s: 2.3692125845700502
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_v_to_v_pipe_barrier[pto]
+  call_duration_s: 0.7489645294845104
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_s_to_v_event_pair[ascendc]
+  call_duration_s: 2.3577525224536657
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_s_to_v_event_pair[pto]
+  call_duration_s: 0.749170696362853
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_s_to_mte2_event[ascendc]
+  call_duration_s: 2.356713755056262
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_s_to_mte2_event[pto]
+  call_duration_s: 0.7401949372142553
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_s_to_mte3_event[ascendc]
+  call_duration_s: 2.4433362055569887
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_s_to_mte3_event[pto]
+  call_duration_s: 0.7433614283800125
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_no_mte2_to_v_sync[ascendc]
+  call_duration_s: 2.3894224483519793
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_no_mte2_to_v_sync[pto]
+  call_duration_s: 0.7781406082212925
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_no_v_to_mte3_sync[ascendc]
+  call_duration_s: 2.3992118816822767
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_no_v_to_mte3_sync[pto]
+  call_duration_s: 0.7768730241805315
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_no_s_to_s_sync[ascendc]
+  call_duration_s: 2.421205300837755
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_no_s_to_s_sync[pto]
+  call_duration_s: 0.7536544110625982
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_loop_back_edge_v_to_v[ascendc]
+  call_duration_s: 2.3982198499143124
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_loop_back_edge_v_to_v[pto]
+  call_duration_s: 0.7639657221734524
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_loop_back_edge_v_to_v_with_mte2[ascendc]
+  call_duration_s: 2.55584179982543
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_loop_back_edge_v_to_v_with_mte2[pto]
+  call_duration_s: 0.7606457937508821
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_if_else_history_isolation[ascendc]
+  call_duration_s: 2.5084676146507263
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_if_else_history_isolation[pto]
+  call_duration_s: 0.7710921429097652
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_dedup_multiple_v_deps[ascendc]
+  call_duration_s: 2.396147634834051
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_dedup_multiple_v_deps[pto]
+  call_duration_s: 0.7615586034953594
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_consecutive_v_to_v_each_needs_barrier[ascendc]
+  call_duration_s: 2.3784526977688074
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_consecutive_v_to_v_each_needs_barrier[pto]
+  call_duration_s: 0.763929458335042
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_event_id_rotation[ascendc]
+  call_duration_s: 2.4173216354101896
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_event_id_rotation[pto]
+  call_duration_s: 0.7777402438223362
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_alias_detection_via_address[ascendc]
+  call_duration_s: 2.3796365708112717
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_alias_detection_via_address[pto]
+  call_duration_s: 0.7567990552634001
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte2_to_mte2_no_sync[ascendc]
+  call_duration_s: 2.36754360049963
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte2_to_mte2_no_sync[pto]
+  call_duration_s: 0.7437131144106388
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte3_to_mte3_no_sync[ascendc]
+  call_duration_s: 2.360839392989874
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte3_to_mte3_no_sync[pto]
+  call_duration_s: 0.7476875558495522
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte2_to_mte3_no_sync[ascendc]
+  call_duration_s: 2.3596448190510273
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte2_to_mte3_no_sync[pto]
+  call_duration_s: 0.7473619729280472
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_s_to_s_write_then_read_no_sync[ascendc]
+  call_duration_s: 2.38588984310627
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_s_to_s_write_then_read_no_sync[pto]
+  call_duration_s: 0.742346178740263
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_pipe_m_ignored
+  call_duration_s: 2.539324415847659
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_if_else_same_buffer_same_pipeline[ascendc]
+  call_duration_s: 2.3718244656920433
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_if_else_same_buffer_same_pipeline[pto]
+  call_duration_s: 0.7608735021203756
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_event_pair_dedup[ascendc]
+  call_duration_s: 2.3780793640762568
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_event_pair_dedup[pto]
+  call_duration_s: 0.7524989508092403
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mixed_dedup_barrier_and_event[ascendc]
+  call_duration_s: 2.3717621229588985
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mixed_dedup_barrier_and_event[pto]
+  call_duration_s: 0.754671361297369
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_cross_stmt_s_v_dedup[ascendc]
+  call_duration_s: 2.380465215072036
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_cross_stmt_s_v_dedup[pto]
+  call_duration_s: 0.7834747526794672
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_cross_stmt_v_s_dedup[ascendc]
+  call_duration_s: 2.3840259220451117
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_cross_stmt_v_s_dedup[pto]
+  call_duration_s: 0.7490898929536343
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_new_s_write_breaks_dedup[ascendc]
+  call_duration_s: 2.3833990320563316
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_new_s_write_breaks_dedup[pto]
+  call_duration_s: 0.7573280557990074
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_write_history_event_dedup[ascendc]
+  call_duration_s: 2.391184400767088
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_write_history_event_dedup[pto]
+  call_duration_s: 0.7635711636394262
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_loop_back_edge_event_dedup[ascendc]
+  call_duration_s: 2.3783326912671328
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_loop_back_edge_event_dedup[pto]
+  call_duration_s: 0.7541584931313992
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mixed_direction_no_cross_dedup[ascendc]
+  call_duration_s: 2.4059542547911406
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mixed_direction_no_cross_dedup[pto]
+  call_duration_s: 0.7805073093622923
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_event_id_wraparound[ascendc]
+  call_duration_s: 2.4366383105516434
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_event_id_wraparound[pto]
+  call_duration_s: 0.7886547315865755
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_set_wait_flag_pairing[ascendc]
+  call_duration_s: 2.3871538676321507
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_set_wait_flag_pairing[pto]
+  call_duration_s: 0.7561300434172153
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_loop_back_edge_s_to_v[ascendc]
+  call_duration_s: 2.3662996757775545
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_loop_back_edge_s_to_v[pto]
+  call_duration_s: 0.7459467742592096
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_v_to_s_scalar_read[ascendc]
+  call_duration_s: 2.3729707952588797
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_v_to_s_scalar_read[pto]
+  call_duration_s: 0.7506063133478165
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte2_to_s_scalar_read[ascendc]
+  call_duration_s: 2.3839034494012594
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte2_to_s_scalar_read[pto]
+  call_duration_s: 0.7482806202024221
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte3_to_s_scalar_read[ascendc]
+  call_duration_s: 2.3741357661783695
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_mte3_to_s_scalar_read[pto]
+  call_duration_s: 0.7437179423868656
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_read_only_no_sync[ascendc]
+  call_duration_s: 2.3668623566627502
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_read_only_no_sync[pto]
+  call_duration_s: 0.7527478542178869
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_single_stmt_no_crash[ascendc]
+  call_duration_s: 2.3621138986200094
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_single_stmt_no_crash[pto]
+  call_duration_s: 0.7429478485137224
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_resource_scope_no_crash
+  call_duration_s: 2.5342067815363407
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_nested_loop_back_edge[ascendc]
+  call_duration_s: 2.3861153963953257
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_nested_loop_back_edge[pto]
+  call_duration_s: 0.7506025806069374
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_nested_loop_v_to_s_dedup[ascendc]
+  call_duration_s: 2.377951404079795
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_nested_loop_v_to_s_dedup[pto]
+  call_duration_s: 0.7559328489005566
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_outer_back_edge_v_to_inner_s_sync[ascendc]
+  call_duration_s: 2.366632042452693
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_outer_back_edge_v_to_inner_s_sync[pto]
+  call_duration_s: 0.7555679064244032
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_if_without_else_propagation[ascendc]
+  call_duration_s: 2.3648367673158646
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_if_without_else_propagation[pto]
+  call_duration_s: 0.7551742140203714
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_a5_pto_pipe_v_v_barrier
+  call_duration_s: 1.8243208061903715
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_both_backends_consistent[ascendc]
+  call_duration_s: 2.38301108032465
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_both_backends_consistent[pto]
+  call_duration_s: 0.7574420087039471
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_pto_auto_enabled_by_default
+  call_duration_s: 0.7767732553184032
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_full_pipeline_integration[ascendc]
+  call_duration_s: 2.386673741042614
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_full_pipeline_integration[pto]
+  call_duration_s: 0.7512491308152676
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_preexisting_barrier_recognition[ascendc]
+  call_duration_s: 4.736362369731069
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_preexisting_barrier_recognition[pto]
+  call_duration_s: 1.51429090090096
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_vs_with_cv_combine_off
+  call_duration_s: 2.383537681773305
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_vs_with_memory_planning_off[ascendc]
+  call_duration_s: 2.3788284976035357
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_vs_with_memory_planning_off[pto]
+  call_duration_s: 0.7505053896456957
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_a5_ascendc_pipe_v_v_barrier
+  call_duration_s: 2.3655571285635233
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_a5_still_emits_event_pairs
+  call_duration_s: 1.8215215224772692
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_ascendc_default_vs_off
+  call_duration_s: 2.370404027402401
+
+[correct] testing/python/language/test_ascend_sync_insert_vs.py::test_platform_auto_inserts_v_barrier
+  call_duration_s: 0.7484322283416986
+

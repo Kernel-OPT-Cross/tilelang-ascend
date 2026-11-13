@@ -1,0 +1,201 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_arith_progression_dtype_coverage.log",
+  "counts": {
+    "correct": 13
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_dtype[ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 3.390537863597274,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.91438,
+        "min_ms": 0.91438,
+        "max_ms": 0.91438,
+        "samples_ms": [
+          0.9143800139427185
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_dtype[ascendc-int32]",
+      "category": "correct",
+      "call_duration_s": 2.379035633057356,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3725,
+        "min_ms": 0.3725,
+        "max_ms": 0.3725,
+        "samples_ms": [
+          0.3725000023841858
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_dtype[pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.7290699277073145,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32392,
+        "min_ms": 0.32392,
+        "max_ms": 0.32392,
+        "samples_ms": [
+          0.32392001152038574
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_dtype[pto-int32]",
+      "category": "correct",
+      "call_duration_s": 0.7275340761989355,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31588,
+        "min_ms": 0.31588,
+        "max_ms": 0.31588,
+        "samples_ms": [
+          0.3158800005912781
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_dtype_float16_ascendc[ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.397416738793254,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36888,
+        "min_ms": 0.36888,
+        "max_ms": 0.36888,
+        "samples_ms": [
+          0.3688800036907196
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_param_combinations[10-2-ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.3751384001225233,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36756,
+        "min_ms": 0.36756,
+        "max_ms": 0.36756,
+        "samples_ms": [
+          0.3675599992275238
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_param_combinations[10-2-ascendc-int32]",
+      "category": "correct",
+      "call_duration_s": 2.378675313666463,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36746,
+        "min_ms": 0.36746,
+        "max_ms": 0.36746,
+        "samples_ms": [
+          0.3674600124359131
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_param_combinations[0-0-ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.376764055341482,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36354,
+        "min_ms": 0.36354,
+        "max_ms": 0.36354,
+        "samples_ms": [
+          0.36353999376296997
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_param_combinations[0-0-ascendc-int32]",
+      "category": "correct",
+      "call_duration_s": 2.375359408557415,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.385,
+        "min_ms": 0.385,
+        "max_ms": 0.385,
+        "samples_ms": [
+          0.38499999046325684
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_partial_write[ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.3713432028889656,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3672,
+        "min_ms": 0.3672,
+        "max_ms": 0.3672,
+        "samples_ms": [
+          0.36719998717308044
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_unsupported_dtype_raises[uint16-ascendc]",
+      "category": "correct",
+      "call_duration_s": 1.9827611483633518,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_unsupported_dtype_raises[float16-pto]",
+      "category": "correct",
+      "call_duration_s": 0.5739662013947964,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_arith_progression_dtype_coverage.py::test_arith_progression_count_omitted",
+      "category": "correct",
+      "call_duration_s": 2.365816133096814,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36838,
+        "min_ms": 0.36838,
+        "max_ms": 0.36838,
+        "samples_ms": [
+          0.36838001012802124
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,2033 @@
+{
+  "recovery_status": "reconstructed_summary_not_original_output",
+  "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_arith.log",
+  "counts": {
+    "correct": 130
+  },
+  "tests": [
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float32-add]",
+      "category": "correct",
+      "call_duration_s": 3.3714298140257597,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.89352,
+        "min_ms": 0.89352,
+        "max_ms": 0.89352,
+        "samples_ms": [
+          0.8935199975967407
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float32-sub]",
+      "category": "correct",
+      "call_duration_s": 2.363202268257737,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36024,
+        "min_ms": 0.36024,
+        "max_ms": 0.36024,
+        "samples_ms": [
+          0.36024001240730286
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float32-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3750452175736427,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3761,
+        "min_ms": 0.3761,
+        "max_ms": 0.3761,
+        "samples_ms": [
+          0.37610000371932983
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float16-add]",
+      "category": "correct",
+      "call_duration_s": 2.3645526003092527,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36808,
+        "min_ms": 0.36808,
+        "max_ms": 0.36808,
+        "samples_ms": [
+          0.3680799901485443
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float16-sub]",
+      "category": "correct",
+      "call_duration_s": 2.3946589715778828,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38546,
+        "min_ms": 0.38546,
+        "max_ms": 0.38546,
+        "samples_ms": [
+          0.3854599893093109
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-float16-mul]",
+      "category": "correct",
+      "call_duration_s": 2.363531520590186,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36106,
+        "min_ms": 0.36106,
+        "max_ms": 0.36106,
+        "samples_ms": [
+          0.3610599935054779
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int16-add]",
+      "category": "correct",
+      "call_duration_s": 2.3714786041527987,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36626,
+        "min_ms": 0.36626,
+        "max_ms": 0.36626,
+        "samples_ms": [
+          0.36625999212265015
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int16-sub]",
+      "category": "correct",
+      "call_duration_s": 2.367647897452116,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35946,
+        "min_ms": 0.35946,
+        "max_ms": 0.35946,
+        "samples_ms": [
+          0.3594599962234497
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int16-mul]",
+      "category": "correct",
+      "call_duration_s": 2.369588689878583,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3606,
+        "min_ms": 0.3606,
+        "max_ms": 0.3606,
+        "samples_ms": [
+          0.36059999465942383
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int32-add]",
+      "category": "correct",
+      "call_duration_s": 2.3586279340088367,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36026,
+        "min_ms": 0.36026,
+        "max_ms": 0.36026,
+        "samples_ms": [
+          0.360260009765625
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int32-sub]",
+      "category": "correct",
+      "call_duration_s": 2.387042911723256,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.48962,
+        "min_ms": 0.48962,
+        "max_ms": 0.48962,
+        "samples_ms": [
+          0.48962000012397766
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[ascendc-int32-mul]",
+      "category": "correct",
+      "call_duration_s": 2.36963595636189,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37476,
+        "min_ms": 0.37476,
+        "max_ms": 0.37476,
+        "samples_ms": [
+          0.3747600018978119
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float32-add]",
+      "category": "correct",
+      "call_duration_s": 0.7559735793620348,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31388,
+        "min_ms": 0.31388,
+        "max_ms": 0.31388,
+        "samples_ms": [
+          0.31387999653816223
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float32-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7751467451453209,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3369,
+        "min_ms": 0.3369,
+        "max_ms": 0.3369,
+        "samples_ms": [
+          0.336899995803833
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float32-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7742119785398245,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3243,
+        "min_ms": 0.3243,
+        "max_ms": 0.3243,
+        "samples_ms": [
+          0.32429999113082886
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float16-add]",
+      "category": "correct",
+      "call_duration_s": 0.7658307384699583,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3068,
+        "min_ms": 0.3068,
+        "max_ms": 0.3068,
+        "samples_ms": [
+          0.3068000078201294
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float16-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7617391496896744,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.331,
+        "min_ms": 0.331,
+        "max_ms": 0.331,
+        "samples_ms": [
+          0.3310000002384186
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-float16-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7537256795912981,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31144,
+        "min_ms": 0.31144,
+        "max_ms": 0.31144,
+        "samples_ms": [
+          0.31143999099731445
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int16-add]",
+      "category": "correct",
+      "call_duration_s": 0.7518040500581264,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3169,
+        "min_ms": 0.3169,
+        "max_ms": 0.3169,
+        "samples_ms": [
+          0.31690001487731934
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int16-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7570317890495062,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31236,
+        "min_ms": 0.31236,
+        "max_ms": 0.31236,
+        "samples_ms": [
+          0.3123599886894226
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int16-mul]",
+      "category": "correct",
+      "call_duration_s": 0.754933500662446,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31808,
+        "min_ms": 0.31808,
+        "max_ms": 0.31808,
+        "samples_ms": [
+          0.31808000802993774
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int32-add]",
+      "category": "correct",
+      "call_duration_s": 0.7521853130310774,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32724,
+        "min_ms": 0.32724,
+        "max_ms": 0.32724,
+        "samples_ms": [
+          0.327239990234375
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int32-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7527987714856863,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3045,
+        "min_ms": 0.3045,
+        "max_ms": 0.3045,
+        "samples_ms": [
+          0.304500013589859
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor[pto-int32-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7559306751936674,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33548,
+        "min_ms": 0.33548,
+        "max_ms": 0.33548,
+        "samples_ms": [
+          0.3354800045490265
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor_div[ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.3724814616143703,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35142,
+        "min_ms": 0.35142,
+        "max_ms": 0.35142,
+        "samples_ms": [
+          0.35141998529434204
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor_div[ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.3815027866512537,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3679,
+        "min_ms": 0.3679,
+        "max_ms": 0.3679,
+        "samples_ms": [
+          0.367900013923645
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor_div[pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.7567915208637714,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32318,
+        "min_ms": 0.32318,
+        "max_ms": 0.32318,
+        "samples_ms": [
+          0.3231799900531769
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_tensor_div[pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.7548124920576811,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32622,
+        "min_ms": 0.32622,
+        "max_ms": 0.32622,
+        "samples_ms": [
+          0.32622000575065613
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_div_int_compile_error[ascendc-int16]",
+      "category": "correct",
+      "call_duration_s": 1.9413733649998903,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_div_int_compile_error[ascendc-int32]",
+      "category": "correct",
+      "call_duration_s": 1.9424164239317179,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_div_int_compile_error[pto-int16]",
+      "category": "correct",
+      "call_duration_s": 0.5752183794975281,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_div_int_compile_error[pto-int32]",
+      "category": "correct",
+      "call_duration_s": 0.5690805707126856,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float32-add]",
+      "category": "correct",
+      "call_duration_s": 2.398390330374241,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38684,
+        "min_ms": 0.38684,
+        "max_ms": 0.38684,
+        "samples_ms": [
+          0.38683998584747314
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float32-sub]",
+      "category": "correct",
+      "call_duration_s": 2.378039451315999,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38326,
+        "min_ms": 0.38326,
+        "max_ms": 0.38326,
+        "samples_ms": [
+          0.38326001167297363
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float32-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3829635977745056,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38976,
+        "min_ms": 0.38976,
+        "max_ms": 0.38976,
+        "samples_ms": [
+          0.38975998759269714
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float16-add]",
+      "category": "correct",
+      "call_duration_s": 2.373998334631324,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36358,
+        "min_ms": 0.36358,
+        "max_ms": 0.36358,
+        "samples_ms": [
+          0.36357998847961426
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float16-sub]",
+      "category": "correct",
+      "call_duration_s": 2.3643903490155935,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3571,
+        "min_ms": 0.3571,
+        "max_ms": 0.3571,
+        "samples_ms": [
+          0.3571000099182129
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-float16-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3710837978869677,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39544,
+        "min_ms": 0.39544,
+        "max_ms": 0.39544,
+        "samples_ms": [
+          0.395440012216568
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int16-add]",
+      "category": "correct",
+      "call_duration_s": 2.360500691458583,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36716,
+        "min_ms": 0.36716,
+        "max_ms": 0.36716,
+        "samples_ms": [
+          0.36715999245643616
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int16-sub]",
+      "category": "correct",
+      "call_duration_s": 2.370674906298518,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37924,
+        "min_ms": 0.37924,
+        "max_ms": 0.37924,
+        "samples_ms": [
+          0.3792400062084198
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int16-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3659139536321163,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3655,
+        "min_ms": 0.3655,
+        "max_ms": 0.3655,
+        "samples_ms": [
+          0.36550000309944153
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int32-add]",
+      "category": "correct",
+      "call_duration_s": 2.387493098154664,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.39508,
+        "min_ms": 0.39508,
+        "max_ms": 0.39508,
+        "samples_ms": [
+          0.39508000016212463
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int32-sub]",
+      "category": "correct",
+      "call_duration_s": 2.3631376922130585,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36316,
+        "min_ms": 0.36316,
+        "max_ms": 0.36316,
+        "samples_ms": [
+          0.36316001415252686
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[ascendc-int32-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3711011558771133,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3549,
+        "min_ms": 0.3549,
+        "max_ms": 0.3549,
+        "samples_ms": [
+          0.3549000024795532
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float32-add]",
+      "category": "correct",
+      "call_duration_s": 0.7533816155046225,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33168,
+        "min_ms": 0.33168,
+        "max_ms": 0.33168,
+        "samples_ms": [
+          0.3316799998283386
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float32-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7525896206498146,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.30992,
+        "min_ms": 0.30992,
+        "max_ms": 0.30992,
+        "samples_ms": [
+          0.3099200129508972
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float32-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7484707981348038,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31362,
+        "min_ms": 0.31362,
+        "max_ms": 0.31362,
+        "samples_ms": [
+          0.313620001077652
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float16-add]",
+      "category": "correct",
+      "call_duration_s": 0.7507776841521263,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3102,
+        "min_ms": 0.3102,
+        "max_ms": 0.3102,
+        "samples_ms": [
+          0.3102000057697296
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float16-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7528266627341509,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33066,
+        "min_ms": 0.33066,
+        "max_ms": 0.33066,
+        "samples_ms": [
+          0.33065998554229736
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-float16-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7501088157296181,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32236,
+        "min_ms": 0.32236,
+        "max_ms": 0.32236,
+        "samples_ms": [
+          0.32236000895500183
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int16-add]",
+      "category": "correct",
+      "call_duration_s": 0.7484728340059519,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31696,
+        "min_ms": 0.31696,
+        "max_ms": 0.31696,
+        "samples_ms": [
+          0.31696000695228577
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int16-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7522324174642563,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32256,
+        "min_ms": 0.32256,
+        "max_ms": 0.32256,
+        "samples_ms": [
+          0.32256001234054565
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int16-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7552118990570307,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32904,
+        "min_ms": 0.32904,
+        "max_ms": 0.32904,
+        "samples_ms": [
+          0.329039990901947
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int32-add]",
+      "category": "correct",
+      "call_duration_s": 0.7512948010116816,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32364,
+        "min_ms": 0.32364,
+        "max_ms": 0.32364,
+        "samples_ms": [
+          0.32363998889923096
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int32-sub]",
+      "category": "correct",
+      "call_duration_s": 0.749918146058917,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31536,
+        "min_ms": 0.31536,
+        "max_ms": 0.31536,
+        "samples_ms": [
+          0.31536000967025757
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar[pto-int32-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7738754414021969,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3432,
+        "min_ms": 0.3432,
+        "max_ms": 0.3432,
+        "samples_ms": [
+          0.3431999981403351
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar_div[ascendc-float32]",
+      "category": "correct",
+      "call_duration_s": 2.3647455740720034,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3674,
+        "min_ms": 0.3674,
+        "max_ms": 0.3674,
+        "samples_ms": [
+          0.36739999055862427
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar_div[ascendc-float16]",
+      "category": "correct",
+      "call_duration_s": 2.3698214143514633,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.5753,
+        "min_ms": 0.5753,
+        "max_ms": 0.5753,
+        "samples_ms": [
+          0.5752999782562256
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar_div[pto-float32]",
+      "category": "correct",
+      "call_duration_s": 0.7768349852412939,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3251,
+        "min_ms": 0.3251,
+        "max_ms": 0.3251,
+        "samples_ms": [
+          0.32510000467300415
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_scalar_div[pto-float16]",
+      "category": "correct",
+      "call_duration_s": 0.771165369078517,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34042,
+        "min_ms": 0.34042,
+        "max_ms": 0.34042,
+        "samples_ms": [
+          0.3404200077056885
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float32-add]",
+      "category": "correct",
+      "call_duration_s": 2.3817448802292347,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36856,
+        "min_ms": 0.36856,
+        "max_ms": 0.36856,
+        "samples_ms": [
+          0.36855998635292053
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float32-sub]",
+      "category": "correct",
+      "call_duration_s": 2.373320586979389,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38458,
+        "min_ms": 0.38458,
+        "max_ms": 0.38458,
+        "samples_ms": [
+          0.38457998633384705
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float32-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3772253561764956,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36088,
+        "min_ms": 0.36088,
+        "max_ms": 0.36088,
+        "samples_ms": [
+          0.3608799874782562
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float32-div]",
+      "category": "correct",
+      "call_duration_s": 2.403779538348317,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.41054,
+        "min_ms": 0.41054,
+        "max_ms": 0.41054,
+        "samples_ms": [
+          0.41054001450538635
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float16-add]",
+      "category": "correct",
+      "call_duration_s": 2.3839136604219675,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3452,
+        "min_ms": 0.3452,
+        "max_ms": 0.3452,
+        "samples_ms": [
+          0.3452000021934509
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float16-sub]",
+      "category": "correct",
+      "call_duration_s": 2.373971289023757,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3507,
+        "min_ms": 0.3507,
+        "max_ms": 0.3507,
+        "samples_ms": [
+          0.3506999909877777
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float16-mul]",
+      "category": "correct",
+      "call_duration_s": 2.367793943732977,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35898,
+        "min_ms": 0.35898,
+        "max_ms": 0.35898,
+        "samples_ms": [
+          0.3589800000190735
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[ascendc-float16-div]",
+      "category": "correct",
+      "call_duration_s": 2.4060943722724915,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.4084,
+        "min_ms": 0.4084,
+        "max_ms": 0.4084,
+        "samples_ms": [
+          0.4083999991416931
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float32-add]",
+      "category": "correct",
+      "call_duration_s": 0.8171240892261267,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33866,
+        "min_ms": 0.33866,
+        "max_ms": 0.33866,
+        "samples_ms": [
+          0.33866000175476074
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float32-sub]",
+      "category": "correct",
+      "call_duration_s": 0.792176753282547,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33408,
+        "min_ms": 0.33408,
+        "max_ms": 0.33408,
+        "samples_ms": [
+          0.3340800106525421
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float32-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7832989972084761,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.30892,
+        "min_ms": 0.30892,
+        "max_ms": 0.30892,
+        "samples_ms": [
+          0.3089199960231781
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float32-div]",
+      "category": "correct",
+      "call_duration_s": 0.7809268720448017,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.30758,
+        "min_ms": 0.30758,
+        "max_ms": 0.30758,
+        "samples_ms": [
+          0.30757999420166016
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float16-add]",
+      "category": "correct",
+      "call_duration_s": 0.7851768881082535,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.30498,
+        "min_ms": 0.30498,
+        "max_ms": 0.30498,
+        "samples_ms": [
+          0.30498000979423523
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float16-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7985018230974674,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37736,
+        "min_ms": 0.37736,
+        "max_ms": 0.37736,
+        "samples_ms": [
+          0.3773599863052368
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float16-mul]",
+      "category": "correct",
+      "call_duration_s": 0.782028790563345,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31276,
+        "min_ms": 0.31276,
+        "max_ms": 0.31276,
+        "samples_ms": [
+          0.31275999546051025
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload[pto-float16-div]",
+      "category": "correct",
+      "call_duration_s": 0.7831178586930037,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31882,
+        "min_ms": 0.31882,
+        "max_ms": 0.31882,
+        "samples_ms": [
+          0.3188199996948242
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[ascendc-int16-add]",
+      "category": "correct",
+      "call_duration_s": 2.371401021257043,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38778,
+        "min_ms": 0.38778,
+        "max_ms": 0.38778,
+        "samples_ms": [
+          0.38778001070022583
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[ascendc-int16-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3738187793642282,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3678,
+        "min_ms": 0.3678,
+        "max_ms": 0.3678,
+        "samples_ms": [
+          0.3677999973297119
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[ascendc-int32-add]",
+      "category": "correct",
+      "call_duration_s": 2.376400798559189,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35638,
+        "min_ms": 0.35638,
+        "max_ms": 0.35638,
+        "samples_ms": [
+          0.35637998580932617
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[ascendc-int32-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3811644557863474,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.40316,
+        "min_ms": 0.40316,
+        "max_ms": 0.40316,
+        "samples_ms": [
+          0.4031600058078766
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[pto-int16-add]",
+      "category": "correct",
+      "call_duration_s": 0.7904810272157192,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33534,
+        "min_ms": 0.33534,
+        "max_ms": 0.33534,
+        "samples_ms": [
+          0.3353399932384491
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[pto-int16-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7849835306406021,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31744,
+        "min_ms": 0.31744,
+        "max_ms": 0.31744,
+        "samples_ms": [
+          0.317440003156662
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[pto-int32-add]",
+      "category": "correct",
+      "call_duration_s": 0.7850221395492554,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32202,
+        "min_ms": 0.32202,
+        "max_ms": 0.32202,
+        "samples_ms": [
+          0.3220199942588806
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_int_add_mul[pto-int32-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7861235216259956,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3208,
+        "min_ms": 0.3208,
+        "max_ms": 0.3208,
+        "samples_ms": [
+          0.3208000063896179
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_sub_int[pto]",
+      "category": "correct",
+      "call_duration_s": 0.794027753174305,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33578,
+        "min_ms": 0.33578,
+        "max_ms": 0.33578,
+        "samples_ms": [
+          0.33577999472618103
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffload_sub_int_ascendc_compile_fail",
+      "category": "correct",
+      "call_duration_s": 1.8410828411579132,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float32-add]",
+      "category": "correct",
+      "call_duration_s": 2.375043675303459,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38542,
+        "min_ms": 0.38542,
+        "max_ms": 0.38542,
+        "samples_ms": [
+          0.3854199945926666
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float32-sub]",
+      "category": "correct",
+      "call_duration_s": 2.3929809238761663,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35422,
+        "min_ms": 0.35422,
+        "max_ms": 0.35422,
+        "samples_ms": [
+          0.3542200028896332
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float32-mul]",
+      "category": "correct",
+      "call_duration_s": 2.386110670864582,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37102,
+        "min_ms": 0.37102,
+        "max_ms": 0.37102,
+        "samples_ms": [
+          0.37101998925209045
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float32-div]",
+      "category": "correct",
+      "call_duration_s": 2.392379131168127,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3979,
+        "min_ms": 0.3979,
+        "max_ms": 0.3979,
+        "samples_ms": [
+          0.3978999853134155
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float16-add]",
+      "category": "correct",
+      "call_duration_s": 2.3825781792402267,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36686,
+        "min_ms": 0.36686,
+        "max_ms": 0.36686,
+        "samples_ms": [
+          0.3668600022792816
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float16-sub]",
+      "category": "correct",
+      "call_duration_s": 2.3962836116552353,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3648,
+        "min_ms": 0.3648,
+        "max_ms": 0.3648,
+        "samples_ms": [
+          0.36480000615119934
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float16-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3752980958670378,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35222,
+        "min_ms": 0.35222,
+        "max_ms": 0.35222,
+        "samples_ms": [
+          0.35221999883651733
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[ascendc-float16-div]",
+      "category": "correct",
+      "call_duration_s": 2.3792461287230253,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37106,
+        "min_ms": 0.37106,
+        "max_ms": 0.37106,
+        "samples_ms": [
+          0.37106001377105713
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float32-add]",
+      "category": "correct",
+      "call_duration_s": 0.7997765596956015,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31782,
+        "min_ms": 0.31782,
+        "max_ms": 0.31782,
+        "samples_ms": [
+          0.3178200125694275
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float32-sub]",
+      "category": "correct",
+      "call_duration_s": 0.8030848652124405,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31978,
+        "min_ms": 0.31978,
+        "max_ms": 0.31978,
+        "samples_ms": [
+          0.31977999210357666
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float32-mul]",
+      "category": "correct",
+      "call_duration_s": 0.8070776034146547,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32048,
+        "min_ms": 0.32048,
+        "max_ms": 0.32048,
+        "samples_ms": [
+          0.32047998905181885
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float32-div]",
+      "category": "correct",
+      "call_duration_s": 0.7922203838825226,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34214,
+        "min_ms": 0.34214,
+        "max_ms": 0.34214,
+        "samples_ms": [
+          0.34213998913764954
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float16-add]",
+      "category": "correct",
+      "call_duration_s": 0.7877803016453981,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31868,
+        "min_ms": 0.31868,
+        "max_ms": 0.31868,
+        "samples_ms": [
+          0.3186799883842468
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float16-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7893926557153463,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31104,
+        "min_ms": 0.31104,
+        "max_ms": 0.31104,
+        "samples_ms": [
+          0.3110400140285492
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float16-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7883108370006084,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32266,
+        "min_ms": 0.32266,
+        "max_ms": 0.32266,
+        "samples_ms": [
+          0.32265999913215637
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_row_slice_2d[pto-float16-div]",
+      "category": "correct",
+      "call_duration_s": 0.7883050385862589,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33328,
+        "min_ms": 0.33328,
+        "max_ms": 0.33328,
+        "samples_ms": [
+          0.3332799971103668
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src0-add]",
+      "category": "correct",
+      "call_duration_s": 2.3788579776883125,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3861,
+        "min_ms": 0.3861,
+        "max_ms": 0.3861,
+        "samples_ms": [
+          0.38609999418258667
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src0-sub]",
+      "category": "correct",
+      "call_duration_s": 2.373536678031087,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36082,
+        "min_ms": 0.36082,
+        "max_ms": 0.36082,
+        "samples_ms": [
+          0.3608199954032898
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src0-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3817517179995775,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37184,
+        "min_ms": 0.37184,
+        "max_ms": 0.37184,
+        "samples_ms": [
+          0.3718400001525879
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src0-div]",
+      "category": "correct",
+      "call_duration_s": 2.3821802027523518,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37388,
+        "min_ms": 0.37388,
+        "max_ms": 0.37388,
+        "samples_ms": [
+          0.373879998922348
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src1-add]",
+      "category": "correct",
+      "call_duration_s": 2.3691070675849915,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35504,
+        "min_ms": 0.35504,
+        "max_ms": 0.35504,
+        "samples_ms": [
+          0.3550400137901306
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src1-sub]",
+      "category": "correct",
+      "call_duration_s": 2.3717850893735886,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.35058,
+        "min_ms": 0.35058,
+        "max_ms": 0.35058,
+        "samples_ms": [
+          0.35058000683784485
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src1-mul]",
+      "category": "correct",
+      "call_duration_s": 2.414858592674136,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.44032,
+        "min_ms": 0.44032,
+        "max_ms": 0.44032,
+        "samples_ms": [
+          0.4403199851512909
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-dst=src1-div]",
+      "category": "correct",
+      "call_duration_s": 2.397958243265748,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.37558,
+        "min_ms": 0.37558,
+        "max_ms": 0.37558,
+        "samples_ms": [
+          0.3755800127983093
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-src0=src1-add]",
+      "category": "correct",
+      "call_duration_s": 2.382156876847148,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3508,
+        "min_ms": 0.3508,
+        "max_ms": 0.3508,
+        "samples_ms": [
+          0.3508000075817108
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-src0=src1-sub]",
+      "category": "correct",
+      "call_duration_s": 2.377342253923416,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36956,
+        "min_ms": 0.36956,
+        "max_ms": 0.36956,
+        "samples_ms": [
+          0.36956000328063965
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-src0=src1-mul]",
+      "category": "correct",
+      "call_duration_s": 2.3877136409282684,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36902,
+        "min_ms": 0.36902,
+        "max_ms": 0.36902,
+        "samples_ms": [
+          0.3690199851989746
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[ascendc-src0=src1-div]",
+      "category": "correct",
+      "call_duration_s": 2.370165226981044,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.38054,
+        "min_ms": 0.38054,
+        "max_ms": 0.38054,
+        "samples_ms": [
+          0.38054001331329346
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src0-add]",
+      "category": "correct",
+      "call_duration_s": 0.7592201884835958,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31802,
+        "min_ms": 0.31802,
+        "max_ms": 0.31802,
+        "samples_ms": [
+          0.3180199861526489
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src0-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7532261442393064,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32172,
+        "min_ms": 0.32172,
+        "max_ms": 0.32172,
+        "samples_ms": [
+          0.3217200040817261
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src0-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7550753597170115,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31682,
+        "min_ms": 0.31682,
+        "max_ms": 0.31682,
+        "samples_ms": [
+          0.3168199956417084
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src0-div]",
+      "category": "correct",
+      "call_duration_s": 0.7531622089445591,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31396,
+        "min_ms": 0.31396,
+        "max_ms": 0.31396,
+        "samples_ms": [
+          0.3139599859714508
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src1-add]",
+      "category": "correct",
+      "call_duration_s": 0.7700940296053886,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32908,
+        "min_ms": 0.32908,
+        "max_ms": 0.32908,
+        "samples_ms": [
+          0.3290799856185913
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src1-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7626360896974802,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31642,
+        "min_ms": 0.31642,
+        "max_ms": 0.31642,
+        "samples_ms": [
+          0.3164199888706207
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src1-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7552377432584763,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31036,
+        "min_ms": 0.31036,
+        "max_ms": 0.31036,
+        "samples_ms": [
+          0.31036001443862915
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-dst=src1-div]",
+      "category": "correct",
+      "call_duration_s": 0.7594178449362516,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3375,
+        "min_ms": 0.3375,
+        "max_ms": 0.3375,
+        "samples_ms": [
+          0.3375000059604645
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-src0=src1-add]",
+      "category": "correct",
+      "call_duration_s": 0.7540696952491999,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.3024,
+        "min_ms": 0.3024,
+        "max_ms": 0.3024,
+        "samples_ms": [
+          0.30239999294281006
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-src0=src1-sub]",
+      "category": "correct",
+      "call_duration_s": 0.7516389600932598,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.31222,
+        "min_ms": 0.31222,
+        "max_ms": 0.31222,
+        "samples_ms": [
+          0.3122200071811676
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-src0=src1-mul]",
+      "category": "correct",
+      "call_duration_s": 0.7576455399394035,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.34128,
+        "min_ms": 0.34128,
+        "max_ms": 0.34128,
+        "samples_ms": [
+          0.3412800133228302
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_inplace[pto-src0=src1-div]",
+      "category": "correct",
+      "call_duration_s": 0.7579413317143917,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.33378,
+        "min_ms": 0.33378,
+        "max_ms": 0.33378,
+        "samples_ms": [
+          0.3337799906730652
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_size_mismatch_src0",
+      "category": "correct",
+      "call_duration_s": 0.23640866205096245,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_size_mismatch_region",
+      "category": "correct",
+      "call_duration_s": 0.015822788700461388,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": null
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffer_size_unvalidated[ascendc]",
+      "category": "correct",
+      "call_duration_s": 2.3781736958771944,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.36286,
+        "min_ms": 0.36286,
+        "max_ms": 0.36286,
+        "samples_ms": [
+          0.3628599941730499
+        ]
+      }
+    },
+    {
+      "nodeid": "testing/python/language/test_tilelang_ascend_language_tile_arith.py::test_tile_arith_buffer_size_unvalidated[pto]",
+      "category": "correct",
+      "call_duration_s": 0.8005338050425053,
+      "failure_phase": null,
+      "failure_summary": null,
+      "performance": {
+        "calls": 1,
+        "median_ms": 0.32784,
+        "min_ms": 0.32784,
+        "max_ms": 0.32784,
+        "samples_ms": [
+          0.32784000039100647
+        ]
+      }
+    }
+  ]
+}

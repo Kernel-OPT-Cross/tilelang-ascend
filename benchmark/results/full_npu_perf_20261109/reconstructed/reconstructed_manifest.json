@@ -1,0 +1,495 @@
+{
+  "recovery_status": "reconstructed_from_surviving_csv_and_report",
+  "is_original": false,
+  "warning": "The original server was released. These files reconstruct summaries only; omitted stdout/stderr and stack frames cannot be recovered.",
+  "source_files": [
+    "test_classification.csv",
+    "kernel_performance.csv"
+  ],
+  "environment": {
+    "npu": "Ascend 910B2C (single device)",
+    "driver": "26.0.rc1",
+    "os": "openEuler 24.03 user environment; Linux 5.15.0-113-generic; x86_64",
+    "cpu": "128 vCPU; 2 sockets x 32 cores x 2 threads (virtualized display)",
+    "cann": "9.0.0",
+    "python": "3.11.15",
+    "pytorch": "2.10.0+cpu",
+    "torch_npu": "2.10.0",
+    "tilelang_ascend": "0.1.4; base a6de467c54e57c3328aa49f9bc7c8d1be11261e7"
+  },
+  "totals": {
+    "correct": 2490,
+    "compile_error_cann_api_incompatible": 6,
+    "skipped": 4,
+    "invalid_input_negative_case_compile_early": 2
+  },
+  "files": [
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__cvseparate__test_tilelang_ascend_language_vid_reduction.log",
+      "reconstructed_json": "per_file/testing__python__language__cvseparate__test_tilelang_ascend_language_vid_reduction.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__cvseparate__test_tilelang_ascend_language_vid_reduction.reconstructed.log",
+      "counts": {
+        "correct": 18
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel.log",
+      "reconstructed_json": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel.reconstructed.log",
+      "counts": {
+        "correct": 27
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_1d.log",
+      "reconstructed_json": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_1d.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_1d.reconstructed.log",
+      "counts": {
+        "correct": 13
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_auto_copy.log",
+      "reconstructed_json": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_auto_copy.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_auto_copy.reconstructed.log",
+      "counts": {
+        "correct": 22
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_complex.log",
+      "reconstructed_json": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_complex.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_complex.reconstructed.log",
+      "counts": {
+        "correct": 9
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_copy.log",
+      "reconstructed_json": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_copy.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_copy.reconstructed.log",
+      "counts": {
+        "correct": 5
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_discrete.log",
+      "reconstructed_json": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_discrete.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_discrete.reconstructed.log",
+      "counts": {
+        "correct": 9
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_mixed.log",
+      "reconstructed_json": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_mixed.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_mixed.reconstructed.log",
+      "counts": {
+        "correct": 4
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_negative.log",
+      "reconstructed_json": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_negative.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_negative.reconstructed.log",
+      "counts": {
+        "correct": 1
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__parallel__test_tilelang_ascend_language_parallel_ub_stride.log",
+      "reconstructed_json": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_ub_stride.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__parallel__test_tilelang_ascend_language_parallel_ub_stride.reconstructed.log",
+      "counts": {
+        "correct": 5
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_ascend_compile_flags.log",
+      "reconstructed_json": "per_file/testing__python__language__test_ascend_compile_flags.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_ascend_compile_flags.reconstructed.log",
+      "counts": {
+        "correct": 18
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_ascend_memory_planning.log",
+      "reconstructed_json": "per_file/testing__python__language__test_ascend_memory_planning.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_ascend_memory_planning.reconstructed.log",
+      "counts": {
+        "correct": 32
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_ascend_sync_insert_vs.log",
+      "reconstructed_json": "per_file/testing__python__language__test_ascend_sync_insert_vs.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_ascend_sync_insert_vs.reconstructed.log",
+      "counts": {
+        "correct": 101
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_exception_dump.log",
+      "reconstructed_json": "per_file/testing__python__language__test_exception_dump.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_exception_dump.reconstructed.log",
+      "counts": {
+        "compile_error_cann_api_incompatible": 6
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tile_max.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tile_max.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tile_max.reconstructed.log",
+      "counts": {
+        "correct": 142
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tile_min.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tile_min.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tile_min.reconstructed.log",
+      "counts": {
+        "correct": 142
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_alloc_codegen.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_alloc_codegen.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_alloc_codegen.reconstructed.log",
+      "counts": {
+        "correct": 10
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_alloc_var.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_alloc_var.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_alloc_var.reconstructed.log",
+      "counts": {
+        "correct": 2
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_arith_progression_dtype_coverage.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_arith_progression_dtype_coverage.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_arith_progression_dtype_coverage.reconstructed.log",
+      "counts": {
+        "correct": 13
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_auto_platform.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_auto_platform.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_auto_platform.reconstructed.log",
+      "counts": {
+        "correct": 9
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_cast_on_copy.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_cast_on_copy.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_cast_on_copy.reconstructed.log",
+      "counts": {
+        "correct": 12
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_copy_cv.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_copy_cv.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_copy_cv.reconstructed.log",
+      "counts": {
+        "correct": 21,
+        "skipped": 3
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_copy_pad_value.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_copy_pad_value.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_copy_pad_value.reconstructed.log",
+      "counts": {
+        "correct": 2
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_copy_row_slice_stride.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_copy_row_slice_stride.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_copy_row_slice_stride.reconstructed.log",
+      "counts": {
+        "correct": 10
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_copy_runtime_extent.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_copy_runtime_extent.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_copy_runtime_extent.reconstructed.log",
+      "counts": {
+        "correct": 4
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_dynamic_fill.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_dynamic_fill.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_dynamic_fill.reconstructed.log",
+      "counts": {
+        "correct": 6
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_elementwise.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_elementwise.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_elementwise.reconstructed.log",
+      "counts": {
+        "correct": 508
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_explicit_tmp.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_explicit_tmp.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_explicit_tmp.reconstructed.log",
+      "counts": {
+        "correct": 69
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gemm_v0.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_gemm_v0.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_gemm_v0.reconstructed.log",
+      "counts": {
+        "correct": 44
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gemm_v0_k_tail.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_gemm_v0_k_tail.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_gemm_v0_k_tail.reconstructed.log",
+      "counts": {
+        "correct": 32
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gemm_v0_n_actual.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_gemm_v0_n_actual.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_gemm_v0_n_actual.reconstructed.log",
+      "counts": {
+        "correct": 8
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gemm_v0_n_tiling.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_gemm_v0_n_tiling.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_gemm_v0_n_tiling.reconstructed.log",
+      "counts": {
+        "correct": 6
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gm_to_l1.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_gm_to_l1.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_gm_to_l1.reconstructed.log",
+      "counts": {
+        "correct": 49
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_gm_to_ub.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_gm_to_ub.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_gm_to_ub.reconstructed.log",
+      "counts": {
+        "correct": 95
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_integer_minmax_index.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_integer_minmax_index.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_integer_minmax_index.reconstructed.log",
+      "counts": {
+        "correct": 4
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_kernel_driven_mma.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_kernel_driven_mma.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_kernel_driven_mma.reconstructed.log",
+      "counts": {
+        "correct": 3
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_l1_to_l0.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_l1_to_l0.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_l1_to_l0.reconstructed.log",
+      "counts": {
+        "correct": 156
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_legacy_flags.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_legacy_flags.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_legacy_flags.reconstructed.log",
+      "counts": {
+        "correct": 1
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_merge_sort.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_merge_sort.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_merge_sort.reconstructed.log",
+      "counts": {
+        "correct": 16
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_mma.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_mma.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_mma.reconstructed.log",
+      "counts": {
+        "correct": 2
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_narrow_reduce.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_narrow_reduce.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_narrow_reduce.reconstructed.log",
+      "counts": {
+        "correct": 18
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_persistent.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_persistent.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_persistent.reconstructed.log",
+      "counts": {
+        "correct": 15
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_reduce_dtype_coverage.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_reduce_dtype_coverage.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_reduce_dtype_coverage.reconstructed.log",
+      "counts": {
+        "correct": 31,
+        "skipped": 1
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_scalar_index.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_scalar_index.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_scalar_index.reconstructed.log",
+      "counts": {
+        "correct": 3
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_select.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_select.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_select.reconstructed.log",
+      "counts": {
+        "correct": 28
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_sort.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_sort.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_sort.reconstructed.log",
+      "counts": {
+        "correct": 50,
+        "invalid_input_negative_case_compile_early": 2
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_src_code.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_src_code.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_src_code.reconstructed.log",
+      "counts": {
+        "correct": 5
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tail_block.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_tail_block.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_tail_block.reconstructed.log",
+      "counts": {
+        "correct": 189
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tail_mask_codegen.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_tail_mask_codegen.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_tail_mask_codegen.reconstructed.log",
+      "counts": {
+        "correct": 127
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_arith.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_tile_arith.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_tile_arith.reconstructed.log",
+      "counts": {
+        "correct": 130
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_atomic_add.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_tile_atomic_add.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_tile_atomic_add.reconstructed.log",
+      "counts": {
+        "correct": 8
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_tile_atomic_add_dtype_coverage.reconstructed.log",
+      "counts": {
+        "correct": 8
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_broadcast_dtype_coverage.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_tile_broadcast_dtype_coverage.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_tile_broadcast_dtype_coverage.reconstructed.log",
+      "counts": {
+        "correct": 26
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_compare_dtype_coverage.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_tile_compare_dtype_coverage.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_tile_compare_dtype_coverage.reconstructed.log",
+      "counts": {
+        "correct": 11
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_tile_createvecindex_dtype_coverage.reconstructed.log",
+      "counts": {
+        "correct": 9
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_tile_gather_dtype_coverage.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_tile_gather_dtype_coverage.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_tile_gather_dtype_coverage.reconstructed.log",
+      "counts": {
+        "correct": 3
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_topk.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_topk.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_topk.reconstructed.log",
+      "counts": {
+        "correct": 34
+      }
+    },
+    {
+      "original_log_path": "benchmark/results/full_npu_perf_20261109/testing__python__language__test_tilelang_ascend_language_transpose.log",
+      "reconstructed_json": "per_file/testing__python__language__test_tilelang_ascend_language_transpose.reconstructed.json",
+      "reconstructed_log": "per_file/testing__python__language__test_tilelang_ascend_language_transpose.reconstructed.log",
+      "counts": {
+        "correct": 165
+      }
+    }
+  ]
+}
